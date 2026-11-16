@@ -2,7 +2,7 @@
 #set text(font: ("Arial", "Segoe UI"), size: 10pt)
 #import "@preview/cetz:0.4.2": canvas, draw
 // 图名：Three main discovery architectures of DDS
-// 来源：Drones 2025, 9(8), 564, Figure 3；DOI: 10.3390/drones9050564
+// 来源：Drones 2025, 9(8), 564, Figure 3；DOI: 10.3390/drones9080564
 // 结构：横向三联图，每图四椭圆节点 Node 1-4，底部粗体子图标题
 // (a) Simple 全连接双向实线箭头；(b) Server 中央圆柱数据库四向星形箭头
 // (c) Static 全连接双向虚线箭头，四角外侧浅蓝 EDP 方框

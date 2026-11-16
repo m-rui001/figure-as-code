@@ -2,7 +2,7 @@
 #set text(font: ("Arial", "Segoe UI"), size: 10pt)
 #import "@preview/cetz:0.4.2": canvas, draw
 // 图名：Multiple UAVs simulation system based on PX4-ROS2 using Gazebo and NS-3
-// 来源：Drones 2025, 9(8), 564, Figure 13；DOI 10.3390/drones9050564
+// 来源：Drones 2025, 9(8), 564, Figure 13；DOI 10.3390/drones9080564
 // 结构：自上而下——Gazebo 仿真域、docker 容器（Commander/Node 1/Node 2/Node n）
 //       、Bridge 总线、ns-3 无线网络云；右侧折线示意 UAV position 与 RSSI 衰减
 // 配色：灰 #b0b0b0、红框 #d06060、青框 #5f9f8f、绿线 #8fbf6f、网络蓝 #4a90d9
