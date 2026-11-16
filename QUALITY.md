@@ -2,7 +2,7 @@
 
 ## 规模
 
-- 图文件：**365** 个 `.typ`，分布在 **243** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
+- 图文件：**369** 个 `.typ`，分布在 **247** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
 - 依赖：Typst 0.15.1、CeTZ 0.4.2；每图自包含，无外部图片资源。
 
 ## 编译门槛
@@ -14,10 +14,10 @@ python tools/compile_all.py --jobs 4
 当前结果（2026-11-14）：
 
 ```
-{"figures": 365, "compiled": 365, "failed": 0, "warnings": 36}
+{"figures": 369, "compiled": 369, "failed": 0, "warnings": 36}
 ```
 
-- 365/365 编译成功，0 失败。
+- 369/369 编译成功，0 失败。
 - 36 条 warning 为字体提示，集中在 3 个文件：
   - `figures/batch221/typ/adhesive-capture-mechanism.typ`：`liberation serif` 不存在。
   - `figures/batch63/typ/gt017-triangulation.typ`、`gt022-threegraphs.typ`：正文数学 `$...$` 的当前字体不是数学字体，渲染可能偏差。
@@ -35,6 +35,6 @@ python tools/compile_all.py --jobs 4
 ## Typst 源码风格
 
 在 `style-typst` 分支完成（标准 `tools/TYPST_STYLE.md`，量具 `tools/style_audit.py`）。
-365 个文件（本轮新增 4 图按 ≤120 字符与零横幅标准书写）：装饰横幅 496→0，>120 字符行保持 361（既有图各留一条 `#figure(...)` 调用，新增 4 图无超长行），
+369 个文件（新增 8 图均按 ≤120 字符与零横幅标准书写）：装饰横幅 496→0，>120 字符行保持 361（既有图各留一条 `#figure(...)` 调用，新增 8 图无超长行），
 裸 LaTeX 30→28（剩余全在 `//` 注释），`$\hat(e)_r$` 等 2 处改为 Typst 语义符号。
 逐项读数与剩余项判定见 [STYLE_AUDIT.md](STYLE_AUDIT.md)。编译门槛不变：361/361，0 失败。
