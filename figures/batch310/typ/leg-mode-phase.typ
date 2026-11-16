@@ -5,13 +5,13 @@
 // 来源：Electronics 2026, 15, 3747, Figure 4(a)；DOI 10.3390/electronics15163747
 // 结构：水平机架梁上三个曲柄三角组，每组经斜腿杆接左右车轮；
 //       虚线 = 摆动相（轮 1,4,5），实线 = 支撑相（轮 2,3,6）。
-#canvas(length: 0.75pt, {
+#canvas(length: 0.75cm, {
   import draw: *
   let sol = (paint: black, thickness: 0.9pt)
   let das = (paint: black, thickness: 0.9pt, dash: "densely-dashed")
   let beamY = 4.2
   let wheelY = 1.4
-  let wr = 0.95
+  let wr = 0.64
   // 机架：两条平行细线 + 端部封口
   draw.line((0.6, beamY + 0.14), (13.4, beamY + 0.14), stroke: 0.7pt)
   draw.line((0.6, beamY - 0.14), (13.4, beamY - 0.14), stroke: 0.7pt)
@@ -50,7 +50,11 @@
     for j in range(2) {
       let wx = wxs.at(j)
       let st = sts.at(j)
-      draw.line((hx, beamY), (wx, wheelY), stroke: st)
+      // 腿杆止于轮缘：由轮心指向 hub 的单位向量取 wr 处
+      let dx = hx - wx
+      let dy = beamY - wheelY
+      let dn = calc.sqrt(dx * dx + dy * dy)
+      draw.line((hx, beamY), (wx + wr * dx / dn, wheelY + wr * dy / dn), stroke: st)
       draw.circle((wx, wheelY), radius: wr, stroke: st)
       draw.content((wx, wheelY - wr - 0.42), text(nums.at(2 * k + j), size: 8pt))
     }

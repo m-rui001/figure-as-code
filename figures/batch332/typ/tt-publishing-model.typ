@@ -85,8 +85,8 @@
   bar(6.60, 4.85, 11.90, 5.20, [Physical Layer], s: 6.5pt)
 
   // Timed-Event Thread 与虚线控制
-  draw.rect((4.35, 6.85), (4.95, 9.55), radius: 0.28, fill: white, stroke: st)
-  content((4.65, 8.20), rtxt(text(size: 7pt)[Timed-Event Thread]))
-  draw.line((4.95, 9.40), (6.45, 10.35), stroke: dash)
-  draw.line((4.95, 7.10), (3.35, 7.78), stroke: dash)
+  draw.rect((4.35, 6.55), (4.95, 9.75), radius: 0.28, fill: white, stroke: st)
+  content((4.65, 8.15), rtxt(text(size: 7pt)[Timed-Event Thread]))
+  draw.line((4.95, 9.55), (6.45, 10.35), stroke: dash)
+  draw.line((4.35, 7.78), (3.45, 7.78), stroke: dash)
 })

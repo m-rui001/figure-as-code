@@ -25,13 +25,14 @@
 
   // 数据采集面板
   content((1.35, 6.04), text(weight: "bold", size: 9pt)[DATA \ ACQUISITION])
-  draw.rect((0.55, 0.95), (2.2, 5.5), fill: pale, stroke: st)
+  draw.rect((0.55, 0.95), (2.3, 5.5), fill: pale, stroke: st)
   content((0.78, 3.25), rtxt(text(weight: "bold", size: 8pt)[DATA ACQUISITION], -90deg))
   draw.line((0.95, 0.95), (0.95, 5.5), stroke: th)
-  for (y, t) in ((4.95, "BME280"), (4.05, "BH1750"), (3.15, "MLX90614"),
-      (2.25, "RGB Camera"), (1.35, "LiDAR")) {
-    content((1.55, y - 0.28), text(size: 8.5pt)[#t])
-  }
+  content((1.63, 4.67), text(size: 8pt)[BME280])
+  content((1.63, 3.77), text(size: 8pt)[BH1750])
+  content((1.63, 2.87), text(size: 8pt)[MLX90614])
+  content((1.58, 1.90), align(center)[#text(size: 8.2pt)[RGB] \ #text(size: 8.2pt)[Camera]])
+  content((1.63, 1.07), text(size: 8pt)[LiDAR])
   draw.rect((1.3, 5.02), (1.62, 5.3), stroke: th)
   for k in range(3) { draw.line((1.34 + k * 0.12, 4.94), (1.34 + k * 0.12, 5.02), stroke: th) }
   draw.rect((1.32, 4.1), (1.6, 4.35), stroke: th)
@@ -55,12 +56,12 @@
   // 处理单元与通信层
   draw.rect((3.0, 2.6), (5.15, 4.55), fill: pale, stroke: st)
   content((4.07, 3.75), align(center)[#bt([LOCAL]) \ #bt([PROCESSING]) \ #bt([UNIT]) \ #nt([(Python Routines)])])
-  draw.rect((5.75, 2.6), (7.9, 4.55), fill: pale, stroke: st)
-  content((6.82, 3.55), align(center)[#bt([COMMUNICATION], s: 8pt) \ #bt([LAYER])])
-  bar((5.15, 3.55), (5.75, 3.55))
-  bar((2.2, 4.7), (3.0, 4.2))
-  bar((2.2, 3.55), (3.0, 3.55))
-  bar((2.2, 2.4), (3.0, 2.95))
+  draw.rect((5.65, 2.6), (8.05, 4.55), fill: pale, stroke: st)
+  content((6.85, 3.55), align(center)[#bt([COMMUNICATION], s: 6.6pt) \ #bt([LAYER])])
+  bar((5.15, 3.55), (5.65, 3.55))
+  bar((2.3, 4.7), (3.0, 4.2))
+  bar((2.3, 3.55), (3.0, 3.55))
+  bar((2.3, 2.4), (3.0, 2.95))
 
   // 云端与远程监管
   draw.line((6.82, 4.55), (6.82, 5.0), (9.15, 5.0), stroke: th, mark: mk)
@@ -82,8 +83,9 @@
     draw.circle(p, radius: 0.05, fill: blue, stroke: none)
   }
   content((10.7, 1.7), align(center)[#bt([QGROUNDCONTROL]) \ #nt([(Map-based Supervision)])])
-  bar((7.9, 3.55), (8.95, 3.55))
-  content((8.35, 3.85), align(center)[#text(size: 7pt)[MAVLink] \ #text(size: 7pt)[Telemetry]])
+  bar((8.05, 3.55), (8.95, 3.55))
+  content((8.45, 3.74), text(size: 7pt)[MAVLink])
+  content((8.45, 3.36), text(size: 7pt)[Telemetry])
 
   // 操作员干预与联合会话
   draw.rect((6.0, 0.7), (8.6, 1.6), fill: pale, stroke: st)

@@ -37,12 +37,12 @@
   content((1.2, 11.12), [C])
   draw.line((1.28, 10.55), (1.28, 9.35), stroke: th)
 
-  // RH1 可调节流阀
+  // RH1 可调节流阀（标签避让斜箭头）
   draw.line(..arcp((3.0, 11.15), 0.28, 100, 260), stroke: st)
   draw.line(..arcp((3.55, 11.15), 0.28, -80, 80), stroke: st)
   draw.line((2.75, 11.55), (3.85, 12.05), stroke: th,
     mark: (end: "stealth", fill: black, scale: 0.32))
-  content((3.3, 11.75), [RH1])
+  content((2.55, 12.05), [RH1])
 
   // Ssig 压力开关
   draw.rect((7.25, 10.82), (8.6, 11.5), stroke: st)
@@ -76,7 +76,7 @@
   draw.line((5.95, 5.4), (5.95, 5.7), (6.2, 5.7), stroke: th)
   draw.line((3.5, 5.55), (4.35, 5.78), stroke: st)
   draw.line((3.5, 5.55), (3.5, 5.35), stroke: st)
-  content((3.3, 5.7), [DH])
+  content((3.12, 5.7), [DH])
   draw.line((6.45, 5.7), (6.55, 5.5), (6.68, 5.9), (6.81, 5.5), (6.94, 5.9),
     (7.07, 5.5), (7.15, 5.7), stroke: th)
 

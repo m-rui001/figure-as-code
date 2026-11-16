@@ -90,14 +90,14 @@
   ell(11.55, 3.58, 0.60, 0.31, [Node 2])
   draw.rect((7.95, 3.32), (8.35, 3.62), fill: rgb("#dbe6f5"), stroke: 0.7pt + black)
   content((8.15, 3.47), text(size: 6.5pt)[A])
-  ell(8.75, 3.02, 0.60, 0.31, [Node N])
+  ell(8.45, 3.02, 0.60, 0.31, [Node N])
   cloud(10.10, 3.02, 0.80, 0.40)
   draw.rect((11.55, 2.76), (11.95, 3.06), fill: rgb("#dbe6f5"), stroke: 0.7pt + black)
   content((11.75, 2.91), text(size: 6.5pt)[A])
   ell(11.55, 2.42, 0.60, 0.31, [Node 3])
   content((8.95, 2.24), text(size: 6.5pt)[Topic Data])
   draw.line((9.55, 2.30), (10.30, 2.62), stroke: 0.7pt + black, mark: ar)
-  draw.line((10.50, 2.28), (11.30, 2.40), stroke: 0.7pt + black, mark: ar)
+  draw.line((10.50, 2.28), (10.93, 2.40), stroke: 0.7pt + black, mark: ar)
   content((9.75, 2.02), text(size: 7.5pt, weight: "bold")[Connect required nodes])
 
   // 虚线引线

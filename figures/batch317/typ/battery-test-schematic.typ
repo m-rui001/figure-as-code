@@ -34,7 +34,7 @@
 
   // 电源与电池支路
   box(6.35, 6.75, 9.25, 8.12)
-  content((7.8, 7.92), text(size: 8.5pt)[Sorensen DLM 20-30])
+  content((7.8, 7.92), text(size: 8pt)[Sorensen DLM 20-30])
   box(6.65, 7.3, 8.95, 7.68)
   content((7.8, 7.49), text(size: 8.5pt)[Voltage sensor])
   box(6.65, 6.93, 8.95, 7.26)
@@ -111,7 +111,7 @@
   draw.line((5.3, 7.42), (6.35, 7.42), stroke: st,
     mark: (end: "stealth", fill: black, scale: 0.3))
   content((3.2, 7.62), text(size: 9pt)[Ethernet])
-  content((5.55, 7.62), text(size: 8.5pt)[Ethernet])
+  content((5.65, 7.80), text(size: 8.5pt)[Ethernet])
   sig((4.75, 7.25), (4.72, 4.78))
 
   // 底部 USB 总线

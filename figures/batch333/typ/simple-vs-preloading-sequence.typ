@@ -43,10 +43,10 @@
       content((xm, y + 0.20), text(size: 6pt)[#t])
     }
     if pre {
-      doc(x0 - 0.38, 3.10)
-      draw.line((x0 - 0.10, 3.00), (p1 - 0.05, 3.00), stroke: 0.7pt + black, mark: ar)
-      doc(x1 + 0.38, 2.83)
-      draw.line((x1 + 0.10, 2.93), (p2 + 0.05, 2.93), stroke: 0.7pt + black, mark: ar)
+      doc(x0 - 0.55, 3.10)
+      draw.line((x0 - 0.27, 3.00), (p1 - 0.05, 3.00), stroke: 0.7pt + black, mark: ar)
+      doc(x1 + 0.55, 2.83)
+      draw.line((x1 + 0.27, 2.93), (p2 + 0.05, 2.93), stroke: 0.7pt + black, mark: ar)
     }
     content((xm, 0.85), text(size: 8pt, weight: "bold")[#(if pre { "Preloading" } else { "Simple" })])
   }
