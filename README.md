@@ -20,7 +20,7 @@ Paper figures compressed into compilable **Typst/CeTZ** source. Every line maps 
 
 ## 内容
 
-- `figures/batchNN/typ/*.typ`：385 个自包含图文件（263 个批次；另有 2 个图元测试在 `assets/tests/`）。
+- `figures/batchNN/typ/*.typ`：389 个自包含图文件（267 个批次；另有 2 个图元测试在 `assets/tests/`）。
 - 以线稿与示意图为主：几何、向量、物理、控制框图、推进系统、材料机理、AI 网络架构。
 - 统一依赖 Typst 0.15.1 与 CeTZ 0.4.2，文件首部即页面与依赖设置。
 - 一个文件一张图，标签与论文原图一致，不使用外部图片资源。
