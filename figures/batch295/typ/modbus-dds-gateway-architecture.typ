@@ -9,7 +9,6 @@
 // 画法：原图为 PPT 渐变+阴影，此处改为扁平浅色填充 + 0.6pt 描边。
 //       画布 1 单位 = 1.14pt，坐标按「x 向右、y 向下」书写，由 P() 翻转到画布坐标。
 
-// ============ 配色（保留原图的色彩关系）============
 #let c-navy   = rgb("#1F3864")   // 标题深蓝
 #let c-ink    = rgb("#141C28")   // 正文近黑
 #let c-wire   = rgb("#4467A6")   // 连线蓝
@@ -27,7 +26,6 @@
 #canvas(length: 1.14pt, {   // 1 画布单位 = 1.14pt：几何放大、字号不变，贴近原图字/框比例
   import draw: *
 
-  // ============ 坐标与箭头样式 ============
   // 所有坐标写成 (x, y)：x 向右、y 向下，交给 P 转成画布坐标（y 向上）
   let P(x, y) = (x, -y)
 
@@ -35,7 +33,6 @@
   let ar-double = (start: "stealth", end: "stealth", fill: c-head, scale: 0.4)
   let ar-single = (end: "stealth", fill: c-head, scale: 0.4)
 
-  // ============ 语义化图元 ============
   // 大面板：左上角 (x, y)，宽 w 高 h，顶部居中标题（title 可为 none）
   // title-dy：标题中心相对面板顶边的偏移
   let panel(x, y, w, h, fill, title, edge: c-edge, title-dy: 14, r: 1) = {
@@ -86,7 +83,6 @@
     P(a.at(0), a.at(1)), P(b.at(0), b.at(1)),
     stroke: (paint: color, thickness: thick), mark: ar-single)
 
-  // ============ 1. 左侧 Modbus devices 面板 ============
   panel(0, 48, 190, 130, c-modbus, [Modbus devices], title-dy: 14)
 
   // 2×2 排列的 RTU slave：先列后行编号 #1 #2 / #3 #4
@@ -103,11 +99,9 @@
     }
   }
 
-  // ============ 2. RS485 收发器小框（三行小字）============
   pill(206, 99, 48, 34, ("RS485", "Transceiver/", "UART"), r: 9,
     fill: rgb("#F2F7FC"), edge: rgb("#A9C3DA"), size: 7pt, weight: "regular")
 
-  // ============ 3. 中央 STM32F746 MCU 面板 ============
   panel(262, 34, 180, 166, c-mcu, [STM32F746 MCU \ (FreeRTOS)], title-dy: 18)
 
   // 三个任务框自上而下竖排，相邻任务用竖直双向箭头连接
@@ -127,11 +121,9 @@
     }
   }
 
-  // ============ 4. Ethernet 小框 ============
   pill(448, 100, 44, 28, [Ethernet], r: 8,
     fill: rgb("#F2F7FC"), edge: rgb("#A9C3DA"), size: 8pt)
 
-  // ============ 5. 右上 XRCE Agent ============
   let xrce-x = 526
   let xrce-w = 124
   let xrce-y = 6
@@ -148,12 +140,10 @@
     text(size: 8pt, weight: "bold", fill: c-ink)[reliability]
   })
 
-  // ============ 6. 右下 DDS Domain 面板 ============
   panel(506, 114, 164, 116, c-dds, [DDS Domain], title-dy: 13)
   pill(520, 140, 136, 34, [Topics], r: 12, fill: c-green, edge: c-gedge)
   pill(520, 190, 136, 34, [Subscribers/Applications], r: 12, fill: c-green, edge: c-gedge)
 
-  // ============ 7. 连线 ============
   // 7.1 Modbus 面板 ↔ RS485 收发器（水平双向）
   darrow((190, 116), (208, 116))
   // 7.2 RS485 收发器 ↔ Modbus poller task（斜向双向）

@@ -41,9 +41,14 @@
     line((x, y - hc), (x, y - ld), stroke: sw)
     line((x, y + hc), (x + wd, y + hc), (x + wd, y + 0.085), stroke: sw)
     line((x + wd, y - 0.085), (x + wd, y - hc), (x, y - hc), stroke: sw)
-    line((x + wd - 0.08, y - 0.095), (x + wd + 0.08, y - 0.095), (x + wd, y + 0.075), close: true, fill: ink, stroke: (paint: ink, thickness: 0.5pt))
+    line((x + wd - 0.08, y - 0.095), (x + wd + 0.08, y - 0.095),
+      (x + wd, y + 0.075), close: true, fill: ink,
+      stroke: (paint: ink, thickness: 0.5pt))
     line((x + wd - 0.115, y + 0.075), (x + wd + 0.115, y + 0.075), stroke: 1.2pt)
-    if name != none { content((x - 0.64, y - 0.11), text(size: ls, weight: "bold", fill: ink, name), anchor: "south-east") }
+    if name != none {
+      content((x - 0.64, y - 0.11), text(size: ls, weight: "bold", fill: ink, name),
+        anchor: "south-east")
+    }
   }
   // 三相桥：三条桥臂共用上下直流母线，桥臂中点引出相线。
   let bridge(xs, ytop, ybot, yu, yl, taps, names, xleft, xright) = {
@@ -82,15 +87,17 @@
     let y0 = cy - h / 2
     let y1 = cy + h / 2
     let d = 0.13
-    line((x1, y0), (x1 + d, y0 + d), (x1 + d, y1 + d), (x1, y1), close: true, fill: rgb("#4f8a2f"), stroke: (paint: rgb("#2f5a18"), thickness: 0.5pt))
-    line((x0, y1), (x0 + d, y1 + d), (x1 + d, y1 + d), (x1, y1), close: true, fill: rgb("#a6ce72"), stroke: (paint: rgb("#2f5a18"), thickness: 0.5pt))
+    line((x1, y0), (x1 + d, y0 + d), (x1 + d, y1 + d), (x1, y1),
+      close: true, fill: rgb("#4f8a2f"), stroke: (paint: rgb("#2f5a18"), thickness: 0.5pt))
+    line((x0, y1), (x0 + d, y1 + d), (x1 + d, y1 + d), (x1, y1),
+      close: true, fill: rgb("#a6ce72"), stroke: (paint: rgb("#2f5a18"), thickness: 0.5pt))
     rect((x0, y0), (x1, y1), fill: rgb("#7fb544"), stroke: (paint: rgb("#2f5a18"), thickness: 0.6pt))
     line((cx - 0.13, cy - 0.15), (cx - 0.13, cy + 0.15), stroke: (paint: rgb("#274d12"), thickness: 1.5pt))
     line((cx - 0.01, cy - 0.08), (cx - 0.01, cy + 0.08), stroke: (paint: rgb("#274d12"), thickness: 2.4pt))
     content((cx + 0.13, cy + 0.19), text(size: 6pt, fill: rgb("#274d12"))[+], anchor: "center")
     content((cx + 0.13, cy - 0.12), text(size: 6pt, fill: rgb("#274d12"))[#sym.minus], anchor: "center")
   }
-  // ===== 面板 (b)：电路拓扑 =====
+  // 面板 (b)：电路拓扑
   let ytop-l = 6.55
   let ybot-l = 2.15
   let xl = (5.00, 6.60, 8.20)
@@ -109,7 +116,8 @@
     content((3.50, y1 + 0.30), text(size: ls, weight: "bold", fill: ink, ind-names.at(i)), anchor: "south")
   }
   // 多字符下标写作 $S_(a 1)$、$V_("an")$，避免 Typst 把 a1 当变量相乘。
-  bridge(xl, ytop-l, ybot-l, 5.85, 2.85, yl-mid, ($S_(a 1)$, $S_(a 3)$, $S_(a 5)$, $S_(a 2)$, $S_(a 4)$, $S_(a 6)$), 5.00, 9.40)
+  bridge(xl, ytop-l, ybot-l, 5.85, 2.85, yl-mid,
+    ($S_(a 1)$, $S_(a 3)$, $S_(a 5)$, $S_(a 2)$, $S_(a 4)$, $S_(a 6)$), 5.00, 9.40)
   rect((9.40, 0.05), (13.20, 7.05), stroke: (paint: ink, thickness: 1.1pt, dash: "dashed"))
   content((11.30, 3.55), text(size: 8.5pt, weight: "bold", fill: ink)[DC-DC Converter], anchor: "center")
   battery((2.35, 0.95))
@@ -135,7 +143,7 @@
   propeller((22.00, 3.55))
   content((22.00, 2.50), text(size: ls, weight: "bold", fill: ink)[Propeller], anchor: "north")
   content((11.50, -0.62), text(size: 10pt, fill: ink)[(b)], anchor: "north")
-  // ===== 面板 (a)：功率流框图 =====
+  // 面板 (a)：功率流框图
   let ax = 1.05
   let ay = 9.30
   let blk(x0, y0, x1, y1, body) = {
