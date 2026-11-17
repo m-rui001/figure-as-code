@@ -1,0 +1,41 @@
+{
+  "batch": "batch357",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/github-dl-tools-comparison.typ",
+      "typ_sha256": "09de4ab9db28c006a701a4f18669d41bdd592179677f9262adcdaeef3997534b",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Caffe": 1,
+        "CNTK": 1,
+        "deeplearning4j": 1,
+        "Keras": 1,
+        "Mxnet": 1,
+        "Pytorch": 1,
+        "Paddlepaddle": 1,
+        "Torch": 1,
+        "Theano": 1,
+        "Tensorflow": 1,
+        "Matlab": 1,
+        "OpenCV": 1,
+        "Comparison of different DL tools on Github": 1,
+        "stars": 1,
+        "watching": 1,
+        "forks": 1
+      }
+    }
+  ],
+  "passed": true
+}

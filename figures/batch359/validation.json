@@ -1,0 +1,37 @@
+{
+  "batch": "batch359",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/buck-transient-waveform-comparison.typ",
+      "typ_sha256": "e45f37a59974bcbad634bb505be0e628b37b0f6d999a32eb50b476d71c0d6694",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "LTspice": 1,
+        "Python": 1,
+        "time (s)": 8,
+        "0.000": 8,
+        "0.005": 8,
+        "0.010": 8,
+        "vO (V)": 2,
+        "iL (A)": 2,
+        "iC (A)": 2,
+        "vctrl (V)": 2,
+        "2.5": 4,
+        "5.0": 3
+      }
+    }
+  ],
+  "passed": true
+}

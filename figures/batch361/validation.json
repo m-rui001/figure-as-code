@@ -1,0 +1,35 @@
+{
+  "batch": "batch361",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/gan-energy-carbon-estimates.typ",
+      "typ_sha256": "7bf6558f8620f12fef231fc592e76ee7ff6452068d5edd9c3fdd9803d30373de",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "kWh": 1,
+        "Power x Realtime": 1,
+        "Power x CA Average": 1,
+        "Power x EPA US Average": 1,
+        "Energy usage in real time": 1,
+        "Time x GPUs x 1/3Util x TDP": 1,
+        "Time x GPUs x 1Util x TDP": 1,
+        "GPU-hrs x TDP": 1,
+        "PFLOPs-hr x (GPU PFLOPS/W)": 1,
+        "Estimation Method": 2
+      }
+    }
+  ],
+  "passed": true
+}

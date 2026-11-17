@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/gan-energy-carbon-estimates.typ",
+      "typ_sha256": "7bf6558f8620f12fef231fc592e76ee7ff6452068d5edd9c3fdd9803d30373de",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

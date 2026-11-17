@@ -1,0 +1,27 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-8.png",
+      "sha256": "1c1e4193fd252ff5123bd2ba6422649ee5bc18117bf67d7f962c3553843f0e62",
+      "typ": "typ/github-dl-tools-comparison.typ",
+      "labels": {
+        "Caffe": 1,
+        "CNTK": 1,
+        "deeplearning4j": 1,
+        "Keras": 1,
+        "Mxnet": 1,
+        "Pytorch": 1,
+        "Paddlepaddle": 1,
+        "Torch": 1,
+        "Theano": 1,
+        "Tensorflow": 1,
+        "Matlab": 1,
+        "OpenCV": 1,
+        "Comparison of different DL tools on Github": 1,
+        "stars": 1,
+        "watching": 1,
+        "forks": 1
+      }
+    }
+  ]
+}

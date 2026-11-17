@@ -1,0 +1,12 @@
+{
+  "article": "Using Python for the Simulation of a Closed-Loop PI Controller for a Buck Converter",
+  "authors": "Amaral and Cardoso",
+  "doi": "10.3390/signals3020020",
+  "article_url": "https://www.mdpi.com/2624-6120/3/2/20",
+  "figure": 11,
+  "caption": "Steady-state comparison of LTspice and Python waveforms",
+  "image_url": "https://mdpi-res.com/signals/signals-03-00020/article_deploy/html/images/signals-03-00020-g011.png",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-11-17",
+  "sha256": "d20dd38728abc928f0580225a25b219b951e8bf36610953c8a0f5088958f970a"
+}

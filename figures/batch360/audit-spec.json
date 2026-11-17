@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-6.png",
+      "sha256": "ae6ec633023ef545d87f8ca49be03176ab97923411a374c919d012d49b431281",
+      "typ": "typ/gan-consistency-regularization.typ",
+      "labels": {
+        "Image space": 1,
+        "Manifold space": 1,
+        "Before consistency": 1,
+        "After consistency": 1,
+        "Semantic feature space": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/gan-consistency-regularization.typ",
+      "typ_sha256": "8376b47d4e485113c49b7016ce7d1b6ed4073f1c69e3ef0499fac625c2667b6e",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

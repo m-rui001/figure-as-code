@@ -1,0 +1,35 @@
+{
+  "batch": "batch358",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/buck-steady-state-waveform-comparison.typ",
+      "typ_sha256": "20da2cea6510fe586f6c3269674a154918e1d07c974155e53fffba2d349e69d5",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "LTspice": 1,
+        "Python": 1,
+        "time (ms)": 8,
+        "49.96": 8,
+        "49.98": 8,
+        "50.00": 8,
+        "vO (V)": 2,
+        "iL (A)": 2,
+        "iC (A)": 2,
+        "vctrl (V)": 2
+      }
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,23 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-12.png",
+      "sha256": "9881cced09a921c2a398fbca76ecfed4e42b2c5964f862728ef14d69bd63a0b1",
+      "typ": "typ/buck-transient-waveform-comparison.typ",
+      "labels": {
+        "LTspice": 1,
+        "Python": 1,
+        "time (s)": 8,
+        "0.000": 8,
+        "0.005": 8,
+        "0.010": 8,
+        "vO (V)": 2,
+        "iL (A)": 2,
+        "iC (A)": 2,
+        "vctrl (V)": 2,
+        "2.5": 4,
+        "5.0": 3
+      }
+    }
+  ]
+}

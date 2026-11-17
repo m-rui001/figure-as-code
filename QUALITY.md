@@ -2,7 +2,7 @@
 
 ## 规模
 
-- 图文件：**439** 个 `.typ`，分布在 **304** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
+- 图文件：**444** 个 `.typ`，分布在 **304** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
 - 依赖：Typst 0.15.1、CeTZ 0.4.2；每图自包含，无外部图片资源。
 
 ## 编译门槛
@@ -14,10 +14,10 @@ python tools/compile_all.py --jobs 4
 当前结果（2026-11-17）：
 
 ```
-{"figures": 439, "compiled": 439, "failed": 0, "warnings": 36}
+{"figures": 444, "compiled": 444, "failed": 0, "warnings": 36}
 ```
 
-- 439/439 编译成功，0 失败。
+- 444/444 编译成功，0 失败。
 - 36 条 warning 为字体提示，集中在 3 个文件：
   - `figures/batch221/typ/adhesive-capture-mechanism.typ`：`liberation serif` 不存在。
   - `figures/batch63/typ/gt017-triangulation.typ`、`gt022-threegraphs.typ`：正文数学 `$...$` 的当前字体不是数学字体，渲染可能偏差。
@@ -68,7 +68,7 @@ python tools/compile_all.py --jobs 4
 [batch342](figures/batch342/QUALITY.md) 新增关断阶段算法与 PWM 生成器两张双面板图。
 原图已下载，视觉复核和可重复机器检查全部通过，新增图零编译警告。
 本轮全量编译结果：416/416，零失败，36 条既有字体警告。
-batch340 与 batch341 后续已完成，当前语料总量为 439 张、304 个批次。
+batch340 与 batch341 后续已完成，当前语料总量为 444 张、304 个批次。
 
 ## 文字碰撞专项复查
 
@@ -78,7 +78,7 @@ batch204–339 已分组查看实际渲染（不存在的批次跳过）；batch
 记录见 batch260、264、273、279、287、292、299、300、306–333 及337 的 `COLLISION_REVIEW.md`。
 batch341 的局部注意力 `p_t` 标签碰线也已修正并重跑验证。
 
-439/439 是编译结果，不是全库视觉无碰撞的证明；未复查批次仍需继续检查。
+444/444 是编译结果，不是全库视觉无碰撞的证明；未复查批次仍需继续检查。
 
 batch259–281 的23张图已补充机器复验：单页、零警告、文字在页面内，
 与 HEAD 的非空白字符计数全部一致。实际源码 SHA256 和逐图结果见

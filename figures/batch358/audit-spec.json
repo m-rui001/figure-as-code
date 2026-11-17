@@ -1,0 +1,21 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-11.png",
+      "sha256": "d20dd38728abc928f0580225a25b219b951e8bf36610953c8a0f5088958f970a",
+      "typ": "typ/buck-steady-state-waveform-comparison.typ",
+      "labels": {
+        "LTspice": 1,
+        "Python": 1,
+        "time (ms)": 8,
+        "49.96": 8,
+        "49.98": 8,
+        "50.00": 8,
+        "vO (V)": 2,
+        "iL (A)": 2,
+        "iC (A)": 2,
+        "vctrl (V)": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/github-dl-tools-comparison.typ",
+      "typ_sha256": "09de4ab9db28c006a701a4f18669d41bdd592179677f9262adcdaeef3997534b",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

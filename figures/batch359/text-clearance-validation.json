@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/buck-transient-waveform-comparison.typ",
+      "typ_sha256": "e45f37a59974bcbad634bb505be0e628b37b0f6d999a32eb50b476d71c0d6694",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

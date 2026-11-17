@@ -1,0 +1,30 @@
+{
+  "batch": "batch360",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/gan-consistency-regularization.typ",
+      "typ_sha256": "8376b47d4e485113c49b7016ce7d1b6ed4073f1c69e3ef0499fac625c2667b6e",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Image space": 1,
+        "Manifold space": 1,
+        "Before consistency": 1,
+        "After consistency": 1,
+        "Semantic feature space": 1
+      }
+    }
+  ],
+  "passed": true
+}

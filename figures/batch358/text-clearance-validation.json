@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/buck-steady-state-waveform-comparison.typ",
+      "typ_sha256": "20da2cea6510fe586f6c3269674a154918e1d07c974155e53fffba2d349e69d5",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

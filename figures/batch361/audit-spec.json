@@ -1,0 +1,21 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-3.png",
+      "sha256": "d6427b011e4555b9a1a7febcc730def1d841d5ac77da6013fa18bfd76c2a58a8",
+      "typ": "typ/gan-energy-carbon-estimates.typ",
+      "labels": {
+        "kWh": 1,
+        "Power x Realtime": 1,
+        "Power x CA Average": 1,
+        "Power x EPA US Average": 1,
+        "Energy usage in real time": 1,
+        "Time x GPUs x 1/3Util x TDP": 1,
+        "Time x GPUs x 1Util x TDP": 1,
+        "GPU-hrs x TDP": 1,
+        "PFLOPs-hr x (GPU PFLOPS/W)": 1,
+        "Estimation Method": 2
+      }
+    }
+  ]
+}
