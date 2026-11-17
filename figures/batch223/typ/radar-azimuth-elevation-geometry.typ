@@ -79,12 +79,12 @@
   line(sat, rot((sat.at(0) + 0.05, sat.at(1) + 0.16), -35deg, sat), stroke: thin)
 
   // 文字：方位词、雷达、卫星，角度符号用斜体
-  lab((0.72, 2.32), [SOUTH])
-  lab((6.16, 2.32), [NORTH])
+  lab((-0.50, 2.32), [SOUTH])
+  lab((7.65, 2.32), [NORTH])
   lab((4.88, 3.80), [WEST])
   lab((2.30, 0.38), [EAST])
-  lab((3.95, 2.50), [RADAR], anchor: "west")
+  lab((5.50, 3.28), [RADAR], anchor: "west")
   lab((2.04, 4.34), [SATELLITE], anchor: "west")
-  content((2.02, 2.46), text(size: 15pt, weight: "bold", style: "italic", fill: red)[θ])
+  content((1.40, 3.25), text(size: 15pt, weight: "bold", style: "italic", fill: red)[θ])
   content((3.94, 0.94), text(size: 15pt, weight: "bold", style: "italic", fill: purple)[φ])
 })

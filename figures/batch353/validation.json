@@ -1,0 +1,57 @@
+{
+  "batch": "batch353",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/gan-evolution-timeline.typ",
+      "typ_sha256": "c094aae331fbddaa4f9d55a3114c89859a863e08b8dab20c7c3f1119ea101f0f",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "cGAN": 1,
+        "LAPGAN": 1,
+        "Pix2Pix": 1,
+        "CycleGAN": 1,
+        "WGAN-GP": 1,
+        "WaveGAN": 1,
+        "PI-GAN": 1,
+        "AnimalGAN": 1,
+        "LeafyGAN": 1,
+        "CRF-Guided GAN": 1,
+        "DCGAN": 1,
+        "StyleGAN2": 1,
+        "StyleGAN3": 1,
+        "Latent Space": 1,
+        "Applications": 1,
+        "Loss function": 1,
+        "Domain specific architectures": 1,
+        "WGAN": 2,
+        "StyleGAN": 3,
+        "Architecture": 2,
+        "2014": 1,
+        "2015": 1,
+        "2016": 1,
+        "2017": 1,
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+      }
+    }
+  ],
+  "passed": true
+}

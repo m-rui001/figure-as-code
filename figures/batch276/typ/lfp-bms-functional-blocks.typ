@@ -45,11 +45,11 @@
   // 上层估计链：SOC → 能力估计 → RUL
   box(7.40, 5.95, 1.65, 0.90, [SOC\ estimation], lblue)
   box(10.65, 6.00, 2.15, 1.05, [Battey\ capability\ estimation], mblue)
-  box(12.85, 5.62, 1.55, 0.62, [RUL\ prediction], cream)
+  box(12.85, 5.62, 1.55, 0.62, [RUL\ prediction], cream, size: 6.0pt)
 
   // 下层估计：SOH、SOT 与热管理
   box(7.40, 4.55, 1.65, 0.80, [SOH\ estimation], lblue)
-  box(7.40, 3.45, 1.85, 0.95, [SOT estimation\ and thermal\ management], lblue)
+  box(7.40, 3.45, 1.85, 0.95, [SOT estimation\ and thermal\ management], lblue, size: 6.3pt)
 
   // 均衡、故障诊断与信号发送
   box(9.45, 2.35, 1.70, 0.80, [Cell\ balancing], peach)
@@ -77,7 +77,7 @@
   arr((8.22, 5.85), (9.55, 5.85))
   tx(8.60, 6.10, [SOC], size: 7.2pt, anchor: "west")
   tx(9.00, 6.44, [$T_("Pack")$], size: 6.6pt, anchor: "east")
-  tx(9.00, 5.75, [$V_("Pack")$], size: 6.6pt, anchor: "east")
+  tx(9.00, 5.63, [$V_("Pack")$], size: 6.0pt, anchor: "east")
   arr((9.05, 6.28), (9.55, 6.28))
   arr((9.05, 5.75), (9.55, 5.75))
   arr((11.72, 5.62), (12.05, 5.62))

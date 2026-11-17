@@ -1,0 +1,14 @@
+{
+  "figure": "preloading-vs-simple-discovery.typ",
+  "reviewed_render": "render/preloading-vs-simple-discovery.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "2a2e23ddb0104109d600247f6739200902f85a14077e0df8cf9058334e702838",
+  "png_sha256": "3f9b3c95059ab51941ef4ae71728d0fefacec90838e1013bc30f3aacd3e62fa4",
+  "png_svg_pdf_compiler_warnings": 0
+}

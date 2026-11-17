@@ -32,9 +32,9 @@
   let lab(x, y, t) = content((x, y), text(size: 8pt, style: "italic")[#t])
 
   // 外框与分区
-  draw.rect((0.30, 0.55), (10.95, 9.05), stroke: (paint: black, thickness: 0.8pt, dash: "dashed"))
-  draw.line((0.30, 5.15), (10.95, 5.15), stroke: (paint: black, thickness: 0.6pt, dash: "dashed"))
-  content((0.52, 8.78), text(size: 8.5pt, weight: "bold")[(a)])
+  draw.rect((-0.10, 0.55), (11.10, 9.35), stroke: (paint: black, thickness: 0.8pt, dash: "dashed"))
+  draw.line((-0.10, 5.15), (11.10, 5.15), stroke: (paint: black, thickness: 0.6pt, dash: "dashed"))
+  content((0.52, 9.10), text(size: 8.5pt, weight: "bold")[(a)])
   content((0.52, 4.92), text(size: 8.5pt, weight: "bold")[(b)])
   for x in (1.25, 3.95, 6.65, 9.35) {
     draw.line((x, 1.60), (x, 8.90), stroke: (paint: black, thickness: 0.5pt, dash: "dashed"))

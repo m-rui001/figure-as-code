@@ -119,7 +119,7 @@
   flow((780, 246), (1044, 246), C.cyan, none)
   content(p(912, 262), text(size: 9pt)[$H_2 O$ Out], anchor: "north")
   flow((780, 426), (1055, 426), C.blue, none)
-  content(p(918, 456), text(size: 9pt)[Electrical Power Out], anchor: "north")
+  content(p(918, 456), text(size: 8pt)[Electrical Power\ Out], anchor: "north")
   flow((780, 700), (1053, 700), C.pale, none)
   content(p(916, 684), text(size: 9pt)[$O_2$ Vent], anchor: "south")
   flow((780, 1008), (1057, 1008), C.red, none)

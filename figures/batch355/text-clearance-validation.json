@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/fusedprop-gradient-comparison.typ",
+      "typ_sha256": "065b9088e937ffa9554c0b23a02c462bef7524d96e1a0054842aca10da4459c3",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

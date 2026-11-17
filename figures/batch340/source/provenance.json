@@ -1,0 +1,27 @@
+{
+  "paper_title": "Auto-Encoders in Deep Learning--A Review with New Perspectives",
+  "doi": "10.3390/math11081777",
+  "paper_url": "https://www.mdpi.com/2227-7390/11/8/1777",
+  "license": "CC BY 4.0; original paper first page",
+  "retrieved_utc": "2026-11-17T14:00:42.108879+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "e0f46b666cf2deb6284690edd1a548117d04597ca5764f2d13cab34a03c273f5",
+      "download_url": "https://mdpi-res.com/mathematics/mathematics-11-01777/article_deploy/html/images/mathematics-11-01777-g001.png",
+      "paper_page": 3
+    },
+    {
+      "figure": 2,
+      "file": "source/figure-2.png",
+      "sha256": "f18f0e14fe3282aa0b24eeab9ac181f509bf63d41ca34e06341ba6f50588d104",
+      "download_url": "https://mdpi-res.com/mathematics/mathematics-11-01777/article_deploy/html/images/mathematics-11-01777-g002.png",
+      "paper_page": 14
+    }
+  ],
+  "authors": [
+    "Shuangshuang Chen",
+    "Wei Guo"
+  ]
+}

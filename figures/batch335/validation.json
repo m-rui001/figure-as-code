@@ -1,0 +1,32 @@
+{
+  "batch": "batch335",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/attention-mechanisms.typ",
+      "typ_sha256": "f9a988c63799d0f9fd5a9e06eaab3fb485d9a1e70d9c89c69d4592509e428adb",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Scaled Dot-Product Attention": 2,
+        "MatMul": 2,
+        "Mask (opt.)": 1,
+        "SoftMax": 1,
+        "Linear": 4,
+        "Concat": 1,
+        "Multi-Head Attention": 1
+      }
+    }
+  ],
+  "passed": true
+}

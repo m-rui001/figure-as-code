@@ -1,0 +1,20 @@
+{
+  "figures": [
+    {
+      "typ": "typ/convformer-architecture.typ",
+      "typ_sha256": "0329196844b1c686afd8a638aed4c8cfe606e7941ecf27800610d2040b728fcb",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    },
+    {
+      "typ": "typ/efficientnet-b0-blocks.typ",
+      "typ_sha256": "18e659e93c22a8c8793306b6fbc49f39076320486d9e21ccd2451a0c9c25ff1e",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

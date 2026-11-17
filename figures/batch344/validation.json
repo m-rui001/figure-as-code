@@ -1,0 +1,32 @@
+{
+  "batch": "batch344",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/pi-pwm-control-circuit.typ",
+      "typ_sha256": "ac6978b86f96e491a4a0b73d22af6c1823f2e959ed62ecd73858ab4db4bb464f",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "PI Controller": 1,
+        "Comparator": 1,
+        "MOSFET Driver": 1,
+        "Model": 1,
+        "Saw tooth": 1,
+        "470 nF": 1,
+        "Buck": 1
+      }
+    }
+  ],
+  "passed": true
+}

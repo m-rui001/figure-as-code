@@ -1,0 +1,35 @@
+{
+  "batch": "batch336",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/transformer-model-architecture.typ",
+      "typ_sha256": "94e0d46413125797022ad28c751403413b54445bbfdc78620022b09d0d71495b",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Input Embedding": 1,
+        "Output Embedding": 1,
+        "Positional Encoding": 2,
+        "Multi-Head Attention": 3,
+        "Add & Norm": 5,
+        "Feed Forward": 2,
+        "Masked": 1,
+        "Linear": 1,
+        "Softmax": 1,
+        "Output Probabilities": 1
+      }
+    }
+  ],
+  "passed": true
+}

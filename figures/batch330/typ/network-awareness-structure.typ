@@ -74,7 +74,7 @@
   box(13.05, 6.30, 14.40, 7.28, [])
   content((13.73, 7.05), text(size: 6.5pt, weight: "bold")[Subscriber])
   box(13.14, 6.42, 14.30, 6.90, [DataReader], s: 5.8pt)
-  box(12.62, 6.48, 13.02, 6.86, [Topic], s: 5.5pt)
+  box(12.62, 6.48, 13.02, 6.86, [Topic], s: 4.5pt)
   draw.line((12.45, 6.66), (12.62, 6.66), stroke: 0.6pt + black)
   draw.line((13.02, 6.66), (13.05, 6.66), stroke: 0.6pt + black)
   draw.rect((9.30, 4.00), (14.60, 5.35), radius: 0.12, fill: rgb("#d6ead6"), stroke: st)
@@ -104,7 +104,7 @@
   draw.line((10.15, 6.30), (10.15, 5.05), stroke: st, mark: ar)
   content((9.84, 5.48), text(size: 5.5pt)[RSSI])
   draw.line((10.45, 5.05), (10.45, 6.30), stroke: st, mark: ar)
-  draw.line((9.00, 2.25), (9.00, 6.79), (9.55, 6.79), stroke: st, mark: ar)
+  draw.line((7.65, 2.25), (7.65, 7.43), (9.42, 7.43), (9.42, 6.79), (9.55, 6.79), stroke: st, mark: ar)
 
   content((4.25, 1.45), text(size: 8pt)[(a)])
   content((11.95, 1.45), text(size: 8pt)[(b)])

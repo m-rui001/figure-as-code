@@ -1,0 +1,43 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-2.png",
+      "sha256": "c5213952f326a14cd5387507d378aa10dfb5cd0587f77b96235bd42fbb12cd45",
+      "typ": "typ/gan-evolution-timeline.typ",
+      "labels": {
+        "cGAN": 1,
+        "LAPGAN": 1,
+        "Pix2Pix": 1,
+        "CycleGAN": 1,
+        "WGAN-GP": 1,
+        "WaveGAN": 1,
+        "PI-GAN": 1,
+        "AnimalGAN": 1,
+        "LeafyGAN": 1,
+        "CRF-Guided GAN": 1,
+        "DCGAN": 1,
+        "StyleGAN2": 1,
+        "StyleGAN3": 1,
+        "Latent Space": 1,
+        "Applications": 1,
+        "Loss function": 1,
+        "Domain specific architectures": 1,
+        "WGAN": 2,
+        "StyleGAN": 3,
+        "Architecture": 2,
+        "2014": 1,
+        "2015": 1,
+        "2016": 1,
+        "2017": 1,
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+      }
+    }
+  ]
+}

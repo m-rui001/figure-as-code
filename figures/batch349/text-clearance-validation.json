@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/unet-encoder-decoder.typ",
+      "typ_sha256": "e29b1d8ef2c38321d2d4c30c98503021617d3603b9976e63e4cde2b66a837a60",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

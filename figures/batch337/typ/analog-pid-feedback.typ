@@ -25,7 +25,7 @@
     rect((x - 0.95, y - 0.64), (x + 0.95, y + 0.64), fill: green, stroke: ink)
     lab(x, y, label)
   }
-  rect((2.65, 0.10), (11.55, 5.85),
+  rect((2.95, 0.10), (11.85, 5.85),
     stroke: (paint: blue, thickness: 0.9pt, dash: "dotted"))
   lab(7.10, 6.18, [$italic("PID") quad G(s)$])
   node(1.60, 3.25, [+])
@@ -44,7 +44,7 @@
   pair(9.75, 5.00, [$u_"p" (t)$], [$U_"p" (s)$])
   wire((5.70, 4.27), (5.70, 3.63))
   lab(5.70, 4.55, [$T_d$])
-  block(8.05, 3.25, [$upright("d") e(t) "/" upright("d") t$])
+  block(8.05, 3.25, text(size: 9pt)[$upright("d") e(t) "/" upright("d") t$])
   wire((6.08, 3.25), (7.10, 3.25))
   wire((9.00, 3.25), (10.12, 3.25))
   pair(9.58, 3.25, [$u_"d" (t)$], [$U_"d" (s)$])

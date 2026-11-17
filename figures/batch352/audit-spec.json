@@ -1,0 +1,20 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "355f3c5cdc2b4f1956974435381958551f5f6fe2ee3b976abb242a51daf010c7",
+      "typ": "typ/gan-forward-backpropagation.typ",
+      "labels": {
+        "Random noise": 1,
+        "Generator (G)": 1,
+        "Training data": 1,
+        "Real samples": 1,
+        "Generated samples": 1,
+        "Discriminator (D)": 1,
+        "Discriminator loss": 1,
+        "Generator loss": 1,
+        "Backpropagation": 2
+      }
+    }
+  ]
+}

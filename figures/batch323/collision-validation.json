@@ -1,0 +1,14 @@
+{
+  "figure": "triple-spar-sideview.typ",
+  "reviewed_render": "render/triple-spar-sideview.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "aa76a3dacded845c58b65fc85b9eec0d2d1cacdacc66cf8322731a16cb713116",
+  "png_sha256": "681b4d967466164aaddbfbb4cf7877b98f22c4e0b583820b5c8753ff164b827a",
+  "png_svg_pdf_compiler_warnings": 0
+}

@@ -1,0 +1,90 @@
+{
+  "batch": "batch351",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/maxvit-hierarchy-block.typ",
+      "typ_sha256": "7b5ed0e7347d6dbc59866623696ed2205589f103110e2e0281b0a87639a0909c",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Input": 1,
+        "Output": 1,
+        "224 × 224": 1,
+        "Conv 3 × 3": 3,
+        "(S=2)": 1,
+        "S0: Stem": 1,
+        "MaxViT Block": 4,
+        "Head": 1,
+        "Pool": 1,
+        "FC": 1,
+        "MBConv": 1,
+        "Block Attention": 1,
+        "Grid Attention": 1,
+        "Conv 1 × 1": 2,
+        "Depthwise": 1,
+        "SE": 1,
+        "Block-SA": 1,
+        "Grid-SA": 1,
+        "FFN": 2,
+        "+": 5,
+        "S1: repeat": 1,
+        "S2: repeat": 1,
+        "S3: repeat": 1,
+        "S4: repeat": 1,
+        "(112 × 112)": 1,
+        "(56 × 56)": 1,
+        "(28 × 28)": 1,
+        "(14 × 14)": 1,
+        "(7 × 7)": 1,
+        "(1 × 1)": 1,
+        "𝐿1": 1,
+        "𝐿2": 1,
+        "𝐿3": 1,
+        "𝐿4": 1
+      }
+    },
+    {
+      "typ": "typ/unet-geometric-mean-ensemble.typ",
+      "typ_sha256": "e37aa308cf2ea35c82c3350311811e2cd69c4db14e6267899809a838eacd7189",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Data set": 1,
+        "Train split": 1,
+        "Test split": 1,
+        "Training stage": 1,
+        "Testing stage": 1,
+        "MaxViT-S": 2,
+        "ConvFormer-M3": 2,
+        "EfficientNet-B7": 2,
+        "U-Net": 6,
+        "U-Net (trained)": 3,
+        "Geometric mean": 1,
+        "Prediction": 1,
+        "Training": 4
+      }
+    }
+  ],
+  "passed": true
+}

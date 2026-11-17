@@ -64,7 +64,7 @@
     line((tetherx(y) - 0.05, y), (tetherx(y) + l, y),
       stroke: (paint: red, thickness: 1.1pt), mark: (end: "stealth"))
   }
-  content((7.45, 9.65), text(fill: red)[Lorentz force], anchor: "west")
+  content((7.45, 9.25), text(fill: red)[Lorentz force], anchor: "west")
 
   // 火箭上面级
   line((5.72, 18.7), (5.9, 18.9), (6.08, 18.7), (6.1, 18.2), (6.1, 17.25),
@@ -127,7 +127,7 @@
 
   // Tether 与末端小方盒
   line((1.55, 2.0), (1.55, 0.62), stroke: (paint: rgb("#555"), thickness: 1pt))
-  content((0.85, 1.3), [Tether], anchor: "west")
+  content((1.80, 1.3), [Tether], anchor: "west")
   rect((1.3, 0.22), (1.8, 0.62), fill: white, stroke: (paint: green, thickness: 1pt))
   line((1.38, 0.44), (1.55, 0.56), (1.72, 0.44),
     stroke: (paint: green, thickness: 0.8pt))

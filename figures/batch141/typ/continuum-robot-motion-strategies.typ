@@ -150,13 +150,13 @@
 
   // 三阶段标签与指示箭头
   draw.content((5.4, 5.55), text(size: 8.5pt)[Coiled backbone])
-  draw.line((4.55, 5.45), (2.9, 5.25), stroke: (paint: red, thickness: 1pt),
+  draw.line((4.10, 5.45), (2.9, 5.25), stroke: (paint: red, thickness: 1pt),
     mark: (end: "stealth"))
   draw.content((5.4, 4.05), text(size: 8.5pt)[Tip uncoiling])
-  draw.line((4.55, 3.95), (3.5, 3.85), stroke: (paint: red, thickness: 1pt),
+  draw.line((4.20, 3.95), (3.5, 3.85), stroke: (paint: red, thickness: 1pt),
     mark: (end: "stealth"))
   draw.content((5.4, 2.55), text(size: 8.5pt)[Rotating core])
-  draw.line((4.55, 2.45), (2.75, 2.45), stroke: (paint: red, thickness: 1pt),
+  draw.line((4.20, 2.45), (2.75, 2.45), stroke: (paint: red, thickness: 1pt),
     mark: (end: "stealth"))
   draw.content((3.8, 0.35), text(size: 10pt)[(c)])
 

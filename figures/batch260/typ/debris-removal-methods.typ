@@ -53,14 +53,14 @@
 
   // 根节点与一级分支（绿）
   nb(8.40, 8.55, 4.50, 0.58, [*Debris Removal Methods*], rfill, brown, size: 8.8pt)
-  nb(4.40, 7.35, 3.60, 0.62, [Contact Removal\ Methods], gfill, green, size: 8.0pt)
+  nb(4.40, 7.35, 3.60, 0.62, [Contact Removal\ Methods], gfill, green, size: 6.6pt)
   nb(8.40, 7.35, 2.50, 0.62, [Self-Eating\ Satellite], gfill, green, size: 6.8pt)
-  nb(12.75, 7.35, 3.95, 0.62, [Contactless Removal\ Methods], gfill, green, size: 8.0pt)
+  nb(12.75, 7.35, 3.95, 0.62, [Contactless Removal\ Methods], gfill, green, size: 6.6pt)
 
   // 二级分支（蓝）
-  nb(2.75, 6.10, 3.30, 0.66, [Drag Augmentation\ Methods], bfill, blue, size: 8.0pt)
-  nb(6.25, 6.10, 3.00, 0.66, [Electrodynamic\ Tether], bfill, blue, size: 8.0pt)
-  nb(9.65, 6.10, 3.00, 0.66, [Connection\ Methods], bfill, blue, size: 8.0pt)
+  nb(2.75, 6.10, 3.30, 0.66, [Drag Augmentation\ Methods], bfill, blue, size: 6.6pt)
+  nb(6.25, 6.10, 3.00, 0.66, [Electrodynamic\ Tether], bfill, blue, size: 6.6pt)
+  nb(9.65, 6.10, 3.00, 0.66, [Connection\ Methods], bfill, blue, size: 6.6pt)
 
   // 末级：拖曳增阻、连接方式、无接触四法（紫）
   nb(2.65, 4.95, 1.70, 0.44, [Sail based], pfill, purple, size: 7.8pt)

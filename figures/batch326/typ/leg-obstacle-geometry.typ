@@ -51,5 +51,5 @@
   draw.line((3.05, 5.45), (4.35, 5.10), (4.05, 4.75), close: true,
     stroke: (paint: black, thickness: 0.9pt, dash: "dotted"))
   draw.circle((3.05, 5.45), radius: 0.04, fill: white, stroke: black)
-  content((4.28, 4.88), text(size: 10pt)[$phi$])
+  content((4.48, 4.68), text(size: 10pt)[$phi$])
 })

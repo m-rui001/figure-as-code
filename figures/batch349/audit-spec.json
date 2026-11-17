@@ -1,0 +1,18 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "e38c8686623113297032882d80acf514c1b72ad385797b7e4c40bb1a91f1979a",
+      "typ": "typ/unet-encoder-decoder.typ",
+      "labels": {
+        "Encoder": 1,
+        "Decoder": 1,
+        "Convolution Layer": 1,
+        "Pooling Layer": 1,
+        "Up-convolution Layer": 1,
+        "Input/Output Layer": 1,
+        "Concatenate": 1
+      }
+    }
+  ]
+}

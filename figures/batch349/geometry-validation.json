@@ -1,0 +1,26 @@
+{
+  "typ_sha256": "e29b1d8ef2c38321d2d4c30c98503021617d3603b9976e63e4cde2b66a837a60",
+  "layer_counts": {
+    "convolution_including_legend": {
+      "expected": 27,
+      "actual": 27,
+      "passed": true
+    },
+    "pooling_including_legend": {
+      "expected": 5,
+      "actual": 5,
+      "passed": true
+    },
+    "up_convolution_including_legend": {
+      "expected": 5,
+      "actual": 5,
+      "passed": true
+    },
+    "input_output_including_legend": {
+      "expected": 3,
+      "actual": 3,
+      "passed": true
+    }
+  },
+  "passed": true
+}

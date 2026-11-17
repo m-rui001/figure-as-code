@@ -66,12 +66,12 @@
   spin((6.5, 10.15))
   content((7.8, 10.3), $omega$, fill: red)
   content((5.9, 12.85), align(left)[Capturing\ (2m)])
-  line((5.6, 12.6), (4.55, 11.35), stroke: (paint: rgb("#555555"), thickness: 0.6pt))
+  line((5.1, 12.2), (4.55, 11.35), stroke: (paint: rgb("#555555"), thickness: 0.6pt))
   content((7.7, 7.75), align(center)[Failed\ Spacecraft])
   // 虚线弧表示接近路径（自平台向上弯向捕获点）
   bezier((3.9, 3.6), (0.6, 4.2), (0.2, 8.4), (1.9, 10.7),
     stroke: (paint: black, thickness: 1pt, dash: "dashed"), mark: (end: "stealth", fill: black))
-  content((2.7, 6.6), align(center)[Approach Path\ (60m)])
+  content((4.3, 6.6), align(center)[Approach Path\ (60m)])
   // 下方服务平台
   craft((3.7, 2.4), 15deg, plen: 1.6)
   line((3.45, 2.75), (2.8, 3.3), stroke: (paint: twine, thickness: 1.2pt))
@@ -99,7 +99,7 @@
   // H 轴双箭头与旋转箭头
   line((12.7, 6.7), (12.7, 8.45), stroke: (paint: red, thickness: 1.1pt),
     mark: (start: "stealth", end: "stealth"))
-  content((12.95, 8.5), align(left)[H-axis])
+  content((13.65, 8.7), align(left)[H-axis])
   spin((12.7, 6.9), rx: 0.9)
   content((14.0, 6.95), $omega$, fill: red)
   // 本体向下的红色虚线（姿态作用方向）

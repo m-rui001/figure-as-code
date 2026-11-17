@@ -99,8 +99,9 @@
   larrow((9.7, 3.85), (9.6, 2.74))
 
   // 推进剂分解说明（喷管内右侧）
-  label((13.3, 2.75), [Propellant])
-  label((13.3, 2.4), [Decomposition])
+  label((13.3, 0.95), [Propellant])
+  label((13.3, 0.50), [Decomposition])
+  larrow((13.3, 1.22), (13.3, 2.42))
 
   // 供给系统括线（阀—喷注器下方）
   line((7.85, 1.0), (9.55, 1.0), stroke: thin)
@@ -114,6 +115,6 @@
   // 高温燃气排气虚线与标注
   line((11.15, 2.15), (14.7, 2.15),
     stroke: (paint: black, thickness: 0.8pt, dash: "dashed"), mark: (end: "stealth", fill: black))
-  label((15.4, 2.35), [Hot Gases])
-  label((15.4, 2.0), [Exhaustion])
+  label((15.4, 2.60), [Hot Gases])
+  label((15.4, 1.70), [Exhaustion])
 })

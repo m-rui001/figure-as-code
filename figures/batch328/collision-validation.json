@@ -1,0 +1,14 @@
+{
+  "figure": "tsn-testbed-topology.typ",
+  "reviewed_render": "render/tsn-testbed-topology.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "5c305afbc0b964be8db0b2f6c7f7881f0ec802748c331df2cf231987d866e786",
+  "png_sha256": "25cdfc5d7bc959564d49c8743abc9318d84b742b1fad659dbfee0c6a2ee31a3e",
+  "png_svg_pdf_compiler_warnings": 0
+}

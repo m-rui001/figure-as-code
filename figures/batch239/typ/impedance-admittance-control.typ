@@ -49,7 +49,7 @@
   t((3.74, ya + 0.22), [e(t)], size: 6.2pt)
   arr((2.57, ya), (3.47, ya))
   arr((3.63, ya), (3.95, ya))
-  box((6.10, ya), 2.15, 0.46, [$"Impedance Control" \ tau_"ext"(t) = M_d dot(dot(e))(t) + B_d dot(e)(t) + K_d e(t)$], size: 6.2pt)
+  box((6.10, ya), 2.15, 0.46, [$"Impedance Control" \ tau_"ext"(t) = M_d dot(dot(e))(t) + B_d dot(e)(t) + K_d e(t)$], size: 5.6pt)
   t((8.60, ya + 0.22), [u(t)], size: 6.6pt)
   arr((8.25, ya), (9.95, ya))
   box((11.45, ya), 1.30, 0.62, [], stroke: navy)

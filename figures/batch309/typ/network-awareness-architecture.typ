@@ -38,7 +38,7 @@
     content((x0 + 85, 150), [Physical], size: 8.5pt)
     rbox(x0 + 130, 872, x0 + 760, 922, pink, pinkS, [User Code])
     rbox(x0 + 130, 622, x0 + 760, 805, blue, blueS, none, r: 12)
-    content((x0 + 445, 782), [Domain Participant], size: 8pt)
+    content((x0 + (if b { 550 } else { 430 }), 782), [Domain Participant], size: 8pt)
     let px = if b { (330, 510) } else { (180, 360) }
     let sx = if b { (560, 742) } else { (430, 612) }
     let dw = if b { (345, 495) } else { (195, 345) }
@@ -46,15 +46,15 @@
     let dwx = if b { 420 } else { 270 }
     let drx = if b { 650 } else { 520 }
     rbox(x0 + px.first(), 638, x0 + px.last(), 742, white, black, none)
-    content((x0 + (px.first() + px.last()) / 2, 722), [Publisher], size: 8pt)
+    content((x0 + px.first() + 8, 722), text(size: 6.5pt)[Publisher], size: 6pt, anchor: "west")
     rbox(x0 + sx.first(), 638, x0 + sx.last(), 742, white, black, none)
-    content((x0 + (sx.first() + sx.last()) / 2, 722), [Subscriber], size: 8pt)
+    content((x0 + sx.first() + 8, 722), text(size: 6.5pt)[Subscriber], size: 5.5pt, anchor: "west")
     rbox(x0 + dw.first(), 660, x0 + dw.last(), 698, white, black, [DataWriter])
     rbox(x0 + dr.first(), 660, x0 + dr.last(), 698, white, black, [DataReader])
     darr((x0 + dw.last(), 679), (x0 + dr.first(), 679))
     content((x0 + (dw.last() + dr.first()) / 2, 652), [Topic], size: 7.5pt)
     rbox(x0 + 130, 440, x0 + 760, 562, green, greenS, none, r: 12)
-    content((x0 + 445, 540), [RTPS Participant], size: 8pt)
+    content((x0 + (if b { 550 } else { 430 }), 540), [RTPS Participant], size: 8pt)
     rbox(x0 + px.first(), 455, x0 + px.last(), 515, white, black, [RTPSWriter])
     rbox(x0 + sx.first(), 455, x0 + sx.last(), 515, white, black, [RTPSReader])
     rbox(x0 + 130, 320, x0 + 760, 375, orange, orangeS, [UDP/TCP/SHM])
@@ -62,7 +62,7 @@
     arr((x0 + dwx, 872), (x0 + dwx, 698))
     arr((x0 + drx, 698), (x0 + drx, 872))
     arr((x0 + dwx, 660), (x0 + dwx, 515))
-    arr((x0 + drx, 455), (x0 + drx, 660))
+    arr((x0 + drx, 515), (x0 + drx, 660))
     arr((x0 + dwx, 455), (x0 + dwx, 375))
     arr((x0 + drx, 375), (x0 + drx, 455))
     content((x0 + 445, 248), [⋮], size: 11pt)
@@ -73,14 +73,16 @@
       rect((x0 + 160, 648), (x0 + 280, 684), fill: white,
         stroke: (paint: black, thickness: 1pt, dash: "densely-dashed"), radius: 4pt)
       content((x0 + 220, 666), [Passive Timer], size: 7pt)
-      line((x0 + 270, 178), (x0 + 270, 638), stroke: (paint: black, thickness: 1pt), mark: mk)
+      line((x0 + 270, 178), (x0 + 270, 300), (x0 + 125, 300),
+        (x0 + 125, 580), (x0 + 270, 580), (x0 + 270, 638),
+        stroke: (paint: black, thickness: 1pt), mark: mk)
       rect((x0 + 150, 455), (x0 + 290, 515), fill: white,
         stroke: (paint: black, thickness: 1.2pt, dash: "densely-dashed"), radius: 6pt)
       content((x0 + 215, 485), [Passive Filter], size: 7.5pt)
       arr((x0 + 175, 638), (x0 + 175, 515), dash: "densely-dashed")
       arr((x0 + 210, 455), (x0 + 210, 375))
       arr((x0 + px.first(), 485), (x0 + 290, 485))
-      content((x0 + 185, 600), [RSSI], size: 7.5pt, anchor: "west")
+      content((x0 + 185, 612), [RSSI], size: 7.5pt, anchor: "west")
     }
     let tag = if b { [(b)] } else { [(a)] }
     content((x0 + 405, 20), text(weight: "bold", size: 12pt, tag))

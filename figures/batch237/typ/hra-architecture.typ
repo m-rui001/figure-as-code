@@ -103,8 +103,8 @@
   content((21.72, 7.78), text(size: 10pt, "Advanced Features"))
 
   // 连线文字标注
-  ml((10.95, 4.72), ("Series", "Integration"), size: 9pt)
-  content((25.92, 5.90), text(size: 9pt, "Robustness"))
+  ml((11.22, 4.72), ("Series", "Integration"), size: 8pt)
+  content((25.92, 6.28), text(size: 9pt, "Robustness"))
   content((25.80, 4.64), text(size: 9pt, "Efficiency"))
   ml((17.85, 2.95), ("Enhanced", "Output"), size: 9pt)
 })

@@ -26,7 +26,7 @@
   let arrp(..pts) = line(..pts, stroke: 0.7pt + ink, mark: (end: "stealth", scale: 0.5))
 
   // 外框、标题与两条橙色识别横幅
-  rect((0.25, 0.35), (15.15, 8.95), stroke: 0.7pt + ink)
+  rect((0.25, 0.35), (15.15, 9.15), stroke: 0.7pt + ink)
   t((7.70, 8.70),
     [PRISMA 2020 flow diagram for new systematic reviews which included \ searches of databases, registers and other sources], size: 5.8pt)
   rect((0.55, 7.95), (8.05, 8.35), fill: orange, stroke: 0.6pt + ink)
@@ -37,7 +37,7 @@
   // 左缘阶段条
   for ph in ((6.60, 7.70, [Identification]), (2.45, 6.35, [Screening]), (0.80, 1.95, [Included])) {
     rect((0.50, ph.at(0)), (0.82, ph.at(1)), radius: 0.10, fill: blue, stroke: 0.7pt + bblue)
-    content((0.66, (ph.at(0) + ph.at(1)) / 2), text(size: 5.8pt, weight: "bold")[#ph.at(2)],
+    content((0.66, (ph.at(0) + ph.at(1)) / 2), text(size: 4.6pt, weight: "bold")[#ph.at(2)],
       anchor: "center", angle: 90deg, frame: none)
   }
 
@@ -65,7 +65,7 @@
   boxw((11.30, 7.00), 1.30, 0.32, [Records identified from: \ Citation searching (n = 174)])
   boxw((11.30, 4.55), 1.30, 0.32, [Reports sought for retrieval \ (n = 31)])
   boxw((13.95, 4.55), 1.10, 0.28, [Reports not retrieved \ (n = 143)])
-  boxw((11.30, 2.60), 1.30, 0.32, [Reports assessed for eligibility \ (n = 22)])
+  boxw((11.30, 2.60), 1.30, 0.32, [Reports assessed for eligibility \ (n = 22)], size: 4.8pt)
   boxw((13.95, 2.55), 1.10, 0.62,
     [Reports excluded: \ Experiment used \ off-device inference \ (n = 6); Experiment \ lacked a use case (n = 3)], size: 5.0pt)
   arr((11.30, 6.68), (11.30, 4.89))

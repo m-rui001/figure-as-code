@@ -1,0 +1,23 @@
+{
+  "figures": [
+    {
+      "typ": "typ/restricted-boltzmann-layers.typ",
+      "typ_sha256": "d1bd8fa47b78ea28cc1a8356cb658d9a63bf1f61396afc83a4564d178a67f621",
+      "expected_filled_shapes": 7,
+      "actual_filled_shapes": 7,
+      "text_span_overlaps": [],
+      "expected_connection_lines": 11,
+      "actual_connection_lines": 11,
+      "passed": true
+    },
+    {
+      "typ": "typ/convolution-pooling-feature-maps.typ",
+      "typ_sha256": "5ea0eb9df8d47445fd88cd871b0c73dbedecdd18019b8d284d08c02352aaa310",
+      "expected_filled_shapes": 51,
+      "actual_filled_shapes": 51,
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

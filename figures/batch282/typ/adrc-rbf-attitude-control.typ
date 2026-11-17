@@ -45,9 +45,9 @@
     t((1.90, ymid + 1.04), deriv, size: 5.2pt)
     // RBF 参数更新→RBF 网络（W C H 三路）
     for (i, s) in ("W", "C", "H").enumerate() {
-      let x = 3.95 + 0.40 * i
+      let x = 3.65 + 0.65 * i
       arr((x, ymid + 0.80), (x, ymid + 0.54))
-      t((x + 0.18, ymid + 0.63), [#s], size: 5.8pt)
+      t((x + 0.22, ymid + 0.63), [#s], size: 5.0pt)
     }
     // ADRC 参数更新→控制器（K_P K_D 与 β1 β2 β3）
     arr((1.62, ymid - 0.02), (1.62, ymid - 0.36))

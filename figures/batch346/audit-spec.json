@@ -1,0 +1,26 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-4.png",
+      "sha256": "a4ec99d48593e2c92ddd341a01576259e33274aa171f7ce2d07832620a99d278",
+      "typ": "typ/restricted-boltzmann-layers.typ",
+      "labels": {
+        "hidden layer": 1,
+        "input layer": 1
+      }
+    },
+    {
+      "source": "source/figure-5.png",
+      "sha256": "5b61478e29bfbc5247366a0a590045659e5779e018ea0953dea69efd79a8b67a",
+      "typ": "typ/convolution-pooling-feature-maps.typ",
+      "labels": {
+        "input image": 1,
+        "feature map": 1,
+        "convolution": 2,
+        "pooling": 2,
+        "fully connected layers": 1,
+        "output layer": 1
+      }
+    }
+  ]
+}

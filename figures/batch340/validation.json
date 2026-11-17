@@ -1,0 +1,75 @@
+{
+  "batch": "batch340",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/basic-autoencoder.typ",
+      "typ_sha256": "d101dc02d9cd84d7a138319ee6e91e52add3db690a59b9c05af378a61d8f6767",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Input": 1,
+        "Feature": 1,
+        "Output": 1,
+        "+1": 2,
+        "𝑥1": 1,
+        "𝑥2": 1,
+        "𝑥3": 1,
+        "𝑥4": 1,
+        "𝑥5": 1,
+        "𝑥6": 1,
+        "𝑦1": 1,
+        "𝑦2": 1,
+        "𝑦3": 1,
+        "𝑦4": 1,
+        "𝑧1": 1,
+        "𝑧2": 1,
+        "𝑧3": 1,
+        "𝑧4": 1,
+        "𝑧5": 1,
+        "𝑧6": 1
+      }
+    },
+    {
+      "typ": "typ/variational-autoencoder-flow.typ",
+      "typ_sha256": "55b3ba33876e2f7103ba952760635082eabbb5a51cd40cc936538bd02ebe2771",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Encoder": 1,
+        "Decoder": 1,
+        "z_mean": 1,
+        "z_log_var": 1,
+        "Sample": 1,
+        "from": 1,
+        "*": 1,
+        "+": 1,
+        "Step1": 1,
+        "Step2": 1,
+        "Step 3": 1,
+        "Step4": 1
+      }
+    }
+  ],
+  "passed": true
+}

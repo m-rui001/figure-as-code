@@ -95,7 +95,7 @@
   rect((7.7, 12.72), (11.52, 16.0), fill: white,
     stroke: (paint: gray, thickness: 0.4pt))
   turbine((9.58, 12.78), 0.59, digital: true)
-  label((9.6, 12.12), [Analytic\ Model], size: 11pt)
+  label((9.6, 12.12), [Analytic\ Model], size: 9pt)
   circle((13.75, 14.25), radius: (1.73, 1.95),
     fill: white, stroke: edge)
   label((13.75, 14.25), [Updating\ Digital Model])

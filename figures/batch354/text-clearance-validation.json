@@ -1,0 +1,20 @@
+{
+  "figures": [
+    {
+      "typ": "typ/memristor-gan-computation.typ",
+      "typ_sha256": "d2e6569ad119247745b5a1efd0deb94b831e2e5f8cbd13c69d39af45e023c3cd",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    },
+    {
+      "typ": "typ/cpgan-privacy-service-attacker.typ",
+      "typ_sha256": "5450ac2532cbff4f2ad250d8e0508b19167f5e8de519a6770a32d1243ac394bb",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

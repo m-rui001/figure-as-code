@@ -1,0 +1,38 @@
+[
+  {
+    "file": "figures/batch282/typ/adrc-rbf-attitude-control.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch283/typ/adrc-rbf-controller.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch284/typ/pmsm-ftc-block-diagram.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch285/typ/transformer-feature-encoding.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch286/typ/tmr-control-block.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch286/typ/tmr-kinematic-model.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch287/typ/actor-critic-network-architectures.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch287/typ/lstm-ddpg-framework.typ",
+    "text_character_counts_preserved": true
+  },
+  {
+    "file": "figures/batch287/typ/lstm-memory-cell.typ",
+    "text_character_counts_preserved": true
+  }
+]

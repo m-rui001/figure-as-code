@@ -1,0 +1,33 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-7.png",
+      "sha256": "da4e9b378832f3b7f85c2b510bdeddf3f24dc9d29f2db984677d55118b214ae8",
+      "typ": "typ/memristor-gan-computation.typ",
+      "labels": {
+        "Discriminator": 1,
+        "Generator": 1,
+        "Diff-Block": 1,
+        "Control Unit": 1,
+        "Real Data": 1,
+        "Noise": 1
+      }
+    },
+    {
+      "source": "source/figure-9.png",
+      "sha256": "7c027512e7355658752138452ce28585967e89e71540a3f4be06d084bfbd2a9d",
+      "typ": "typ/cpgan-privacy-service-attacker.typ",
+      "labels": {
+        "Original Data": 1,
+        "G(X)": 1,
+        "Privatization": 1,
+        "S(X)": 1,
+        "Service": 1,
+        "A(Z)": 1,
+        "Attacker": 1,
+        "Utility Prediction Y": 1,
+        "Reconstruction X\u2032": 1
+      }
+    }
+  ]
+}

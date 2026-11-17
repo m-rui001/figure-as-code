@@ -2,7 +2,7 @@
 
 ## 规模
 
-- 图文件：**414** 个 `.typ`，分布在 **287** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
+- 图文件：**439** 个 `.typ`，分布在 **304** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
 - 依赖：Typst 0.15.1、CeTZ 0.4.2；每图自包含，无外部图片资源。
 
 ## 编译门槛
@@ -14,10 +14,10 @@ python tools/compile_all.py --jobs 4
 当前结果（2026-11-17）：
 
 ```
-{"figures": 414, "compiled": 414, "failed": 0, "warnings": 36}
+{"figures": 439, "compiled": 439, "failed": 0, "warnings": 36}
 ```
 
-- 414/414 编译成功，0 失败。
+- 439/439 编译成功，0 失败。
 - 36 条 warning 为字体提示，集中在 3 个文件：
   - `figures/batch221/typ/adhesive-capture-mechanism.typ`：`liberation serif` 不存在。
   - `figures/batch63/typ/gt017-triangulation.typ`、`gt022-threegraphs.typ`：正文数学 `$...$` 的当前字体不是数学字体，渲染可能偏差。
@@ -62,3 +62,31 @@ python tools/compile_all.py --jobs 4
 `audit-spec.json` 声明原图哈希和标签；`validation.json` 记录实际源码哈希和检查结果。
 新增 6 张均通过全部源码覆盖、单页、零位图、页内文字及标签检查。
 全量结果为 414/414，通过编译，36 条既有字体 warning；视觉结论只覆盖已复核图。
+
+## 第三轮进度（2026-11-17）
+
+[batch342](figures/batch342/QUALITY.md) 新增关断阶段算法与 PWM 生成器两张双面板图。
+原图已下载，视觉复核和可重复机器检查全部通过，新增图零编译警告。
+本轮全量编译结果：416/416，零失败，36 条既有字体警告。
+batch340 与 batch341 后续已完成，当前语料总量为 439 张、304 个批次。
+
+## 文字碰撞专项复查
+
+用户反馈文字与线条、边框重叠后，暂停新增图，优先复查已有图。
+batch204–339 已分组查看实际渲染（不存在的批次跳过）；batch282–287 的部分小公式仍待深入复核。
+具体修复涉及标签偏移、框内留白、连线路径以及中心线断开留白，未用白块遮盖结构线。
+记录见 batch260、264、273、279、287、292、299、300、306–333 及337 的 `COLLISION_REVIEW.md`。
+batch341 的局部注意力 `p_t` 标签碰线也已修正并重跑验证。
+
+439/439 是编译结果，不是全库视觉无碰撞的证明；未复查批次仍需继续检查。
+
+batch259–281 的23张图已补充机器复验：单页、零警告、文字在页面内，
+与 HEAD 的非空白字符计数全部一致。实际源码 SHA256 和逐图结果见
+`COLLISION_VALIDATION.json`。改动图的最终 PNG 已保存在各批次 `render/`。
+字符计数不能证明标签顺序、连接拓扑或视觉无碰撞。
+
+可使用 `python -X utf8 tools/verify_collision_changes.py` 复验相对 HEAD 改动的已有图。
+该工具逐图比较非空白字符计数、检查单页和页内文字，并从实际源码重新生成200-ppi预览。
+结果写入 `COLLISION_CHANGES_VALIDATION.json`，包含基线提交、源码和预览 SHA256。
+这项机器验证与上述逐组视觉记录分开，不宣称自动识别文字碰线。
+本次50张改动图全部通过上述检查，最新预览已与验证时源码对应。

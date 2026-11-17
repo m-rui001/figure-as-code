@@ -23,7 +23,7 @@
   let cx = 8.5
 
   line((5.8, 9.0), (11.2, 9.0), (11.6, 10.6), (6.2, 10.6), close: true, stroke: st)
-  content((cx, 9.8), text(size: 8.2pt,
+  content((cx, 9.8), text(size: 7.4pt,
     "Inputs to the simulation\n(rotor and tower mass\nand geometry, platform\ngeometry etc.)"),
     anchor: "center")
 

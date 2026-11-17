@@ -14,7 +14,7 @@
   let ar2 = (start: "stealth", end: "stealth", fill: black, scale: 0.45)
   let node(x0, y0, x1, y1, t, col) = {
     draw.rect((x0, y0), (x1, y1), radius: 0.18, fill: white, stroke: 1.6pt + col)
-    content(((x0 + x1) / 2, (y0 + y1) / 2), text(size: 9pt, weight: "bold")[#t])
+    content(((x0 + x1) / 2, (y0 + y1) / 2), text(size: 8pt, weight: "bold")[#t])
     // docker 小标志
     draw.rect((x0 + 0.12, y0 + 0.78), (x0 + 0.52, y0 + 0.94), radius: 0.04,
       fill: rgb("#1d63b8"), stroke: none)
@@ -22,7 +22,7 @@
       draw.rect((x0 + 0.16 + i * 0.11, y0 + 0.86), (x0 + 0.23 + i * 0.11, y0 + 0.92),
         fill: rgb("#7fb3e8"), stroke: none)
     }
-    content((x0 + 0.78, y0 + 0.86), text(size: 5.5pt, fill: rgb("#1d63b8"))[docker])
+    content((x0 + 0.95, y0 + 0.86), text(size: 5.5pt, fill: rgb("#1d63b8"))[docker])
   }
   let ty = rgb("#2a9d8f")
   let rd = rgb("#d64545")
@@ -63,6 +63,6 @@
     draw.rect((8.62 + i * 0.16, 2.08), (8.74 + i * 0.16, 2.08 + 0.08 * (i + 1)),
       fill: rgb("#63aa2e"), stroke: none)
   }
-  content((9.55, 2.16), text(size: 11pt, weight: "bold", fill: rgb("#3d7a12"))[ns-3])
+  content((9.80, 2.16), text(size: 11pt, weight: "bold", fill: rgb("#3d7a12"))[ns-3])
   content((9.40, 1.86), text(size: 5pt, fill: rgb("#666666"))[NETWORK SIMULATOR])
 })

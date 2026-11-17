@@ -1,0 +1,41 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-10.png",
+      "sha256": "81e886b77d280d07ef298a317fe8e75ca43a73e5b538fdef0a454989e12ea1b4",
+      "typ": "typ/closed-loop-ltspice-circuit.typ",
+      "labels": {
+        "Vsource": 1,
+        "Vin": 1,
+        "M1": 1,
+        "E1": 1,
+        "D1": 1,
+        "Rl": 1,
+        "L1": 1,
+        "200µ": 1,
+        "C1": 1,
+        "220µ": 1,
+        "ESR": 1,
+        "R2": 1,
+        "R1": 1,
+        "R3": 1,
+        "C2": 1,
+        "470nF": 1,
+        "U1": 1,
+        "U2": 1,
+        "V1": 1,
+        "V2": 1,
+        "V3": 1,
+        "V4": 1,
+        "vctrl": 1,
+        "10k": 1,
+        "1k": 1,
+        "PULSE(0 10 0 9.9u 0.1u 0u 10u)": 1,
+        "Vmais": 3,
+        "Vmenos": 3,
+        "Vout": 2,
+        "Rser=0": 3
+      }
+    }
+  ]
+}

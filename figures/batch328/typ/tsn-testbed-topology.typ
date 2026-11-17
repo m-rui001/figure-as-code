@@ -47,10 +47,10 @@
   sw(9.50, 6.50)
   sw(4.30, 3.70)
   sw(9.50, 3.70)
-  lab(4.30, 7.15, [TSN Switch-SW2])
-  lab(9.50, 7.15, [TSN Switch-SW3])
-  lab(4.30, 3.05, [TSN Switch-SW1])
-  lab(9.50, 3.05, [TSN Switch-SW4])
+  content((4.55, 7.15), text(size: 7.5pt)[TSN Switch-SW2], anchor: "west")
+  content((9.75, 7.15), text(size: 7.5pt)[TSN Switch-SW3], anchor: "west")
+  content((4.55, 3.05), text(size: 7.5pt)[TSN Switch-SW1], anchor: "west")
+  content((9.75, 2.78), text(size: 7.5pt)[TSN Switch-SW4], anchor: "west")
 
   // 外圈设备
   zcu(1.70, 6.50)
@@ -79,7 +79,7 @@
   lab(6.00, 4.22, [VCP])
   draw.rect((7.75, 5.15), (8.75, 5.70), radius: 0.05, fill: rgb("#c9c9c9"), stroke: 0.8pt + black)
   draw.rect((7.78, 5.18), (7.92, 5.67), fill: rgb("#b04a4a"), stroke: none)
-  lab(7.95, 4.78, [Diagnostic Device])
+  lab(7.95, 6.00, [Diagnostic Device])
   monitor(11.60, 5.10, 0.95, 0.75)
   draw.rect((12.18, 4.45), (12.48, 5.15), fill: white, stroke: 1.2pt + black)
   for i in range(3) {

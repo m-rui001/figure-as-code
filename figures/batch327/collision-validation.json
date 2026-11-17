@@ -1,0 +1,14 @@
+{
+  "figure": "dds-tsn-timing.typ",
+  "reviewed_render": "render/dds-tsn-timing.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "a910a7562ec0fa5f899fe2a52bb0c6ebe2dd4970603e38438a38a808198832c6",
+  "png_sha256": "f87a2c0ec38ed2bbb674e787a3bfeb139396c4f2336246adf5d7a487b0f81111",
+  "png_svg_pdf_compiler_warnings": 0
+}

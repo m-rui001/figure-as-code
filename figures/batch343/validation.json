@@ -1,0 +1,27 @@
+{
+  "batch": "batch343",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/saw-tooth-generator.typ",
+      "typ_sha256": "30dac8c86d904bf510ab08b22fc2eae98fcb7f601ad8108475c94a2029b020b2",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Saw Tooth Generator": 1,
+        "Saw Tooth Waveform": 1
+      }
+    }
+  ],
+  "passed": true
+}

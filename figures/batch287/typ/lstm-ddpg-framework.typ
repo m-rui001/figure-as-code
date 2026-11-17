@@ -93,8 +93,8 @@
   // 策略梯度与损失
   rect((5.05, 4.45), (7.55, 5.28), radius: 0.06, fill: white, stroke: 0.9pt + ink)
   content((5.14, 5.03), [#text(size: 8pt)[Policy]], size: 6.5pt, anchor: "west")
-  content((5.14, 4.66), [Gradient], size: 6.5pt, anchor: "west")
-  content((7.05, 4.78), [$nabla_(theta^mu) J$], size: 7.5pt)
+  content((5.14, 4.66), text(size: 7pt)[Gradient], anchor: "west")
+  content((7.05, 4.78), text(size: 7pt)[$nabla_(theta^mu) J$])
   rect((11.55, 4.45), (13.25, 5.30), radius: 0.06, fill: white, stroke: 0.9pt + ink)
   content((12.25, 5.10), [Loss], size: 7pt)
   content((11.72, 4.72), [Function], size: 7pt, anchor: "west")
@@ -122,10 +122,10 @@
   // 参数更新虚线双向箭头
   line((7.85, 3.45), (7.85, 5.95), stroke: dashthin, mark: ar2)
   line((10.25, 3.45), (10.25, 5.95), stroke: dashthin, mark: ar2)
-  content((7.60, 5.77), [Update], size: 7pt, anchor: "east")
-  content((7.60, 5.44), [$theta^mu quad theta^(mu')$], size: 7pt, anchor: "east")
-  content((9.98, 5.77), [Update], size: 7pt, anchor: "east")
-  content((9.98, 5.44), [$theta^(Q') quad theta^Q$], size: 7pt, anchor: "east")
+  content((7.60, 5.70), text(size: 7pt)[Update], anchor: "east")
+  content((7.60, 5.42), text(size: 7pt)[$theta^mu quad theta^(mu')$], anchor: "east")
+  content((9.98, 5.70), text(size: 7pt)[Update], anchor: "east")
+  content((9.98, 5.42), text(size: 7pt)[$theta^(Q') quad theta^Q$], anchor: "east")
 
   // 数据流
   // 环境观测 o_t 与上一动作 a_t 送入 Actor

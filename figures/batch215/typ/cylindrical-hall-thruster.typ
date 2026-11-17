@@ -95,8 +95,8 @@
   )
 
   // 腔内小字说明
-  content((5.10, 5.98), text(size: 4.5pt, [axial electric \ field]), anchor: "west")
-  content((5.05, 4.94), text(size: 4.5pt, [axial/radial \ magnetic field]), anchor: "west")
+  content((5.10, 5.88), text(size: 4.0pt, [axial electric \ field]), anchor: "west")
+  content((5.05, 5.06), text(size: 4.0pt, [axial/radial \ magnetic field]), anchor: "west")
 
   // 外部部件标签与引线
   let labels = (
@@ -111,7 +111,14 @@
 
   for l in labels {
     if l.target != none {
-      lead(l.pos, l.target)
+      let start = if l.pos.at(1) > 10 {
+        (l.pos.at(0), l.pos.at(1) - 0.52)
+      } else if l.pos.at(1) < 1 {
+        (l.pos.at(0), l.pos.at(1) + 0.55)
+      } else {
+        (l.pos.at(0) + 1.02, l.pos.at(1))
+      }
+      lead(start, l.target)
     }
     content(l.pos, text(size: 8pt, l.body), anchor: l.anchor)
   }

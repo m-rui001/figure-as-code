@@ -76,9 +76,9 @@
   blk(13.60, 7.80, 1.5, 0.38, [GPT-4], gfill, ink)
 
   // 右侧三个输出块
-  box(16.9, 13.5, 2.9, 0.6, [*Dynamic Content\ Retrieval*], brown, size: 7.4pt)
+  box(16.9, 13.5, 2.9, 0.6, [*Dynamic Content\ Retrieval*], brown, size: 6.2pt)
   box(17.6, 9.9, 2.9, 0.5, [*Emotion Recognition*], brown, size: 7.2pt)
-  box(17.6, 7.9, 2.6, 0.6, [*Multi-modal\ Interactions*], brown, size: 7.2pt)
+  box(17.6, 7.9, 2.6, 0.6, [*Multi-modal\ Interactions*], brown, size: 6.2pt)
 
   // 输入连线：治疗师输入进 Entertain，用户请求进 Decision 与 Converse
   wr((4.3, 12.6), (10.35, 12.6), blue)
@@ -91,9 +91,9 @@
   line((8.75, 11.35), (9.6, 11.35), (9.6, 10.5), (12.55, 10.5), stroke: (paint: green, thickness: 1pt),
     mark: (end: "stealth", scale: 0.5, fill: green))
   // 三路深蓝粗箭头输出
-  line((12.35, 13.3), (15.85, 13.3), (15.85, 13.22), stroke: (paint: navy, thickness: 3pt),
+  line((12.35, 13.3), (15.45, 13.3), stroke: (paint: navy, thickness: 3pt),
     mark: (end: "stealth", scale: 0.7, fill: navy))
-  line((14.65, 10.15), (16.15, 10.15), stroke: (paint: navy, thickness: 3pt),
+  line((14.65, 9.9), (16.15, 9.9), stroke: (paint: navy, thickness: 3pt),
     mark: (end: "stealth", scale: 0.7, fill: navy))
   line((14.65, 7.8), (16.3, 7.8), stroke: (paint: navy, thickness: 3pt),
     mark: (end: "stealth", scale: 0.7, fill: navy))

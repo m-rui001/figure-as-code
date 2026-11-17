@@ -122,11 +122,11 @@
   line((-0.85, 3.2), (-0.85, 1.4), stroke: black + 0.6pt)
   line((-0.85, 1.4), (L, 1.4), stroke: black + 0.6pt)
   content((-1.05, 2.6), [Plenum], anchor: "east")
-  content((-1.05, 2.33), [Window], anchor: "east")
+  content((-1.05, 2.12), [Window], anchor: "east")
 
   // Plenum Chamber 标注
   content((-1.05, 1.15), [Plenum], anchor: "east")
-  content((-1.05, 0.88), [Chamber], anchor: "east")
+  content((-1.05, 0.67), [Chamber], anchor: "east")
   line((-0.75, 1.25), (-0.2, 1.55), stroke: black + 0.6pt, mark: (end: "stealth"))
 
   // 右侧材料引线标注(置于膨胀管曲线内侧, 互不相交)
@@ -137,7 +137,7 @@
   line((5.30, 4.33), (3.70, 3.55), stroke: black + 0.6pt, mark: (end: "stealth"))
 
   content((5.35, 2.95), [Alumina], anchor: "west")
-  line((5.50, 2.98), (3.90, 2.34), stroke: black + 0.6pt, mark: (end: "stealth"))
+  line((5.18, 2.98), (3.90, 2.34), stroke: black + 0.6pt, mark: (end: "stealth"))
 
   // 膨胀管标注
   content((4.45, -0.9), [Expansion Tube], anchor: "west")

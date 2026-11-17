@@ -40,8 +40,8 @@
   content((6.00, 1.90), [Solid \ Propellant])
 
   // 供给系统 → 固体推进剂 粗箭头
-  line((4.27, 1.90), (5.40, 1.90), stroke: (paint: black, thickness: 1.4pt),
-       mark: (end: "stealth"))
+  line((4.27, 1.90), (4.45, 1.90), stroke: (paint: black, thickness: 1.0pt),
+       mark: (end: "stealth", fill: black, scale: 0.4))
 
   // 点火器：右下角斜切的五边形
   line((6.95, 2.50), (6.95, 3.55), (xbar, 3.55), (xbar, 2.80), (8.10, 2.50),
@@ -55,7 +55,7 @@
   )
   for b in bars {
     rect((b.x0, b.y0), (b.x1, b.y1), fill: c-bar, stroke: ln)
-    content((b.lx, b.ly), b.n)
+    content((b.lx, b.ly), text(size: 8.5pt, b.n))
   }
 
   // 等离子体虚线箭头与标注

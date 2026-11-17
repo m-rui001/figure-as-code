@@ -158,8 +158,7 @@
   circle((4.38, 4.35), radius: 0.035, fill: white, stroke: 0.7pt + ink)
   line2((2.35, 5.35), (4.38, 5.35))
   line2((4.38, 5.35), (4.38, 5.08))
-  rect((4.80, 4.68), (5.10, 4.90), fill: white, stroke: none)
-  t((4.95, 4.79), [$K_i$], size: 6.6pt)
+  t((4.82, 5.28), [$K_i$], size: 6.6pt)
   t((4.28, 5.13), [1], size: 6.4pt, anchor: "east")
   t((4.28, 4.27), [2], size: 6.4pt, anchor: "east")
 

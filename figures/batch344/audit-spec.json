@@ -1,0 +1,18 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-8.png",
+      "sha256": "93741b395c9fc3889e0158008182de51c6febdcb6e61e89e410c7f83abf53b20",
+      "typ": "typ/pi-pwm-control-circuit.typ",
+      "labels": {
+        "PI Controller": 1,
+        "Comparator": 1,
+        "MOSFET Driver": 1,
+        "Model": 1,
+        "Saw tooth": 1,
+        "470 nF": 1,
+        "Buck": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-2.png",
+      "sha256": "a9f38459fd2aca7dc6aead2de366340aa3129741cf80ac311d7db4af43551bce",
+      "typ": "typ/attention-mechanisms.typ",
+      "labels": {
+        "Scaled Dot-Product Attention": 2,
+        "MatMul": 2,
+        "Mask (opt.)": 1,
+        "SoftMax": 1,
+        "Linear": 4,
+        "Concat": 1,
+        "Multi-Head Attention": 1
+      }
+    }
+  ]
+}

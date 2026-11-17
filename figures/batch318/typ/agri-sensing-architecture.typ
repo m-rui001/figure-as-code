@@ -25,12 +25,12 @@
 
   // 数据采集面板
   content((1.35, 6.04), text(weight: "bold", size: 9pt)[DATA \ ACQUISITION])
-  draw.rect((0.55, 0.95), (2.3, 5.5), fill: pale, stroke: st)
+  draw.rect((0.55, 0.65), (2.3, 5.5), fill: pale, stroke: st)
   content((0.78, 3.25), rtxt(text(weight: "bold", size: 8pt)[DATA ACQUISITION], -90deg))
   draw.line((0.95, 0.95), (0.95, 5.5), stroke: th)
   content((1.63, 4.67), text(size: 8pt)[BME280])
   content((1.63, 3.77), text(size: 8pt)[BH1750])
-  content((1.63, 2.87), text(size: 8pt)[MLX90614])
+  content((1.63, 2.87), text(size: 6.7pt)[MLX90614])
   content((1.58, 1.90), align(center)[#text(size: 8.2pt)[RGB] \ #text(size: 8.2pt)[Camera]])
   content((1.63, 1.07), text(size: 8pt)[LiDAR])
   draw.rect((1.3, 5.02), (1.62, 5.3), stroke: th)
@@ -55,7 +55,7 @@
 
   // 处理单元与通信层
   draw.rect((3.0, 2.6), (5.15, 4.55), fill: pale, stroke: st)
-  content((4.07, 3.75), align(center)[#bt([LOCAL]) \ #bt([PROCESSING]) \ #bt([UNIT]) \ #nt([(Python Routines)])])
+  content((4.07, 3.56), align(center)[ #bt([LOCAL], s: 7.8pt) \ #bt([PROCESSING], s: 7.8pt) \ #bt([UNIT], s: 7.8pt) \ #nt([(Python Routines)], s: 7pt)])
   draw.rect((5.65, 2.6), (8.05, 4.55), fill: pale, stroke: st)
   content((6.85, 3.55), align(center)[#bt([COMMUNICATION], s: 6.6pt) \ #bt([LAYER])])
   bar((5.15, 3.55), (5.65, 3.55))
@@ -84,8 +84,8 @@
   }
   content((10.7, 1.7), align(center)[#bt([QGROUNDCONTROL]) \ #nt([(Map-based Supervision)])])
   bar((8.05, 3.55), (8.95, 3.55))
-  content((8.45, 3.74), text(size: 7pt)[MAVLink])
-  content((8.45, 3.36), text(size: 7pt)[Telemetry])
+  content((8.50, 3.86), text(size: 5.7pt)[MAVLink])
+  content((8.50, 3.22), text(size: 5.7pt)[Telemetry])
 
   // 操作员干预与联合会话
   draw.rect((6.0, 0.7), (8.6, 1.6), fill: pale, stroke: st)

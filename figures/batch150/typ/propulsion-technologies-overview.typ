@@ -20,7 +20,7 @@
       ),
       fill: white,
     )
-    content((cx, cy), body, size: fs, weight: if bold { "bold" } else { "regular" })
+    content((cx, cy), text(size: fs, weight: if bold { "bold" } else { "regular" }, body))
   }
   let arr(a, b) = line(a, b, stroke: 0.6pt, mark: (end: "stealth", scale: 0.5))
   let wire(pts) = line(..pts, stroke: 0.6pt)

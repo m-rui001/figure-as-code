@@ -1,0 +1,63 @@
+{
+  "batch": "batch341",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/global-attentional-model.typ",
+      "typ_sha256": "0912bcd39af41a59c97d8ae8d622ad3aa8cbd76a6e4a1292363c34897017e863",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Attention Layer": 1,
+        "Context vector": 1,
+        "Global align weights": 1,
+        "𝑎𝑡": 1,
+        "𝑐𝑡": 1,
+        "ℎ̃𝑡": 1,
+        "𝑦𝑡": 1,
+        "ℎ𝑠": 1,
+        "ℎ𝑡": 1
+      }
+    },
+    {
+      "typ": "typ/local-attentional-model.typ",
+      "typ_sha256": "a039d2b2a84e0c8ba9359f2d07531f33593d983d465dce689392082e096b09f0",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Attention Layer": 1,
+        "Context vector": 1,
+        "Local weights": 1,
+        "Aligned position": 1,
+        "𝑎𝑡": 1,
+        "𝑐𝑡": 1,
+        "ℎ̃𝑡": 1,
+        "𝑦𝑡": 1,
+        "ℎ𝑠": 1,
+        "ℎ𝑡": 1,
+        "𝑝𝑡": 1
+      }
+    }
+  ],
+  "passed": true
+}

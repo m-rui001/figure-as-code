@@ -1,0 +1,18 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-3.png",
+      "sha256": "682146175d48f126b81f2d04887ad82b7e6b744a4d53baa46b171d531c3d7a5f",
+      "typ": "typ/adversarial-autoencoder.typ",
+      "labels": {
+        "Encoder": 1,
+        "Decoder": 1,
+        "reconstruction": 1,
+        "Draw samples": 1,
+        "Adversarial cost for": 1,
+        "distinguishing positive samples": 1,
+        "from negative samples": 1
+      }
+    }
+  ]
+}

@@ -80,7 +80,7 @@
     cap(P(1.1, 7.5), [Compression \ spring])
     line(P(1.85, 7.42), P(cx + 0.02, 7.12), stroke: 0.5pt)
     cap(P(5.95, 7.4), [Adhesive \ plate])
-    line(P(5.6, 7.45), P(cx + 0.4, 7.92), stroke: 0.5pt)
+    line(P(5.05, 7.45), P(cx + 0.4, 7.92), stroke: 0.5pt)
     cap(P(1.0, 5.9), [Tension \ spring])
     line(P(1.75, 5.95), P(cx - 0.62, 6.02), stroke: 0.5pt)
     line(P(cx + 0.55, 4.72), P(5.42, 4.95), stroke: 0.5pt)

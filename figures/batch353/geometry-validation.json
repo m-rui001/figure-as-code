@@ -1,0 +1,8 @@
+{
+  "typ_sha256": "c094aae331fbddaa4f9d55a3114c89859a863e08b8dab20c7c3f1119ea101f0f",
+  "expected_year_dots": 12,
+  "actual_year_dots": 12,
+  "expected_model_boxes": 15,
+  "actual_model_boxes": 15,
+  "passed": true
+}

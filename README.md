@@ -20,7 +20,7 @@ Paper figures compressed into compilable **Typst/CeTZ** source. Every line maps 
 
 ## 内容
 
-- `figures/batchNN/typ/*.typ`：414 个自包含图文件（287 个批次；另有 2 个图元测试在 `assets/tests/`）。
+- `figures/batchNN/typ/*.typ`：439 个自包含图文件（304 个批次；另有 2 个图元测试在 `assets/tests/`）。
 - 以线稿与示意图为主：几何、向量、物理、控制框图、推进系统、材料机理、AI 网络架构。
 - 统一依赖 Typst 0.15.1 与 CeTZ 0.4.2，文件首部即页面与依赖设置。
 - 一个文件一张图，标签与论文原图一致，不使用外部图片资源。
@@ -29,7 +29,7 @@ Paper figures compressed into compilable **Typst/CeTZ** source. Every line maps 
 
 ```bash
 typst compile figures/batch24/typ/fig74-parallelepiped.typ out.png --ppi 300
-typst compile figures/batch287/typ/lstm-ddpg-framework.typ out.pdf
+typst compile figures/batch291/typ/lstm-ddpg-framework.typ out.pdf
 ```
 
 ## 全量校验
@@ -38,7 +38,7 @@ typst compile figures/batch287/typ/lstm-ddpg-framework.typ out.pdf
 python tools/compile_all.py --jobs 4
 ```
 
-当前 **414/414** 编译成功，0 失败；36 条字体 warning 记录在 `MANIFEST.csv`，详见 [QUALITY.md](QUALITY.md)。
+当前 **439/439** 编译成功，0 失败；36 条字体 warning 记录在 `MANIFEST.csv`，详见 [QUALITY.md](QUALITY.md)。
 
 ## 目录
 

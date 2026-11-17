@@ -1,0 +1,14 @@
+{
+  "figure": "leg-obstacle-geometry.typ",
+  "reviewed_render": "render/leg-obstacle-geometry.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "84ec34effd70bf9877234369859d2b7a9a8fc6273fe9bc03b6aae1e691e24fb3",
+  "png_sha256": "a1565db09f9b645aa797f6bf8e717d994cd6c341c7e3ee0c63cf6404142f832c",
+  "png_svg_pdf_compiler_warnings": 0
+}

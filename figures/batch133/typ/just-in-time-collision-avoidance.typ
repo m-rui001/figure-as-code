@@ -96,7 +96,7 @@
   circle(ec, radius: 0.42, fill: red, stroke: none)
 
   // 右侧红色说明文字
-  content((18.05, 7.6), anchor: "west", text(fill: red, weight: "bold", size: 10.5pt)[
+  content((18.05, 7.25), anchor: "west", text(fill: red, weight: "bold", size: 10.5pt)[
     JCA action \
     several orbits \
     before \

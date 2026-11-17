@@ -1,0 +1,81 @@
+{
+  "batch": "batch348",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/autoencoder-application-domains.typ",
+      "typ_sha256": "57906eb38fdaf8a3cef8cee916c7375870090f3a212eb8500ea5a6afcc4907e2",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Application Domains": 1,
+        "Computer Vision": 1,
+        "Recommender System": 1,
+        "Pattern Recognition": 1,
+        "Data Generation": 1,
+        "Other Applications": 1,
+        "Image Processing": 1,
+        "3D Models field": 1,
+        "Video Processing": 1,
+        "Saliency Detection": 1,
+        "Image Restoration": 1,
+        "Image Retrieval": 1,
+        "Video Classification": 1,
+        "Object Tracking": 1,
+        "Event Detection": 1,
+        "Forgery Detection": 1,
+        "Abnormal Detection": 1,
+        "Face Recognition": 1,
+        "Facial Emotion Recognition": 1,
+        "Speech Emotion Recognition": 1,
+        "Observing Phase Transitions": 1,
+        "Page Segmentation": 1,
+        "Text Classification": 1,
+        "Modeling Graphs": 1
+      }
+    },
+    {
+      "typ": "typ/autoencoder-recommender-framework.typ",
+      "typ_sha256": "c1ec109725ec9d726b533a59bfe5241625d96f9eff0f1f99f9456d2537be4180",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Input layer": 1,
+        "Model layer": 1,
+        "Output layer": 1,
+        "User feedback data": 1,
+        "User or item information": 1,
+        "Auxiliary information": 1,
+        "Integration Model": 1,
+        "Non-integration Model": 1,
+        "Integrated AE with traditional RS method": 1,
+        "Integrated AE with other DL methods": 1,
+        "Relying only on AE methods": 1,
+        "The latent representation of user": 1,
+        "The latent representation of item": 1,
+        "Recommendation list": 1
+      }
+    }
+  ],
+  "passed": true
+}

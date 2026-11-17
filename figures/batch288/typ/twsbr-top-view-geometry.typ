@@ -108,6 +108,6 @@
   // 轴名与角度标注
   content((-0.16, 8.02), $y$, anchor: "east")
   content((8.66, -0.18), $x$, anchor: "north")
-  content(at(C, rpsi + 0.42, (angB + angF) / 2), $psi$, angle: -45deg)
+  content(at(C, rpsi + 0.78, (angB + angF) / 2), $psi$, angle: -45deg)
   content(at(C, 1.46, 23deg), $phi$, angle: -45deg)
 })

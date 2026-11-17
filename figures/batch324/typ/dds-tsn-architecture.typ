@@ -52,9 +52,9 @@
   draw.rect((5.30, 13.78), (9.00, 14.72), radius: 0.18,
     fill: rgb("#f2a0a0"), stroke: 1.1pt + rgb("#a94442"))
   content((7.15, 14.25), text(size: 9pt, weight: "bold")[DDS Applications])
-  cloud(2.75, 12.70, 1.55, 0.50, rgb("#d9f2e6"), rgb("#1f8a45"))
-  content((2.75, 12.82), text(size: 8pt, weight: "bold")[DDS user-defined])
-  content((2.75, 12.50), text(size: 8pt, weight: "bold")[topics])
+  cloud(3.00, 12.70, 1.40, 0.50, rgb("#d9f2e6"), rgb("#1f8a45"))
+  content((3.00, 12.82), text(size: 8pt, weight: "bold")[DDS user-defined])
+  content((3.00, 12.50), text(size: 8pt, weight: "bold")[topics])
   cloud(7.05, 12.82, 1.45, 0.44, rgb("#fbe7bf"), rgb("#c99a12"))
   content((7.05, 12.94), text(size: 8pt, weight: "bold")[DDS built-in])
   content((7.05, 12.62), text(size: 8pt, weight: "bold")[topics])
@@ -76,7 +76,7 @@
   draw.circle((6.58, 10.18), radius: 0.10, stroke: 0.8pt + black)
   draw.line((6.40, 10.34), (6.50, 10.26), stroke: 1.1pt + black)
   draw.line((6.10, 10.02), (7.00, 10.02), stroke: 1.2pt + black)
-  content((7.44, 10.30), text(size: 8.5pt, weight: "bold")[CUC])
+  content((7.65, 10.30), text(size: 8.5pt, weight: "bold")[CUC])
   draw.rect((6.30, 8.35), (7.45, 9.20), radius: 0.10, fill: white, stroke: 1.1pt + black)
   for i in range(3) {
     draw.rect((6.42, 8.90 - i * 0.16), (7.02, 8.98 - i * 0.16), radius: 0.03,
@@ -88,7 +88,7 @@
     draw.line((6.95 + 0.16 * calc.cos(a), 8.62 + 0.16 * calc.sin(a)),
       (6.95 + 0.23 * calc.cos(a), 8.62 + 0.23 * calc.sin(a)), stroke: 0.8pt + black)
   }
-  content((7.74, 8.75), text(size: 8.5pt, weight: "bold")[CNC])
+  content((7.95, 8.75), text(size: 8.5pt, weight: "bold")[CNC])
   draw.line((6.70, 9.20), (6.70, 9.90), stroke: 1pt + black, mark: ar2)
   content((6.92, 9.55), text(size: 8pt)[UNI])
 
@@ -113,11 +113,11 @@
   content((2.30, 8.90), rtxt(text(size: 8.5pt, weight: "bold")[DDS Messages]))
   content((11.30, 8.60), rtxt(text(size: 8.5pt, weight: "bold")[DDS Messages]))
   draw.line((7.05, 12.36), (7.05, 10.70), stroke: 1.1pt + rgb("#c99a12"), mark: ar)
-  content((8.55, 11.30), text(size: 8.5pt, weight: "bold")[DDS Centralized Discovery])
+  content((7.45, 11.30), text(size: 6pt, weight: "bold")[DDS Centralized Discovery], anchor: "west")
   for c in (s1, s2, s3, s4, s5) {
     draw.line((6.42, 8.35), (c.at(0), c.at(1) + 0.47),
       stroke: (paint: rgb("#d03030"), thickness: 0.9pt, dash: "dashed"), mark: rarg)
   }
-  content((10.00, 7.55), text(size: 8.5pt, weight: "bold")[NETCONF])
-  content((10.00, 7.22), text(size: 8.5pt, weight: "bold")[Protocol])
+  content((9.30, 7.55), text(size: 8.5pt, weight: "bold")[NETCONF])
+  content((9.30, 7.22), text(size: 8.5pt, weight: "bold")[Protocol])
 })

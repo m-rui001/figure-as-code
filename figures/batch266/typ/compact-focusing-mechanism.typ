@@ -140,7 +140,7 @@
   line((24.85, 2.8), (25.05, 3.2), stroke: edge)
   line((25.35, 3.2), (25.55, 2.8), stroke: edge)
   line((25.55, 2.8), (25.75, 3.2), stroke: edge)
-  arrow((26.55, 5.0), (26.55, 2.75), c: blue)
+  arrow((26.25, 5.0), (26.25, 2.75), c: blue)
   lab((28.0, 3.55), "Axial displacement", sz: 7pt)
   lab((28.0, 3.05), "(along optical axis)", sz: 7pt)
 

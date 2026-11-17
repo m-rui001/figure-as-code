@@ -1,0 +1,32 @@
+{
+  "batch": "batch347",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/adversarial-autoencoder.typ",
+      "typ_sha256": "4b18d9a715c4cc66f74dbac52cc16a1702020b719e5bce2c0f3c9f6447d66ccf",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Encoder": 1,
+        "Decoder": 1,
+        "reconstruction": 1,
+        "Draw samples": 1,
+        "Adversarial cost for": 1,
+        "distinguishing positive samples": 1,
+        "from negative samples": 1
+      }
+    }
+  ],
+  "passed": true
+}

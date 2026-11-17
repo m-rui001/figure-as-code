@@ -1,29 +1,81 @@
-[
-  {
-    "file": "figures/batch334/typ/buck-circuit.typ",
-    "compile": true,
-    "warnings": "",
-    "pages": 1,
-    "embedded_images": 0,
-    "nonempty_text": true,
-    "max_source_line": 84
-  },
-  {
-    "file": "figures/batch334/typ/buck-conduction.typ",
-    "compile": true,
-    "warnings": "",
-    "pages": 1,
-    "embedded_images": 0,
-    "nonempty_text": true,
-    "max_source_line": 84
-  },
-  {
-    "file": "figures/batch334/typ/buck-non-conduction.typ",
-    "compile": true,
-    "warnings": "",
-    "pages": 1,
-    "embedded_images": 0,
-    "nonempty_text": true,
-    "max_source_line": 84
-  }
-]
+{
+  "batch": "batch334",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/buck-circuit.typ",
+      "typ_sha256": "975a0e9945e298b664fadef0b889ef1ba036adb97fd48c1313504ad8f9e6b811",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Di": 1,
+        "M": 1,
+        "C": 1,
+        "L": 2,
+        "𝑅Load": 1,
+        "𝑉in": 1
+      }
+    },
+    {
+      "typ": "typ/buck-conduction.typ",
+      "typ_sha256": "b46f274cc315457418f8d851c2105537d61d26a71b6fb9c3e79fe464aadfe540",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "ESR": 1,
+        "𝑅Load": 1,
+        "𝑉in": 1,
+        "𝑖𝐿": 1,
+        "𝑖𝐶": 1,
+        "𝑖𝑂": 1,
+        "𝑣𝑂": 1
+      }
+    },
+    {
+      "typ": "typ/buck-non-conduction.typ",
+      "typ_sha256": "6a70b249f3f96bb4e3c4ee78b7c06134ec1efe38270895735ff79934dd2d85e8",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "ESR": 1,
+        "𝑅Load": 1,
+        "𝑉𝑑": 1,
+        "𝑖𝐿": 1,
+        "𝑖𝐶": 1,
+        "𝑖𝑂": 1,
+        "𝑣𝑂": 1
+      }
+    }
+  ],
+  "passed": true
+}

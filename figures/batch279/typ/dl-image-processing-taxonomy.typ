@@ -54,7 +54,7 @@
   )
 
   // 根部与顶部横母线
-  nodebox((8.35, 8.92), 1.35, 0.40, [Deep Learning \ and \ Image Processing], size: 6.6pt, fill: dteal)
+  nodebox((8.35, 8.92), 1.35, 0.40, [Deep Learning \ and \ Image Processing], size: 5.4pt, fill: dteal)
   l2((8.35, 8.52), (8.35, 8.35))
   l2((1.60, 8.35), (14.70, 8.35))
 
@@ -63,7 +63,7 @@
     let cx = c.at(0)
     let w = c.at(1)
     l2((cx, 8.35), (cx, 7.85))
-    nodebox((cx, 7.49), w, 0.36, c.at(2), size: 5.6pt, fill: orange)
+    nodebox((cx, 7.49), w, 0.36, c.at(2), size: 4.8pt, fill: orange)
     let tx = cx - w - 0.12
     l2((cx - w + 0.05, 7.10), (tx, 7.10))
     let y = 7.00

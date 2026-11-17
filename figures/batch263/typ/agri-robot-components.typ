@@ -35,7 +35,11 @@
   for it in pos_items {
     let c = (it.at(0), it.at(1))
     circle(c, radius: 0.26, fill: white, stroke: 0.5pt + ink)
-    t((it.at(0), it.at(1) - 0.42), it.at(2), size: 5.4pt)
+    if it.at(1) == 1.55 and it.at(0) == 3.05 {
+      t((2.85, 1.13), it.at(2), size: 4.6pt)
+    } else {
+      t((it.at(0), it.at(1) - 0.42), it.at(2), size: 5.4pt)
+    }
   }
   // 具体小图标（简画）
   circle((1.25, 3.20), radius: 0.17, fill: rgb("#d9d9d9"), stroke: 0.5pt + ink)
@@ -58,7 +62,7 @@
     ([PID control], [SMC control]), ([Fuzzy control], [Neural network control]))
   for (i, row) in ctrl.enumerate() {
     t((1.55, 6.98 - i * 0.37), row.at(0), size: 6.0pt)
-    t((3.75, 6.98 - i * 0.37), row.at(1), size: 6.0pt)
+    t((3.65, 6.98 - i * 0.37), row.at(1), size: 5.4pt)
   }
 
   // ── 执行器面板与图标
@@ -71,7 +75,7 @@
   circle((13.80, 6.72), radius: 0.26, fill: white, stroke: 0.5pt + ink)
   rect((13.66, 6.62), (13.90, 6.82), fill: rgb("#d9d9d9"), stroke: 0.5pt + ink)
   l1((13.55, 6.72), (13.66, 6.72))
-  t((13.80, 6.28), [Hydraulic actuator], size: 5.6pt)
+  t((13.65, 6.28), [Hydraulic actuator], size: 4.8pt)
   circle((12.80, 5.72), radius: 0.30, fill: white, stroke: 0.5pt + ink)
   line((12.60, 5.60), (12.75, 5.85), (12.95, 5.62), (13.05, 5.80), stroke: 0.55pt + ink)
   circle((12.75, 5.85), radius: 0.03, fill: white, stroke: 0.5pt + ink)

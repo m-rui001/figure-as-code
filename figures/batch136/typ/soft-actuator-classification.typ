@@ -94,12 +94,12 @@
   }
 
   // 顶部根框
-  node(0, 0, 2.3, 0.8, rgb("#3f3f3f"), "Soft Robotic\nActuators", sz: 8.5pt)
+  node(0, 0, 2.3, 0.8, rgb("#3f3f3f"), "Soft Robotic\nActuators", sz: 7.2pt)
 
   // 五大类框与子类框
   for (i, c) in cats.enumerate() {
     let x = xs.at(i)
-    node(x, catTop, 2.8, H, c.col, c.name, sz: 7pt)
+    node(x, catTop, 2.8, H, c.col, c.name, sz: 6.2pt)
     for (j, s) in c.subs.enumerate() {
       node(x + 0.2, rowTop.at(j), 2.5, H, c.col, s)
     }

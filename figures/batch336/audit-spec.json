@@ -1,0 +1,21 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "f04e2c0d948878d45ffddffb8c3205560cd4de7372f01a0681b56167ea6d9afe",
+      "typ": "typ/transformer-model-architecture.typ",
+      "labels": {
+        "Input Embedding": 1,
+        "Output Embedding": 1,
+        "Positional Encoding": 2,
+        "Multi-Head Attention": 3,
+        "Add & Norm": 5,
+        "Feed Forward": 2,
+        "Masked": 1,
+        "Linear": 1,
+        "Softmax": 1,
+        "Output Probabilities": 1
+      }
+    }
+  ]
+}

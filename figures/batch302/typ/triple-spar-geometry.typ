@@ -74,7 +74,8 @@
     mark: (start: "stealth", end: "stealth", fill: black, scale: 0.3))
   draw.content((424, 148), [$t$], anchor: "west")
   draw.line((370, 220), (668, 220), stroke: dl)
-  draw.line((525, 58), (525, 392), stroke: dl)
+  draw.line((525, 58), (525, 267), stroke: dl)
+  draw.line((525, 284), (525, 392), stroke: dl)
   draw.line((396, 220), (352, 220), stroke: (paint: black, thickness: 3.2),
     mark: (end: "stealth", fill: black, scale: 0.9))
   draw.content((362, 230), [$M$], anchor: "south")

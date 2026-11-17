@@ -1,0 +1,24 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-8.png",
+      "sha256": "a024f1fd454d8728e4165166659645c972c202ff9e8c1eb9df814f0f1b78639d",
+      "typ": "typ/fusedprop-gradient-comparison.typ",
+      "labels": {
+        "Conventional": 1,
+        "FusedProp": 2,
+        "InvFusedProp": 1,
+        "G": 4,
+        "D": 4,
+        "\ud835\udc67": 4,
+        "\ud835\udc3f\ud835\udc37": 2,
+        "\ud835\udc3f\ud835\udc3a": 2,
+        "\ud835\udf03\ud835\udc3a": 4,
+        "\ud835\udf03\ud835\udc37": 4,
+        "\ud835\udf06": 2,
+        "\ud835\udf06\u22121": 1,
+        "\u00d7": 2
+      }
+    }
+  ]
+}

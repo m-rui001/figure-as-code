@@ -1,0 +1,49 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-5.png",
+      "sha256": "6797feb7a077847d26d76cfc889c3daa8e71bba3f5582a641cb3adf9165069f3",
+      "typ": "typ/non-conduction-stage-algorithm.typ",
+      "labels": {
+        "Non-conduction stage": 1
+      },
+      "code_lines": [
+        "def non_conducting_state(t0,PA,Vd,Rd,il0,Rl,L,vc0,ESR,C,R):",
+        "    K1 = C + ESR*C/R",
+        "    KA = - ESR*C/(K1*L) - (Rl + Rd)/L",
+        "    KB = ESR*C/(R*K1*L) - 1/L",
+        "    vc = vc0*(1 - PA/(R*K1)) + il0*(PA/K1)",
+        "    il = - Vd*PA/L + il0*(1 + KA*PA) + vc0*(KB*PA)",
+        "    ic = C*(vc - vc0)/PA",
+        "    vo = ESR*ic + vc",
+        "    t = t0 + PA",
+        "    return [t,il,ic,vc,vo]"
+      ]
+    },
+    {
+      "source": "source/figure-6.png",
+      "sha256": "13864531d8319e28e5c269e72b0a0a9a78b7c70607d264e4f7ddcd8ec0c712ed",
+      "typ": "typ/pwm-generator-algorithm.typ",
+      "labels": {
+        "PWM Generator": 1,
+        "Generates square wave with duty cycle DF": 1
+      },
+      "code_lines": [
+        "def PWM_generator(P,DC,tf,TAM):",
+        "    import numpy as np",
+        "    PA=tf/TAM;PWM=np.zeros(TAM);t=np.zeros(TAM)",
+        "    time=0;t0=0;i=0",
+        "    while i<TAM:",
+        "        if t0<P:",
+        "            if t0<DC*P:",
+        "                PWM[i]=1;t0=t0+PA",
+        "            else:",
+        "                PWM[i]=0;t0=t0+PA",
+        "        else:",
+        "            t0=0",
+        "        time+=PA;t[i]=time; i+=1",
+        "    return [t,PWM]"
+      ]
+    }
+  ]
+}

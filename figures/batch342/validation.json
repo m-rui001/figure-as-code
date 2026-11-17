@@ -1,0 +1,46 @@
+{
+  "batch": "batch342",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/non-conduction-stage-algorithm.typ",
+      "typ_sha256": "45e38a3d64c12262bac8fab383c81d32a2694704e438fc478583d7cb15c7f437",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Non-conduction stage": 1
+      }
+    },
+    {
+      "typ": "typ/pwm-generator-algorithm.typ",
+      "typ_sha256": "43550ea101c071138f87b8de35e2b4acbaf0a306d134c77c2363d821110e6bc1",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "PWM Generator": 1,
+        "Generates square wave with duty cycle DF": 1
+      }
+    }
+  ],
+  "passed": true
+}

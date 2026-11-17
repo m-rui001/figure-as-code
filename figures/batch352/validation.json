@@ -1,0 +1,34 @@
+{
+  "batch": "batch352",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/gan-forward-backpropagation.typ",
+      "typ_sha256": "932f0a56e0d9b1cd627205869d1d75f6ff8280d0c9043d8112be38471d5e81ad",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Random noise": 1,
+        "Generator (G)": 1,
+        "Training data": 1,
+        "Real samples": 1,
+        "Generated samples": 1,
+        "Discriminator (D)": 1,
+        "Discriminator loss": 1,
+        "Generator loss": 1,
+        "Backpropagation": 2
+      }
+    }
+  ],
+  "passed": true
+}

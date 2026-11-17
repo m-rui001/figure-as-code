@@ -1,0 +1,14 @@
+{
+  "figure": "px4-ros2-architecture.typ",
+  "reviewed_render": "render/px4-ros2-architecture.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "669ea461c8e7ee2d656be8ccfed764c5dbc9f46edabdbb7e37a8e0e90774287c",
+  "png_sha256": "4933671d49ce2f26fbc766cb693ed5564862ac467c625ddcbbf4cb0981232b41",
+  "png_svg_pdf_compiler_warnings": 0
+}

@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/gan-survey-prisma-flow.typ",
+      "typ_sha256": "bb73b9d6a8e344202aad0f9c33fdc37ecd251c6b02101302d40c099b7fc7f382",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

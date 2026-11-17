@@ -1,0 +1,24 @@
+{
+  "paper_title": "Efficient and Secure GANs: A Survey on Privacy-Preserving and Resource-Aware Models",
+  "authors": [
+    "Niovi Efthymia Apostolou",
+    "Elpida Vasiliki Balourdou",
+    "Maria Mouratidou",
+    "Eleni Tsalera",
+    "Ioannis Voyiatzis",
+    "Andreas Papadakis",
+    "Maria Samarakou"
+  ],
+  "doi": "10.3390/app152011207",
+  "paper_url": "https://www.mdpi.com/2076-3417/15/20/11207",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-17T15:28:25.899862+00:00",
+  "figures": [
+    {
+      "figure": 2,
+      "file": "source/figure-2.png",
+      "sha256": "c5213952f326a14cd5387507d378aa10dfb5cd0587f77b96235bd42fbb12cd45",
+      "download_url": "https://mdpi-res.com/applsci/applsci-15-11207/article_deploy/html/images/applsci-15-11207-g002.png"
+    }
+  ]
+}

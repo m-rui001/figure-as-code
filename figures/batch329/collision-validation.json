@@ -1,0 +1,14 @@
+{
+  "figure": "dds-discovery-process.typ",
+  "reviewed_render": "render/dds-discovery-process.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "215f9d0aaff2173c29afbcdbd96621cc3dbd0f8d341a5b73eb7c0e64e9c5d2cf",
+  "png_sha256": "cb959cf158c1e429ceebcbd56882b36ea7a8722189483514730f502e5bcf94ed",
+  "png_svg_pdf_compiler_warnings": 0
+}

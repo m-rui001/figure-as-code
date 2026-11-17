@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-9.png",
+      "sha256": "f29017b0f7fe9b6f3ee5e99d60b44dcf3ed2b939c45f4d1058fb3a15359d4ffb",
+      "typ": "typ/saw-tooth-generator.typ",
+      "labels": {
+        "Saw Tooth Generator": 1,
+        "Saw Tooth Waveform": 1
+      },
+      "code_lines": [
+        "def Saw_Tooth_generator(Amp,P,tf,TAM):",
+        "    PA=tf/TAM;signal=np.zeros(TAM)",
+        "    t=np.zeros(TAM);time=0;t0=0;i=0",
+        "    while t0<P:",
+        "        t0+=PA;i+=1",
+        "    VS=Amp/i",
+        "    i=0;t0=0;value=0;time=0",
+        "    while i<TAM:",
+        "        if t0>=P:",
+        "            t0=0;value=0;signal[i]=value",
+        "        else:",
+        "            t0+=PA;value+=VS;signal[i]=value",
+        "        time+=PA;t[i]=time;i+=1",
+        "    return [t,signal]"
+      ]
+    }
+  ]
+}

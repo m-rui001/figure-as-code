@@ -60,7 +60,8 @@
   rect((10.0, 6.0), (11.2, 7.05), fill: rgb("#f2f2f2"), stroke: 0.7pt + cBlack)
   hatch(10.0, 11.2, 6.0, 7.05)
   content((8.45, 8.65), [Insulator])
-  line((9.25, 8.5), (10.55, 7.12), stroke: 0.8pt + cBlack, mark: (end: "stealth"))
+  line((9.25, 8.5), (9.55, 6.5), (10.00, 6.5),
+    stroke: 0.8pt + cBlack, mark: (end: "stealth"))
 
   // 阳极（红条）与下阴极
   rect((9.6, 5.55), (11.6, 5.9), fill: cRed, stroke: none)
@@ -71,11 +72,11 @@
 
   // 上下点火器 PPU
   rect((12.4, 7.9), (14.15, 8.55), stroke: 1.6pt + cGreen, fill: white)
-  content((13.275, 8.225), text(weight: "bold", size: 9pt)[Igniter PPU])
+  content((13.275, 8.225), text(weight: "bold", size: 7.5pt)[Igniter PPU])
   line((12.8, 7.9), (12.8, 7.4), (11.9, 7.4), stroke: 1pt + cBlack)
 
   rect((12.4, 2.95), (14.15, 3.6), stroke: 1.6pt + cGreen, fill: white)
-  content((13.275, 3.275), text(weight: "bold", size: 9pt)[Igniter PPU])
+  content((13.275, 3.275), text(weight: "bold", size: 7.5pt)[Igniter PPU])
   line((12.8, 3.6), (12.8, 4.1), (11.9, 4.1), stroke: 1pt + cBlack)
 
   // PPU 与储能电容

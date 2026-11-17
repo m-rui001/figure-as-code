@@ -1,0 +1,19 @@
+{
+  "figures": [
+    {
+      "typ": "typ/maxvit-hierarchy-block.typ",
+      "typ_sha256": "7b5ed0e7347d6dbc59866623696ed2205589f103110e2e0281b0a87639a0909c",
+      "expected_filled_shapes": 18,
+      "actual_filled_shapes": 18,
+      "passed": true
+    },
+    {
+      "typ": "typ/unet-geometric-mean-ensemble.typ",
+      "typ_sha256": "e37aa308cf2ea35c82c3350311811e2cd69c4db14e6267899809a838eacd7189",
+      "expected_filled_shapes": 23,
+      "actual_filled_shapes": 23,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

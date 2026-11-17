@@ -24,7 +24,7 @@
   let ar(..pts) = line(..pts, stroke: (paint: black, thickness: 0.6pt), mark: (end: "stealth"))
 
   // 训练数据采集外框（虚线）
-  rect((0.4, 1.3), (13.9, 4.62), stroke: (paint: black, thickness: 0.6pt, dash: "dashed"))
+  rect((0.4, 1.3), (13.9, 4.90), stroke: (paint: black, thickness: 0.6pt, dash: "dashed"))
 
   // 上行三个模块
   box(2.5, 2.95, 5.7, 4.0, ("Learned inverse", "model"))

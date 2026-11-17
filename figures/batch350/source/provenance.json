@@ -1,0 +1,28 @@
+{
+  "paper_title": "U-Net Ensemble for Enhanced Semantic Segmentation in Remote Sensing Imagery",
+  "authors": [
+    "Ivica Dimitrovski",
+    "Vlatko Spasev",
+    "Suzana Loshkovska",
+    "Ivan Kitanovski"
+  ],
+  "doi": "10.3390/rs16122077",
+  "paper_url": "https://www.mdpi.com/2072-4292/16/12/2077",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "retrieved_utc": "2026-11-17T15:20:00.994576+00:00",
+  "figures": [
+    {
+      "figure": 3,
+      "file": "source/figure-3.png",
+      "sha256": "ddf5b4b56a0c0a150df0bd07ec3e420652768309c9fa4b4c25e5dfa102ae67b4",
+      "download_url": "https://mdpi-res.com/remotesensing/remotesensing-16-02077/article_deploy/html/images/remotesensing-16-02077-g003.png"
+    },
+    {
+      "figure": 4,
+      "file": "source/figure-4.png",
+      "sha256": "8079fb8d3e5a7343776c42873618e742ba52b1d331d83175053c1e62f172a6a2",
+      "download_url": "https://mdpi-res.com/remotesensing/remotesensing-16-02077/article_deploy/html/images/remotesensing-16-02077-g004.png"
+    }
+  ]
+}

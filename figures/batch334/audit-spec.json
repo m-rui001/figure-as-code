@@ -1,0 +1,45 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "23406b7957183e2ccf03fc3771256d9b909fda7e20ceae93c6deda6e1b07ad78",
+      "typ": "typ/buck-circuit.typ",
+      "labels": {
+        "Di": 1,
+        "M": 1,
+        "C": 1,
+        "L": 2,
+        "𝑅Load": 1,
+        "𝑉in": 1
+      }
+    },
+    {
+      "source": "source/figure-2.png",
+      "sha256": "c1d04005b4857816cb780675f6b44dafcb981bd20f67aa78658b3e33953b4224",
+      "typ": "typ/buck-conduction.typ",
+      "labels": {
+        "ESR": 1,
+        "𝑅Load": 1,
+        "𝑉in": 1,
+        "𝑖𝐿": 1,
+        "𝑖𝐶": 1,
+        "𝑖𝑂": 1,
+        "𝑣𝑂": 1
+      }
+    },
+    {
+      "source": "source/figure-3.png",
+      "sha256": "8d6bcc8c1a953023b077d706d6caec161db51411509b75871766516154291ceb",
+      "typ": "typ/buck-non-conduction.typ",
+      "labels": {
+        "ESR": 1,
+        "𝑅Load": 1,
+        "𝑉𝑑": 1,
+        "𝑖𝐿": 1,
+        "𝑖𝐶": 1,
+        "𝑖𝑂": 1,
+        "𝑣𝑂": 1
+      }
+    }
+  ]
+}

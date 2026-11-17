@@ -1,0 +1,236 @@
+{
+  "scope": "batches259-281",
+  "figures": [
+    {
+      "path": "figures/batch259/typ/swirl-injector-geometry.typ",
+      "sha256": "b729b878f6b9c57d6c1ec87f38a6274bf03bc685d56f15f21fee0f4d5c869e5d",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch260/typ/debris-removal-methods.typ",
+      "sha256": "1ec817ae8a0cacbe5b1c70c49bef9b8b4ee066d07f73314bc843e52faff28b92",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch261/typ/ipmc-actuation-mechanism.typ",
+      "sha256": "98cee17bb7032c2e8b0ea5a7d06a1e9ba134f2e8292fc477f60769f028e3d7cf",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch262/typ/pi-model-schematic.typ",
+      "sha256": "98032e1ec3f1d7f53c7a54d11d0b17eac9e5bfe01e4988cc5b2bdfaf8852030b",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch263/typ/agri-robot-components.typ",
+      "sha256": "a3f6e1d4da6b15be00683673af560d214742ff2859f21728cd6b81266b50d859",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch264/typ/adaptive-robust-interaction-control.typ",
+      "sha256": "70ff07a81a0f4ceabee073a5c5e779e8be4089cb3be69daf1c28121f842b2651",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch265/typ/two-stage-inerter-suspension.typ",
+      "sha256": "b0876e7ebf42f8a2cb2a2aa765b641cbe3468ecba81127151bf1c3ec106131e8",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch266/typ/compact-focusing-mechanism.typ",
+      "sha256": "df240583756d56557e8ae92c3a98f4d11422fa618ea7531f442dc35319c4eaec",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch267/typ/pemfc-powertrain.typ",
+      "sha256": "db8ae08e27c593231006119f07d221cecd1894abd7133be26c3e65d38c40f009",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch268/typ/sofc-gt-system-overview.typ",
+      "sha256": "860fa1bcd2f3fe050b234ce63c64dd7786b7b1b84dba1d905c15d521f487d206",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch269/typ/wing-design-optimization-flow.typ",
+      "sha256": "0cd17f60f89b28a2759bc9916487c7e833db8333d823c6df69e459f0b75adae9",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch270/typ/digital-twin-shm-schematic.typ",
+      "sha256": "09a4e60da623d6342cbe9376c6efa8ab2ea8597f594e11e126f16f7b72b12831",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch271/typ/fbg-sensing-principle.typ",
+      "sha256": "5cdb6647fb5e15a97f0774671a1891cf4a5fd7a8933a9bd2fc6e82889d61586b",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch272/typ/iiot-edge-computing-layers.typ",
+      "sha256": "537cb2cedde1e9a6d921381ce9a16a410aec0e78bae81cc18dd534945048dc07",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch273/typ/prisma-flow.typ",
+      "sha256": "7f062d01d45b296a2c9cb2f927927df9addd74d1a32001539e70aa1a69d95650",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch274/typ/af-tad-workflow.typ",
+      "sha256": "d0f2d3ed7be85d475628ec8cd4ab10db66f73f509be2fddebba1154d836f434c",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch275/typ/iotronic-architecture.typ",
+      "sha256": "486ab847b9192ada2554134074bdde50faa50e3edad19c6496e1cbcf318b22eb",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch276/typ/lfp-bms-functional-blocks.typ",
+      "sha256": "3c9641c04fa7c3c033a45a7effb78e826e3e008049d4fdbd381433eafea9a8ba",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch277/typ/supercapacitor-mechanisms.typ",
+      "sha256": "727644960ead000ed364268b5c816d896f784b7a4498a225241c33a326addf00",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch278/typ/smc-trajectory-simulink.typ",
+      "sha256": "383d282e834946aad14b9318545c4a8c9ef4c36e20d15c6bd2da187d02773d81",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch279/typ/dl-image-processing-taxonomy.typ",
+      "sha256": "a7a03abe61c7a04d94ff4356c3d0c00489ea36b407c6abb8212697ee40e585b4",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch280/typ/tpms-heat-exchanger-model.typ",
+      "sha256": "74c52d7141d3efa724e1c13182e1bca78a3b0548612a61daed2946467d272d18",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch281/typ/bidir-converter-taxonomy.typ",
+      "sha256": "4d60bf829150f5ffbf1865b5624bb55c25cfc59fd3ff696bdce27ef9595e8ec4",
+      "checks": {
+        "single_page": true,
+        "no_warning": true,
+        "text_within_page": true,
+        "characters_preserved": true
+      }
+    }
+  ],
+  "passed": true
+}

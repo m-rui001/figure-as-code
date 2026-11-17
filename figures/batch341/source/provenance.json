@@ -1,0 +1,11 @@
+{
+  "url": "https://arxiv.org/pdf/1508.04025",
+  "retrieved": "2026-11-17",
+  "sha256": {
+    "figure-2.png": "21290b3bd655438964dde63d90b971c21b5d44f30dd3f5e9b218a2d83480c49e",
+    "figure-3.png": "1b35b75f850fa7d2aa35c43ecab8ed88b8d450805d2967a162369da64e08fb9b",
+    "luong-attention.pdf": "a5c2cad84e769520e7c66f3193fdd206505e322a2ca801a411581375d2c4b5e2",
+    "page-3.png": "2bcc81972c2e6eaf44d5566d08b4b2002096c31bb98306deb79e34e6a4012b5f",
+    "page-4.png": "706e2ad83af31e9d6700e479fea4b6186b5cc32caa32a616a3ffe2adcc67a71b"
+  }
+}

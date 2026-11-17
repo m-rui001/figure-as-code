@@ -1,0 +1,50 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "e0f46b666cf2deb6284690edd1a548117d04597ca5764f2d13cab34a03c273f5",
+      "typ": "typ/basic-autoencoder.typ",
+      "labels": {
+        "Input": 1,
+        "Feature": 1,
+        "Output": 1,
+        "+1": 2,
+        "𝑥1": 1,
+        "𝑥2": 1,
+        "𝑥3": 1,
+        "𝑥4": 1,
+        "𝑥5": 1,
+        "𝑥6": 1,
+        "𝑦1": 1,
+        "𝑦2": 1,
+        "𝑦3": 1,
+        "𝑦4": 1,
+        "𝑧1": 1,
+        "𝑧2": 1,
+        "𝑧3": 1,
+        "𝑧4": 1,
+        "𝑧5": 1,
+        "𝑧6": 1
+      }
+    },
+    {
+      "source": "source/figure-2.png",
+      "sha256": "f18f0e14fe3282aa0b24eeab9ac181f509bf63d41ca34e06341ba6f50588d104",
+      "typ": "typ/variational-autoencoder-flow.typ",
+      "labels": {
+        "Encoder": 1,
+        "Decoder": 1,
+        "z_mean": 1,
+        "z_log_var": 1,
+        "Sample": 1,
+        "from": 1,
+        "*": 1,
+        "+": 1,
+        "Step1": 1,
+        "Step2": 1,
+        "Step 3": 1,
+        "Step4": 1
+      }
+    }
+  ]
+}

@@ -56,7 +56,7 @@
   content((7.81, 4.55), text(size: 8.5pt)[Lithium battery])
   draw.rect((7.4, 4.14), (8.2, 4.27), stroke: st)
   content((7.81, 3.95), text(size: 8.5pt)[Thermocouple K])
-  sig((8.25, 3.9), (9.7, 4.4))
+  sig((8.25, 4.18), (9.7, 4.4))
 
   // SDAYC 与电池双向链路
   box(4.05, 4.33, 5.35, 4.78)
@@ -117,6 +117,6 @@
   // 底部 USB 总线
   draw.line((2.25, 3.9), (2.25, 1.35), (7.0, 1.35), stroke: st)
   draw.line((2.45, 3.9), (2.45, 0.7), (10.8, 0.7), (10.8, 4.3), stroke: st)
-  content((4.4, 1.48), text(size: 9pt)[USB])
-  content((5.5, 0.83), text(size: 9pt)[USB])
+  content((4.4, 1.70), text(size: 9pt)[USB])
+  content((5.5, 0.27), text(size: 9pt)[USB])
 })

@@ -1,0 +1,12 @@
+{
+  "article": "Using Python for the Simulation of a Closed-Loop PI Controller for a Buck Converter",
+  "authors": "Amaral and Cardoso",
+  "doi": "10.3390/signals3020020",
+  "article_url": "https://www.mdpi.com/2624-6120/3/2/20",
+  "figure": 8,
+  "caption": "Schematics of the control circuit",
+  "image_url": "https://mdpi-res.com/signals/signals-03-00020/article_deploy/html/images/signals-03-00020-g008.png",
+  "license": "CC BY 4.0",
+  "retrieved": "2026-11-17",
+  "sha256": "93741b395c9fc3889e0158008182de51c6febdcb6e61e89e410c7f83abf53b20"
+}

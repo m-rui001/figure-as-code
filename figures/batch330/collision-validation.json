@@ -1,0 +1,14 @@
+{
+  "figure": "network-awareness-structure.typ",
+  "reviewed_render": "render/network-awareness-structure.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "b30fd785db59e19000763fe8d9f63c65299b3232a8ffdf8d26abf51f3eda6b73",
+  "png_sha256": "54057a7fd795b9a0e743aed041b59426006b0c5f7365fcc9bae0756fa2951079",
+  "png_svg_pdf_compiler_warnings": 0
+}

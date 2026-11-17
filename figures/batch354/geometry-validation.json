@@ -1,0 +1,31 @@
+{
+  "figures": [
+    {
+      "typ": "typ/memristor-gan-computation.typ",
+      "typ_sha256": "d2e6569ad119247745b5a1efd0deb94b831e2e5f8cbd13c69d39af45e023c3cd",
+      "expected_filled_shapes": 13,
+      "actual_filled_shapes": 13,
+      "standalone_label_counts": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "d": 1,
+        "e": 1,
+        "f": 1
+      },
+      "passed": true
+    },
+    {
+      "typ": "typ/cpgan-privacy-service-attacker.typ",
+      "typ_sha256": "5450ac2532cbff4f2ad250d8e0508b19167f5e8de519a6770a32d1243ac394bb",
+      "expected_filled_shapes": 5,
+      "actual_filled_shapes": 5,
+      "standalone_label_counts": {
+        "X": 1,
+        "Z": 1
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}

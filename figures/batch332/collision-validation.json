@@ -1,0 +1,14 @@
+{
+  "figure": "tt-publishing-model.typ",
+  "reviewed_render": "render/tt-publishing-model.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "4ed67fedfcf9d5ac435cfe93cd7cad844a64580cda0c569db5c61c39e407df7f",
+  "png_sha256": "4c2cf8f31b10dd3d59111ef8e58572b69b1f0662e8444416667f583d10d18041",
+  "png_svg_pdf_compiler_warnings": 0
+}

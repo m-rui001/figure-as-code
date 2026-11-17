@@ -100,8 +100,8 @@
   draw.line((4.63, 1.32), (9.71, 1.32), stroke: ax)
   sine(4.63, 9.71, 1.32, 0.88, 1.693)
   content((7.15, 3.35), text(size: 9pt)[AC Current for Series AC \ Link])
-  content((4.32, 2.45), vtext([Current (A)]))
-  content((7.15, 0.22), text(size: 9pt)[Time (S)])
+  content((4.20, 2.45), vtext([Current (A)]))
+  content((7.15, -0.38), text(size: 9pt)[Time (S)])
 
   // 右下波形：AC Voltage for Parallel AC Link
   draw.rect((10.1, 0.05), (15.18, 2.95), fill: luma(225), stroke: none)
@@ -109,6 +109,6 @@
   draw.line((10.1, 1.32), (15.18, 1.32), stroke: ax)
   sine(10.1, 15.18, 1.32, 0.88, 1.693)
   content((12.62, 3.35), text(size: 9pt)[AC Voltage for Parallel AC \ Link])
-  content((9.79, 2.45), vtext([Voltage (V)]))
-  content((12.62, 0.22), text(size: 9pt)[Time (S)])
+  content((9.89, 2.45), vtext([Voltage (V)]))
+  content((12.62, -0.38), text(size: 9pt)[Time (S)])
 })

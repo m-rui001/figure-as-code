@@ -4,7 +4,7 @@
   "figures": [
     {
       "typ": "typ/analog-pid-feedback.typ",
-      "typ_sha256": "dfc4c50190a1777cdc3d24b121026bdf38a71f500f51a39d80a74390c765a89e",
+      "typ_sha256": "833b4abfd2415c27c7bd545adf0800dff7cfe2fe6149d6826779d0874ffc50a2",
       "checks": {
         "compile": true,
         "no_warnings": true,

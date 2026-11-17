@@ -1,0 +1,51 @@
+{
+  "batch": "batch346",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/restricted-boltzmann-layers.typ",
+      "typ_sha256": "d1bd8fa47b78ea28cc1a8356cb658d9a63bf1f61396afc83a4564d178a67f621",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "hidden layer": 1,
+        "input layer": 1
+      }
+    },
+    {
+      "typ": "typ/convolution-pooling-feature-maps.typ",
+      "typ_sha256": "5ea0eb9df8d47445fd88cd871b0c73dbedecdd18019b8d284d08c02352aaa310",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "input image": 1,
+        "feature map": 1,
+        "convolution": 2,
+        "pooling": 2,
+        "fully connected layers": 1,
+        "output layer": 1
+      }
+    }
+  ],
+  "passed": true
+}

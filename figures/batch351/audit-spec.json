@@ -1,0 +1,65 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-2.png",
+      "sha256": "1f506d3bb6ecb1aca0b07a7ac575f1d800cc04e7f9b4eaf1f432b58f446c02db",
+      "typ": "typ/maxvit-hierarchy-block.typ",
+      "labels": {
+        "Input": 1,
+        "Output": 1,
+        "224 \u00d7 224": 1,
+        "Conv 3 \u00d7 3": 3,
+        "(S=2)": 1,
+        "S0: Stem": 1,
+        "MaxViT Block": 4,
+        "Head": 1,
+        "Pool": 1,
+        "FC": 1,
+        "MBConv": 1,
+        "Block Attention": 1,
+        "Grid Attention": 1,
+        "Conv 1 \u00d7 1": 2,
+        "Depthwise": 1,
+        "SE": 1,
+        "Block-SA": 1,
+        "Grid-SA": 1,
+        "FFN": 2,
+        "+": 5,
+        "S1: repeat": 1,
+        "S2: repeat": 1,
+        "S3: repeat": 1,
+        "S4: repeat": 1,
+        "(112 \u00d7 112)": 1,
+        "(56 \u00d7 56)": 1,
+        "(28 \u00d7 28)": 1,
+        "(14 \u00d7 14)": 1,
+        "(7 \u00d7 7)": 1,
+        "(1 \u00d7 1)": 1,
+        "\ud835\udc3f1": 1,
+        "\ud835\udc3f2": 1,
+        "\ud835\udc3f3": 1,
+        "\ud835\udc3f4": 1
+      }
+    },
+    {
+      "source": "source/figure-5.png",
+      "sha256": "dfaedf27fee40e7e16785e4a66831fbc29ea3792328ebfb787f023337aa48c7f",
+      "typ": "typ/unet-geometric-mean-ensemble.typ",
+      "labels": {
+        "Data set": 1,
+        "Train split": 1,
+        "Test split": 1,
+        "Training stage": 1,
+        "Testing stage": 1,
+        "MaxViT-S": 2,
+        "ConvFormer-M3": 2,
+        "EfficientNet-B7": 2,
+        "U-Net": 6,
+        "U-Net (trained)": 3,
+        "Geometric mean": 1,
+        "Prediction": 1,
+        "Training": 4
+      }
+    }
+  ]
+}

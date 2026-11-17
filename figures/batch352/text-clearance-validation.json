@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/gan-forward-backpropagation.typ",
+      "typ_sha256": "932f0a56e0d9b1cd627205869d1d75f6ff8280d0c9043d8112be38471d5e81ad",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

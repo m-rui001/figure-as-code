@@ -42,7 +42,8 @@
   }
 
   // 版面分隔虚线
-  draw.line((-0.45, 6.4), (-0.45, -0.95), stroke: dashc)
+  draw.line((-0.45, 6.4), (-0.45, 4.48), stroke: dashc)
+  draw.line((-0.45, 3.52), (-0.45, -0.95), stroke: dashc)
   draw.line((-5.6, 4.6), (3.1, 4.6), stroke: dashc)
 
   // 加压罐：外壁与内部水囊
@@ -125,7 +126,7 @@
 
   // 推力器阀组名称
   lbl((-2.75, 1.95), [ΔV Thruster \ valve], size: 9pt, anchor: "east")
-  lbl((2.65, 1.9), [RCS \ Thruster \ Valve], size: 9pt, anchor: "west")
+  lbl((2.95, 1.9), [RCS \ Thruster \ Valve], size: 9pt, anchor: "west")
 
   // 底部括号（两组）
   let bracket(x1, x2, y, d: 0.13) = {

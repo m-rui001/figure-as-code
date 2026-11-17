@@ -40,7 +40,7 @@
   // 单路 Transformer encoder：浅灰圆角框＋标题＋四个蓝模块与连线
   let encoder(cy) = {
     box((6.35, cy), 1.98, 0.88, [], fill: bgray, stroke: gray, radius: 0.16)
-    t((6.35, cy + 0.60), [Transformer \ encoder], size: 6.2pt)
+    t((6.35, cy + 0.60), [Transformer \ encoder], size: 5.4pt)
     for (i, c) in cells.enumerate() {
       box((c.at(0), cy - 0.10), c.at(2), 0.34, c.at(1), size: c.at(3),
         fill: blue, stroke: bblue, radius: 0.08)
@@ -95,8 +95,8 @@
   t((9.28, 5.55), [softmax], size: 4.8pt)
   circle((9.28, 1.55), radius: 0.36, fill: bgray, stroke: gray)
   t((9.28, 1.55), [softmax], size: 4.8pt)
-  arr((9.56, 5.55), (9.92, 5.55))
-  arr((9.56, 1.55), (9.92, 1.55))
+  arr((9.65, 5.55), (9.92, 5.55))
+  arr((9.65, 1.55), (9.92, 1.55))
   circle((10.10, 5.55), radius: 0.18, fill: white, stroke: 0.7pt + ink)
   t((10.10, 5.55), [×], size: 9pt)
   circle((10.10, 1.55), radius: 0.18, fill: white, stroke: 0.7pt + ink)
@@ -110,9 +110,9 @@
   box((11.00, 4.55), 0.80, 0.19, [Trend information], size: 5.2pt, fill: pink)
   polyarr((11.00, 4.36), (11.00, 3.92), (10.26, 3.92), (10.24, 3.66))
   arr((10.26, 3.55), (10.54, 3.55))
-  box((11.30, 3.55), 0.72, 0.22, [Time Window \ Compression], size: 5.4pt, fill: purple)
+  box((11.30, 3.55), 0.72, 0.30, [Time Window \ Compression], size: 5.4pt, fill: purple)
   arr((12.02, 3.55), (12.23, 3.55))
-  box((12.95, 3.55), 0.70, 0.24, [Transformer \ decoder], size: 5.4pt)
+  box((12.95, 3.55), 0.70, 0.30, [Transformer \ decoder], size: 5.4pt)
   arr((13.65, 3.55), (13.74, 3.55))
-  box((14.55, 3.55), 0.80, 0.22, [Reconstructed \ data], size: 5.4pt, fill: pink)
+  box((14.55, 3.55), 0.80, 0.30, [Reconstructed \ data], size: 5.4pt, fill: pink)
 })

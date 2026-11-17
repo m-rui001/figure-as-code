@@ -1,0 +1,607 @@
+{
+  "baseline": "e94828058f1cb638e0bed2130f3d33b2a8f5bf9a",
+  "scope": "changed tracked figure sources",
+  "figures": [
+    {
+      "path": "figures/batch205/typ/pulsed-plasma-thruster-schematic.typ",
+      "sha256": "35c9e9a6ac8f7eb4f135e1ac3d8bdf9b39f1aa5ef29919be6591bd485eb13a71",
+      "preview": "figures/batch205/render/pulsed-plasma-thruster-schematic.png",
+      "preview_sha256": "6b66e3f232a903ffd6ac4833338d145c8cb0af932e7df70de84a318927b961d9",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch208/typ/expendable-edt-deorbit-illustration.typ",
+      "sha256": "48b9dbae5e6a58227003f86dc86001ebc59d32ebd0c6b2b859dd99a4154a9bec",
+      "preview": "figures/batch208/render/expendable-edt-deorbit-illustration.png",
+      "preview_sha256": "64f7272230abeea958ae8cb8e33118b3bb298c14a18f29dfcd54f917d77cad99",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch215/typ/cylindrical-hall-thruster.typ",
+      "sha256": "7b8584256db72e2e8384b44c9be99c5c3d051d1d9e57e83ba71f537b19f044ec",
+      "preview": "figures/batch215/render/cylindrical-hall-thruster.png",
+      "preview_sha256": "2f647e00b5cf7624898efc4d4d6fa3c1b06b80d9ea80241381861d9f6c31e0c3",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch216/typ/fiber-fed-ppt-thruster.typ",
+      "sha256": "39e476a71753e1eae92434609bee86a4c871f670ac55a47aeeefbbbb29047390",
+      "preview": "figures/batch216/render/fiber-fed-ppt-thruster.png",
+      "preview_sha256": "da514a3e0d080ea186d1c2a0342f823cc9e8a4c3093c277cf98c150f6e905fb0",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch223/typ/radar-azimuth-elevation-geometry.typ",
+      "sha256": "47eac667c672b6b44c54544c469df7f64fb5d8aae3b38b283b4945888bc9a8b9",
+      "preview": "figures/batch223/render/radar-azimuth-elevation-geometry.png",
+      "preview_sha256": "4ed8f1d4c5d7c983f972d2683ad06ae521042d80248a44a3a7d4d89cda1db981",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch228/typ/regen-braking-smc-control-diagram.typ",
+      "sha256": "650d0fcab980b9c5cde7982262a38df848428a228e5d82fdf9733c9b805f4d42",
+      "preview": "figures/batch228/render/regen-braking-smc-control-diagram.png",
+      "preview_sha256": "14c94f322d4ef7abebffdd2ad5914f56c10eaa597ba1e064e3766827d2c8d436",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch237/typ/hra-architecture.typ",
+      "sha256": "27577644cec841b16ded22180d152eeb2b0af04e27f336d5f02f37a87c62ff66",
+      "preview": "figures/batch237/render/hra-architecture.png",
+      "preview_sha256": "e8a643348de00ba347d792690cfa8b014b5cfcc61b7856a5c016cb366e60be97",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch239/typ/impedance-admittance-control.typ",
+      "sha256": "6f322369a88fb617727b7338218d637656b7a931a968a49339de14130333f544",
+      "preview": "figures/batch239/render/impedance-admittance-control.png",
+      "preview_sha256": "137c758737eca6d78d7377c32b1435f1ae1a90d627fe2b8e7af27368f00d3b23",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch243/typ/satellite-eps-bus-architectures.typ",
+      "sha256": "89fbd57f6b9b7373bc4a167d72723e2a996f6d01e5b0f0e72c551212680ce479",
+      "preview": "figures/batch243/render/satellite-eps-bus-architectures.png",
+      "preview_sha256": "ee76f5ad520a028bab7dc715675b3f9a8495f2c7669fc8c479f2557f5f472ee7",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch248/typ/li-ion-aging-mechanisms.typ",
+      "sha256": "f5d03a87ab907e79125c753c67924fb84605801227c69595f5f07d26a9dbf22f",
+      "preview": "figures/batch248/render/li-ion-aging-mechanisms.png",
+      "preview_sha256": "9ab33604a657639ab2b5e09b276e99dfb1f8ebbe72338826e9e9f3bdfd41cd74",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch255/typ/phri-prisma-flow.typ",
+      "sha256": "26c39b62554c7903a3d89e98df4dab31622b87fe31c9914e5215b15d6b41ab66",
+      "preview": "figures/batch255/render/phri-prisma-flow.png",
+      "preview_sha256": "f9f18255d6c33c661955de23956e0f3023e1f7661fa49114fb0051e2d9c150c2",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch257/typ/llm-robot-framework.typ",
+      "sha256": "ae2cadff0625a7f7f58a374d1d21b9a2748bf52c8d0ff2a6309f02eac443f243",
+      "preview": "figures/batch257/render/llm-robot-framework.png",
+      "preview_sha256": "f174e03696c131749def5b54837dbd3f6a12f1aaa0baab76e5e0c233527a75b4",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch260/typ/debris-removal-methods.typ",
+      "sha256": "1ec817ae8a0cacbe5b1c70c49bef9b8b4ee066d07f73314bc843e52faff28b92",
+      "preview": "figures/batch260/render/debris-removal-methods.png",
+      "preview_sha256": "a2ec407050bd492baf5bcdd740ef5719bf49813b2846935e28a7d9924515d328",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch263/typ/agri-robot-components.typ",
+      "sha256": "a3f6e1d4da6b15be00683673af560d214742ff2859f21728cd6b81266b50d859",
+      "preview": "figures/batch263/render/agri-robot-components.png",
+      "preview_sha256": "07c17f272c7534a84b8b3cc89a065987baba9553564335fd97d430974da2a5c3",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch264/typ/adaptive-robust-interaction-control.typ",
+      "sha256": "70ff07a81a0f4ceabee073a5c5e779e8be4089cb3be69daf1c28121f842b2651",
+      "preview": "figures/batch264/render/adaptive-robust-interaction-control.png",
+      "preview_sha256": "4f3d97f1647921e81eaf5b7492f517cc81d72c3feb4996c6aa9070a8770444b0",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch266/typ/compact-focusing-mechanism.typ",
+      "sha256": "df240583756d56557e8ae92c3a98f4d11422fa618ea7531f442dc35319c4eaec",
+      "preview": "figures/batch266/render/compact-focusing-mechanism.png",
+      "preview_sha256": "2e29bcbb58ed894168f80c00ca14b5d981716a1fea5c9447bb9319ce11156fb1",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch270/typ/digital-twin-shm-schematic.typ",
+      "sha256": "09a4e60da623d6342cbe9376c6efa8ab2ea8597f594e11e126f16f7b72b12831",
+      "preview": "figures/batch270/render/digital-twin-shm-schematic.png",
+      "preview_sha256": "dae426b81d52d59a0b84ff83e82f81150a21851d6a7cdd00332505b1d1a7f84f",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch273/typ/prisma-flow.typ",
+      "sha256": "7f062d01d45b296a2c9cb2f927927df9addd74d1a32001539e70aa1a69d95650",
+      "preview": "figures/batch273/render/prisma-flow.png",
+      "preview_sha256": "58e61b46a937af76fbe55d458060699e03b506fb0f259a0fcbc373266a269b32",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch276/typ/lfp-bms-functional-blocks.typ",
+      "sha256": "3c9641c04fa7c3c033a45a7effb78e826e3e008049d4fdbd381433eafea9a8ba",
+      "preview": "figures/batch276/render/lfp-bms-functional-blocks.png",
+      "preview_sha256": "5dd74df8c229f9dc410ce6dae921a94f27ed62ba3399831b890a83c26464021b",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch279/typ/dl-image-processing-taxonomy.typ",
+      "sha256": "a7a03abe61c7a04d94ff4356c3d0c00489ea36b407c6abb8212697ee40e585b4",
+      "preview": "figures/batch279/render/dl-image-processing-taxonomy.png",
+      "preview_sha256": "a322d14b23f104423629821ce51d6b23976c10c2051f9679e60bb56b39e2e6fc",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch282/typ/adrc-rbf-attitude-control.typ",
+      "sha256": "f7a220f066d7878f4809f68615e8c2fb404c0a6a8095ca1d3cf1f3ac34b674d9",
+      "preview": "figures/batch282/render/adrc-rbf-attitude-control.png",
+      "preview_sha256": "e143b9c49422032f2cc72d74dbc56156f40d944dbbadee1d6b5aaada0db868cb",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch283/typ/adrc-rbf-controller.typ",
+      "sha256": "ffa42f72ba504153a0854cb212c2126a8ccbb1eebbe1911fd4cf5785b39e84ce",
+      "preview": "figures/batch283/render/adrc-rbf-controller.png",
+      "preview_sha256": "3a4948fa8a1747d7de5732465d54f0e802190d75875c9f00924752cb110c3634",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch284/typ/pmsm-ftc-block-diagram.typ",
+      "sha256": "7e8ffbe74fecc62121f287a21ae65c7b14e28d2a3fe473cd7aa27d07e8a22d77",
+      "preview": "figures/batch284/render/pmsm-ftc-block-diagram.png",
+      "preview_sha256": "3efc7f61607f8f8cff18887ed34c1e59e52cbc4c6b22bb078c76857685496131",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch285/typ/transformer-feature-encoding.typ",
+      "sha256": "00f37880686cce4030d403bdc4fa2231bdef8d12f31907e54445c9032caf81c6",
+      "preview": "figures/batch285/render/transformer-feature-encoding.png",
+      "preview_sha256": "9e2e43d2e6c6051e3bf29d971d3d0e072013a9c7d0274464d09a4f574df7d485",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch287/typ/lstm-ddpg-framework.typ",
+      "sha256": "c6d64e3e276552aed2337ec75a9ee717056772b643cb4254cdafcc6e83ff3b89",
+      "preview": "figures/batch287/render/lstm-ddpg-framework.png",
+      "preview_sha256": "fb1d4ad7c3506e573a85558f2313d9154039165836d16674c7611de88c6e6411",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch288/typ/twsbr-top-view-geometry.typ",
+      "sha256": "1426b87217df0a524d7cfc1f2523415eb1dbb4b3041b4c2f21fdf8d2d707b674",
+      "preview": "figures/batch288/render/twsbr-top-view-geometry.png",
+      "preview_sha256": "aa73bcb24d76d1876647c351908b3d4aff27d56040737d7ca23a004feda4f951",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch292/typ/dds-over-tsn-architecture.typ",
+      "sha256": "1f8dfbd27473e0794bbfed90d7f939c617c8ec1a760965a9eea4fe98f4168331",
+      "preview": "figures/batch292/render/dds-over-tsn-architecture.png",
+      "preview_sha256": "1cecd7e7883c33bacf660310c7c32d7a8a8da453453972e3bfd16e1f3d38ae56",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch299/typ/h2-core-system-schematic.typ",
+      "sha256": "6048fc62147fc59f846066415ff50d24b610b2d9da3bc51a6ef5e4abace5491c",
+      "preview": "figures/batch299/render/h2-core-system-schematic.png",
+      "preview_sha256": "43efc365148735e376331184043ea7536508587be77606fc5a4c50029bcfa87a",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch300/typ/mechanism-loop.typ",
+      "sha256": "59c735208ed8561ed3bc130825c85f31fea09bc2ca01916fb8bed7c8a3fe66bb",
+      "preview": "figures/batch300/render/mechanism-loop.png",
+      "preview_sha256": "39b5544636b399d90499df8c37dbce26db6a9d367014ff6d5c6910a779cc2043",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch301/typ/optimization-flowchart.typ",
+      "sha256": "ae9c601e08bf1827c88bb959b3346ab5ccace62ce72abc62b70737afe5585817",
+      "preview": "figures/batch301/render/optimization-flowchart.png",
+      "preview_sha256": "88e8056d194aee631b96f6389778d25950e826bfe499ba42b1009f1ea09fa438",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch302/typ/triple-spar-geometry.typ",
+      "sha256": "59d9cbb3db42a2231f2e1e430501128ce350f790543a733f58abd8212053c2ff",
+      "preview": "figures/batch302/render/triple-spar-geometry.png",
+      "preview_sha256": "dd4062d4acb15b32b4573786b1b6339c91eaeac8547dc7c853fd4de3ee23efb0",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch305/typ/pneumatic-control-schematic.typ",
+      "sha256": "a3581e7609db2055c0f2641592dcb83674c2bd773abfdc07f49924224d975276",
+      "preview": "figures/batch305/render/pneumatic-control-schematic.png",
+      "preview_sha256": "8578a07e0d2a3447a7fc196dc809850cf5b4011b0c3063a667bf621497c03a19",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch306/typ/pneumatic-finger-model.typ",
+      "sha256": "47d2a032bef05c55c2afa2ad89885b0dd8f833aa187df2821627f6f14c4fcc26",
+      "preview": "figures/batch306/render/pneumatic-finger-model.png",
+      "preview_sha256": "a247f8a77ebfd07aa3f5e38ff00ed1cb44658f7fcb98d046da3569779afd421a",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch308/typ/h2-dryer-schematic.typ",
+      "sha256": "2380440b31a3760bb3898cef29000fd16a6bedd7d318c961a1ee13d50de0b2de",
+      "preview": "figures/batch308/render/h2-dryer-schematic.png",
+      "preview_sha256": "a04a3d4b1ea22232402c5eb302f0f5d2c2608ebd4901eded8f9764fed8688ed2",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch309/typ/network-awareness-architecture.typ",
+      "sha256": "a3948128fac2e2ca30310d9e1bd6c2af3424ae3668df5015adef6b76468336d8",
+      "preview": "figures/batch309/render/network-awareness-architecture.png",
+      "preview_sha256": "50df64ff5fd2da45cd19dac111a9c057b2893a307eb97dde729d6b155465431b",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch313/typ/exoskeleton-control-diagram.typ",
+      "sha256": "057ca08e98ec21753961755e61d2c53fbd08b595d0f71d04ad8a5fe83b16c17f",
+      "preview": "figures/batch313/render/exoskeleton-control-diagram.png",
+      "preview_sha256": "7ecc2a07cc03c35a6fc13e0d8d8fcd2d62f5f3d65c2f3d79e709924aaa825b02",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch314/typ/resonant-ac-link-converters.typ",
+      "sha256": "7dcb3465094b3806585cceac4323decc3bb58af3ba952b66a7cee831900c7e74",
+      "preview": "figures/batch314/render/resonant-ac-link-converters.png",
+      "preview_sha256": "446b0916106ecd1d3c0362b6a4ba79e08a701e38a5ebe8ce1ff1b2153603ebeb",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch317/typ/battery-test-schematic.typ",
+      "sha256": "12bfb20c512b7926ee21609353d1a3216587ff3e25d8596ca2ad99fa66de07f2",
+      "preview": "figures/batch317/render/battery-test-schematic.png",
+      "preview_sha256": "5d3c066c211e6fa78996a2a8b18b73ffee359ba4cdb8c6ec2d1537334761ab92",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch318/typ/agri-sensing-architecture.typ",
+      "sha256": "f799b3324fc6f1c9deca267c9903ae5d861e09fff79b20197ae9cf52f50418c0",
+      "preview": "figures/batch318/render/agri-sensing-architecture.png",
+      "preview_sha256": "977421b88b64c147b3ef049bdb30348947888b8272c1151a16543cc43d435f24",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch322/typ/tt-strategy-workflow.typ",
+      "sha256": "86a23df192348cfda4896b57109393bd16b4f1947cc1fccd677b97b332ace31b",
+      "preview": "figures/batch322/render/tt-strategy-workflow.png",
+      "preview_sha256": "0b31ea50b9c17bd2bbbff333bd4cab0a5af11f028392f8399683e52f1586afbd",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch324/typ/dds-tsn-architecture.typ",
+      "sha256": "cb882ce939966c7b25fdf9b802b513b161bec6bb2d7feef0072b8b508e000058",
+      "preview": "figures/batch324/render/dds-tsn-architecture.png",
+      "preview_sha256": "93140ec46cb8bdad0f3b1118c8849040d466bed5fa672395074fd67acbd35abf",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch325/typ/dds-discovery-simulation.typ",
+      "sha256": "8ee9d6dd1e17c0133525fc499070f8e326e10f0b729754c91b30346e424e3179",
+      "preview": "figures/batch325/render/dds-discovery-simulation.png",
+      "preview_sha256": "7c3add9f6feb33477816394d0ba3ecb6e77defc91dab69891b998954afaba3cd",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch326/typ/leg-obstacle-geometry.typ",
+      "sha256": "84ec34effd70bf9877234369859d2b7a9a8fc6273fe9bc03b6aae1e691e24fb3",
+      "preview": "figures/batch326/render/leg-obstacle-geometry.png",
+      "preview_sha256": "a1565db09f9b645aa797f6bf8e717d994cd6c341c7e3ee0c63cf6404142f832c",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch327/typ/dds-tsn-timing.typ",
+      "sha256": "a910a7562ec0fa5f899fe2a52bb0c6ebe2dd4970603e38438a38a808198832c6",
+      "preview": "figures/batch327/render/dds-tsn-timing.png",
+      "preview_sha256": "f87a2c0ec38ed2bbb674e787a3bfeb139396c4f2336246adf5d7a487b0f81111",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch328/typ/tsn-testbed-topology.typ",
+      "sha256": "5c305afbc0b964be8db0b2f6c7f7881f0ec802748c331df2cf231987d866e786",
+      "preview": "figures/batch328/render/tsn-testbed-topology.png",
+      "preview_sha256": "25cdfc5d7bc959564d49c8743abc9318d84b742b1fad659dbfee0c6a2ee31a3e",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch330/typ/network-awareness-structure.typ",
+      "sha256": "b30fd785db59e19000763fe8d9f63c65299b3232a8ffdf8d26abf51f3eda6b73",
+      "preview": "figures/batch330/render/network-awareness-structure.png",
+      "preview_sha256": "54057a7fd795b9a0e743aed041b59426006b0c5f7365fcc9bae0756fa2951079",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch332/typ/tt-publishing-model.typ",
+      "sha256": "4ed67fedfcf9d5ac435cfe93cd7cad844a64580cda0c569db5c61c39e407df7f",
+      "preview": "figures/batch332/render/tt-publishing-model.png",
+      "preview_sha256": "4c2cf8f31b10dd3d59111ef8e58572b69b1f0662e8444416667f583d10d18041",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch333/typ/simple-vs-preloading-sequence.typ",
+      "sha256": "5a3cd44498d53d51aba72e290f2136df461e11ab8fb4dd770fd010d4bcc6a421",
+      "preview": "figures/batch333/render/simple-vs-preloading-sequence.png",
+      "preview_sha256": "6e1b05899c13d552db3c6426c16bf814627d9abb9d8067c4eac6c9a71461b336",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch336/typ/transformer-model-architecture.typ",
+      "sha256": "94e0d46413125797022ad28c751403413b54445bbfdc78620022b09d0d71495b",
+      "preview": "figures/batch336/render/transformer-model-architecture.png",
+      "preview_sha256": "66d6baf5346a187ad6b138e92132528111cc59364ee9bd9845a852adb4a3553e",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    },
+    {
+      "path": "figures/batch337/typ/analog-pid-feedback.typ",
+      "sha256": "833b4abfd2415c27c7bd545adf0800dff7cfe2fe6149d6826779d0874ffc50a2",
+      "preview": "figures/batch337/render/analog-pid-feedback.png",
+      "preview_sha256": "e7c5a2b91ff777b7949073ded53792a8ca7596b8b89444e1a8d775a3f6087028",
+      "checks": {
+        "single_page": true,
+        "no_warnings": true,
+        "text_within_page": true,
+        "character_counts_preserved": true
+      }
+    }
+  ],
+  "passed": true
+}

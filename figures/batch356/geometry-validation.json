@@ -1,0 +1,8 @@
+{
+  "typ_sha256": "bb73b9d6a8e344202aad0f9c33fdc37ecd251c6b02101302d40c099b7fc7f382",
+  "expected_filled_shapes": 4,
+  "actual_filled_shapes": 4,
+  "expected_unfilled_boxes": 9,
+  "actual_unfilled_boxes": 9,
+  "passed": true
+}

@@ -1,0 +1,42 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-3.png",
+      "sha256": "ddf5b4b56a0c0a150df0bd07ec3e420652768309c9fa4b4c25e5dfa102ae67b4",
+      "typ": "typ/convformer-architecture.typ",
+      "labels": {
+        "Down sampling": 4,
+        "ConvFormer": 4,
+        "block": 4,
+        "Norm": 2,
+        "Separable Convolution": 1,
+        "Channel- MLP": 1,
+        "+": 2,
+        "\ud835\udc3f1 \u00d7": 1,
+        "\ud835\udc3f2 \u00d7": 1,
+        "\ud835\udc3f3 \u00d7": 1,
+        "\ud835\udc3f4 \u00d7": 1
+      }
+    },
+    {
+      "source": "source/figure-4.png",
+      "sha256": "8079fb8d3e5a7343776c42873618e742ba52b1d331d83175053c1e62f172a6a2",
+      "typ": "typ/efficientnet-b0-blocks.typ",
+      "labels": {
+        "Input Image": 1,
+        "Feature Map": 1,
+        "conv 3 \u00d7 3": 1,
+        "MBConv1, 3 \u00d7 3": 1,
+        "MBConv6, 3 \u00d7 3": 6,
+        "MBConv6, 5 \u00d7 5": 10,
+        "Block 1": 1,
+        "Block 2": 1,
+        "Block 3": 1,
+        "Block 4": 1,
+        "Block 5": 1,
+        "Block 6": 1,
+        "Block 7": 1
+      }
+    }
+  ]
+}

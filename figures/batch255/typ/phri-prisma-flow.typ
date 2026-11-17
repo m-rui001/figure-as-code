@@ -39,7 +39,7 @@
   // 顶部标题带
   box(11.45, 18.95, 16.9, 0.8,
     [*Identification of studies via SCOPUS and IEEE Xplore databases\ (from January 2010 to December 2024)*],
-    yellow, size: 9.2pt, r: 0.14)
+    yellow, size: 8.0pt, r: 0.14)
 
   // 两级检索：级别 chips 与记录数/剔除框
   box(3.10, 17.45, 2.80, 1.20, [*Level 1*\ Human-Robot\ Collaboration], peach, size: 7.8pt, r: 0.16)
@@ -71,11 +71,11 @@
   box(5.00, 8.90, 4.60, 1.00, [Number of records screened\ n = 719], pink, size: 7.6pt)
   box(17.20, 8.90, 5.40, 1.30,
     [Records excluded:\ - No pHRI in industry (n= 547)\ - Improving inherent safety (n=125)\ - Collision avoidance (n=21)],
-    white, size: 7.2pt)
+    white, size: 6.2pt)
   box(11.80, 6.40, 4.20, 1.00, [Number of records screened\ n = 4,291], pink, size: 7.6pt)
   box(17.20, 5.90, 5.40, 1.40,
     [Records excluded:\ - No pHRI in industry (n= 3,805)\ - Improving inherent safety (n=328)\ - Collision avoidance (n=86)],
-    white, size: 7.2pt)
+    white, size: 6.2pt)
 
   // 两个纳入框
   box(5.00, 2.20, 5.40, 2.00,

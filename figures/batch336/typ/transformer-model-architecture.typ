@@ -77,7 +77,7 @@
     wire((3, 2.42), (3 + dx, 2.42), (3 + dx, 2.70))
   }
 
-  box(6.5, 2.50, 0.98, text(size: 7pt)[Masked\ Multi-Head\ Attention], "#ffe3be")
+  box(6.5, 2.50, 0.98, text(size: 6.2pt)[Masked\ Multi-Head\ Attention], "#ffe3be")
   norm(6.5, 3.66)
   attention(6.5, 4.69, [Multi-Head\ Attention])
   norm(6.5, 5.65)

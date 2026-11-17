@@ -1,0 +1,24 @@
+{
+  "listed_sources": 29,
+  "printed_database_count": 28,
+  "listed_records_sum": 237,
+  "arithmetic_checks": [
+    {
+      "expression": "237 - 12 = 225",
+      "passed": true
+    },
+    {
+      "expression": "225 - 25 = 200",
+      "passed": true
+    },
+    {
+      "expression": "200 - 10 = 190",
+      "passed": true
+    },
+    {
+      "expression": "190 - 35 - 10 - 2 = 143",
+      "passed": true
+    }
+  ],
+  "source_discrepancy": "Printed database count is 28; image lists 29 named sources. Both are retained."
+}

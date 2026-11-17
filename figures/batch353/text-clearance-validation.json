@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/gan-evolution-timeline.typ",
+      "typ_sha256": "c094aae331fbddaa4f9d55a3114c89859a863e08b8dab20c7c3f1119ea101f0f",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

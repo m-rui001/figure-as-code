@@ -147,10 +147,10 @@
   // ⑤ 文字标签
   L((7.94, 15.40), [DDS Applications], size: 10.5pt)
   for (x, body) in ((3.05, "DDS user-defined"), (7.68, "DDS built-in"), (12.42, "DDS user-defined")) {
-    L((x, 13.60), body, size: 9pt)
+    L((x, 13.60), body, size: 8pt)
     L((x, 13.26), [topics], size: 9pt)
   }
-  L((10.25, 11.25), [DDS Centralized Discovery], size: 8pt)
+  L((10.00, 11.30), align(center)[DDS Centralized\ Discovery], size: 8pt)
   L((5.75, 8.72), [TSN], size: 9.5pt)
   L((5.75, 8.36), [Controller], size: 9.5pt)
   L((8.93, 9.31), [CUC], size: 10pt)

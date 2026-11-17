@@ -1,0 +1,14 @@
+{
+  "figure": "tt-strategy-workflow.typ",
+  "reviewed_render": "render/tt-strategy-workflow.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "86a23df192348cfda4896b57109393bd16b4f1947cc1fccd677b97b332ace31b",
+  "png_sha256": "0b31ea50b9c17bd2bbbff333bd4cab0a5af11f028392f8399683e52f1586afbd",
+  "png_svg_pdf_compiler_warnings": 0
+}

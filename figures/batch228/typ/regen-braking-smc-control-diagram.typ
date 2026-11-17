@@ -77,7 +77,7 @@
   for b in blocks {
     let (x0, y0, x1, y1, f, tc, t) = b
     rect((x0, y0), (x1, y1), radius: 0.12, fill: f, stroke: 0.7pt + rgb("#4a4a4a"))
-    content(((x0 + x1) / 2, (y0 + y1) / 2), text(fill: tc, size: 7.6pt, t))
+    content(((x0 + x1) / 2, (y0 + y1) / 2), text(fill: tc, size: 6.6pt, t))
   }
 
   // 信号标签
@@ -86,8 +86,8 @@
   content((8.68, 7.12), text(fill: lab, style: "italic", size: 7pt, [Vehicle Model]), anchor: "east")
   content((10.80, 6.48), text(fill: lab, style: "italic", size: 8pt, [Battery SoC]), anchor: "east")
   content((2.12, 2.80), text(fill: lab, style: "italic", size: 8pt, [Brake \ Strength]))
-  content((4.42, 2.80), text(fill: lab, style: "italic", size: 8pt, [Demand \ Torque]))
+  content((4.05, 2.80), text(fill: lab, style: "italic", size: 7pt, [Demand \ Torque]))
   content((6.85, 1.24), text(fill: lab, style: "italic", size: 8pt, [Brake Force, Speed etc.]), anchor: "west")
-  content((5.95, 1.96), text(fill: dgreen, weight: "bold", size: 8.8pt, [Sliding Mode Control]), anchor: "west")
+  content((5.55, 1.92), text(fill: dgreen, weight: "bold", size: 7.4pt, [Sliding Mode Control]), anchor: "west")
   content((12.05, 3.93), text(fill: black, size: 7.0pt, weight: "bold", [Braking \ Force]))
 })

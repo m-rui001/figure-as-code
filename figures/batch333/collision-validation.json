@@ -1,0 +1,14 @@
+{
+  "figure": "simple-vs-preloading-sequence.typ",
+  "reviewed_render": "render/simple-vs-preloading-sequence.png",
+  "ppi": 200,
+  "checks": {
+    "single_page": true,
+    "no_embedded_raster": true,
+    "all_text_preserved": true,
+    "text_within_page": true
+  },
+  "typ_sha256": "5a3cd44498d53d51aba72e290f2136df461e11ab8fb4dd770fd010d4bcc6a421",
+  "png_sha256": "6e1b05899c13d552db3c6426c16bf814627d9abb9d8067c4eac6c9a71461b336",
+  "png_svg_pdf_compiler_warnings": 0
+}

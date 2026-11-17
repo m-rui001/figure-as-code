@@ -1,0 +1,7 @@
+{
+  "typ_sha256": "4b18d9a715c4cc66f74dbac52cc16a1702020b719e5bce2c0f3c9f6447d66ccf",
+  "check": "Text bounding boxes inset 1pt against unfilled horizontal/vertical path segments",
+  "colliding_text": [],
+  "passed": true,
+  "limitation": "Does not detect diagonal or curved path crossings; requires visual review."
+}

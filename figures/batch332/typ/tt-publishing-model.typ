@@ -26,8 +26,8 @@
   bar(0.80, 9.90, 3.40, 10.50, [Publisher Thread])
   bar(0.80, 8.90, 3.40, 9.50, [Flow Controller Thread])
   draw.line((2.10, 9.90), (2.10, 9.50), stroke: st, mark: ar)
-  content((3.98, 10.78), text(size: 5.6pt)[External trigger], anchor: "west")
-  content((4.02, 10.46), text(size: 6.5pt)[$eta_i^p (Delta)$], anchor: "west")
+  content((3.98, 11.62), text(size: 5.6pt)[External trigger], anchor: "west")
+  content((4.02, 11.28), text(size: 6.5pt)[$eta_i^p (Delta)$], anchor: "west")
   draw.line((4.48, 10.10), (3.48, 10.10), stroke: st, mark: ar)
   // 车载 TSN 模块
   bar(0.75, 7.45, 3.45, 8.10, [In-vehicle TSN Module], s: 6.2pt)
@@ -39,7 +39,7 @@
   bar(0.80, 6.10, 3.40, 6.70, [Receiver Thread])
   bar(0.80, 5.10, 3.40, 5.70, [Subscriber Thread])
   draw.line((2.10, 6.10), (2.10, 5.70), stroke: st, mark: ar)
-  draw.line((2.10, 7.45), (2.10, 6.70), stroke: st, mark: ar)
+  draw.line((2.10, 7.45), (2.10, 7.23), (3.80, 7.23), (3.80, 6.40), (3.40, 6.40), stroke: st, mark: ar)
 
   // 右侧：TSN 模块内部
   draw.rect((5.20, 4.60), (12.20, 11.30), stroke: dash)

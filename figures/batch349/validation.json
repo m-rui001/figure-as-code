@@ -1,0 +1,32 @@
+{
+  "batch": "batch349",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/unet-encoder-decoder.typ",
+      "typ_sha256": "e29b1d8ef2c38321d2d4c30c98503021617d3603b9976e63e4cde2b66a837a60",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Encoder": 1,
+        "Decoder": 1,
+        "Convolution Layer": 1,
+        "Pooling Layer": 1,
+        "Up-convolution Layer": 1,
+        "Input/Output Layer": 1,
+        "Concatenate": 1
+      }
+    }
+  ],
+  "passed": true
+}

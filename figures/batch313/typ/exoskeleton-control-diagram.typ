@@ -42,7 +42,7 @@
   // 左右控制框
   let branch(bx, title, fb, inp) = {
     let w = 6.6
-    rect(q(bx, 4.7), q(bx + w, 7.6), fill: white, stroke: st)
+    rect(q(bx, 4.7), q(bx + w, 8.0), fill: white, stroke: st)
     box(bx, 4.7, w, 0.55, title, fill: rgb("#b3b3b3"))
     circle(q(bx + 1.2, 6.15), radius: 0.5, stroke: st)
     content(q(bx + 1.0, 5.85), [+], size: 9pt)
@@ -56,20 +56,20 @@
     ln((bx + 6.2, 6.15), (bx + 6.2, 7.25))
     ln((bx + 6.2, 7.25), (bx + 1.2, 7.25))
     arr((bx + 1.2, 7.25), (bx + 1.2, 6.65))
-    content(q(bx + 3.6, 7.4), fb)
+    content(q(bx + 3.6, 7.62), fb, size: 8pt)
     arr((bx - 0.8, 6.15), (bx + 0.7, 6.15))
     content(q(bx - 0.8, 6.55), inp)
-    arr((bx + w / 2, 7.6), (bx + w / 2, 8.1))
-    dmd(bx + w / 2, 8.75, 2.15, 0.68,
+    arr((bx + w / 2, 8.0), (bx + w / 2, 8.3))
+    dmd(bx + w / 2, 9.15, 2.55, 0.88,
       [Button released \ & #fb $= 0°$])
   }
   branch(0.2, [Right leg motor starts], [$theta_(g r)$], [$theta_d$])
   branch(12.0, [Left leg motor starts], [$theta_(g l)$], [$theta_d + 180°$])
   // 汇合到 Stop
-  ln((3.5, 9.43), (3.5, 10.2))
-  ln((15.3, 9.43), (15.3, 10.2))
-  ln((15.3, 10.2), (3.5, 10.2))
-  arr((3.5, 10.2), (10, 10.2))
-  arr((10, 10.2), (10, 10.75))
-  oval(10, 11.35, 2.6, 0.75, [Stop])
+  ln((3.5, 10.03), (3.5, 10.65))
+  ln((15.3, 10.03), (15.3, 10.65))
+  ln((15.3, 10.65), (3.5, 10.65))
+  arr((3.5, 10.65), (10, 10.65))
+  arr((10, 10.65), (10, 11.2))
+  oval(10, 11.8, 2.6, 0.75, [Stop])
 })

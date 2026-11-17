@@ -57,16 +57,16 @@
   arr((5.82, 3.55), (10.10, 3.55))
 
   // RBF 参数更新与神经网络
-  box((6.55, 5.70), 1.00, 0.30, [RBF Parameters \ Update], size: 6.2pt, fill: yellow)
+  box((6.55, 5.70), 1.00, 0.30, [RBF Parameters \ Update], size: 5.4pt, fill: yellow)
   box((6.55, 4.15), 0.95, 0.38, [RBF Neural \ Network], size: 7pt, fill: yellow)
   // W C H 三路连接
   for (i, s) in ("W", "C", "H").enumerate() {
     let x = 6.15 + 0.40 * i
-    arr((x, 5.46), (x, 4.53))
+    arr((x, 5.40), (x, 4.53))
     t((x + 0.14, 4.98), [#s], size: 6pt, anchor: "west")
   }
   // 网络参数梯度送回参数更新
-  poly((5.60, 4.53), (5.60, 5.46), (5.53, 5.46))
+  poly((5.60, 4.53), (5.40, 4.53), (5.40, 5.70), (5.55, 5.70))
   t((4.83, 5.22), $frac(∂ y_"rbf", ∂ x_n)$, size: 6.5pt)
   // 网络输出 y_rbf 与 y_out 在右侧合成 e_rbf
   let E = (8.05, 4.15)

@@ -59,7 +59,7 @@
     bottle(bx + 3, by + 7.5)
     h2sym(bx + 13.5, by + 11)
     chip(bx + 19.5, by + 9)
-    content((bx + 19, by + 5.5), anchor: "north", text(weight: 700, size: 12pt)[#name])
+    content((bx + 19, by + 5.5), anchor: "north", text(weight: 700, size: 10.5pt)[#name])
   }
   cartridge(25, 39, navy, [Drying Cartridge 0])
   cartridge(27, 1.5, black, [Drying Cartridge 1])
@@ -67,7 +67,7 @@
   rect((-22, 27), (-2, 38), radius: 0.8, fill: orange, stroke: black + 1.2pt)
   content((-12, 32.5), text(size: 8.5pt, weight: 700)[Input \ Pressure \ Sensor])
   line((-30, 32.5), (-22, 32.5), stroke: blue + pipe)
-  content((-22, 40), anchor: "south", [H₂ in])
+  content((-17, 41), anchor: "south", [H₂ in])
   line((-2, 32.5), (3, 32.5), stroke: blue + pipe)
   line((3, 14.5), (3, 52), stroke: blue + pipe)
   line((3, 14.5), (7, 14.5), stroke: blue + pipe, mark: arrow(blue))
@@ -104,6 +104,6 @@
   line((126, 22.3), (126, 26.7), stroke: black + 2.5pt)
   content((106, 26.0), anchor: "south", [Depressurization])
   // 虚线边界框与子图编号
-  rect((-24, 0.5), (130, 68.5), stroke: (paint: black, thickness: 1.5pt, dash: "dashed"))
+  rect((-27, -1.0), (130, 68.5), stroke: (paint: black, thickness: 1.5pt, dash: "dashed"))
   content((53, 71.5), text(size: 12pt)[(b)])
 })
