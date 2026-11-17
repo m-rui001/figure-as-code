@@ -1,0 +1,29 @@
+[
+  {
+    "file": "figures/batch334/typ/buck-circuit.typ",
+    "compile": true,
+    "warnings": "",
+    "pages": 1,
+    "embedded_images": 0,
+    "nonempty_text": true,
+    "max_source_line": 84
+  },
+  {
+    "file": "figures/batch334/typ/buck-conduction.typ",
+    "compile": true,
+    "warnings": "",
+    "pages": 1,
+    "embedded_images": 0,
+    "nonempty_text": true,
+    "max_source_line": 84
+  },
+  {
+    "file": "figures/batch334/typ/buck-non-conduction.typ",
+    "compile": true,
+    "warnings": "",
+    "pages": 1,
+    "embedded_images": 0,
+    "nonempty_text": true,
+    "max_source_line": 84
+  }
+]

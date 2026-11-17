@@ -1,0 +1,54 @@
+{
+  "batch": "batch338",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/residual-learning-block.typ",
+      "typ_sha256": "3a457b68272cbb8421742035f638b2e18966de3f5b61f117c84b7bcc2efbc69c",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "weight layer": 2,
+        "relu": 2,
+        "identity": 1,
+        "ℱ︀(𝑥)": 2,
+        "ℱ︀(𝑥) + 𝑥": 1
+      }
+    },
+    {
+      "typ": "typ/resnet-basic-bottleneck.typ",
+      "typ_sha256": "7ababfb22f6752a7cdfab4640f0f6e5de1d8cec742ca5b322abeadc12bd05b0f",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "3 × 3, 64": 3,
+        "1 × 1, 64": 1,
+        "1 × 1, 256": 1,
+        "64-d": 1,
+        "256-d": 1,
+        "relu": 5
+      }
+    }
+  ],
+  "passed": true
+}

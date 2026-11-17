@@ -1,0 +1,51 @@
+{
+  "batch": "batch339",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/conduction-stage-algorithm.typ",
+      "typ_sha256": "b3d6a874a79d97ac2784136ff01af4198931ae806a1698f079d14c767e5c2abe",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Conduction stage": 1,
+        "Discretization of equations (1) and (3)": 1
+      }
+    },
+    {
+      "typ": "typ/buck-main-flowchart.typ",
+      "typ_sha256": "b5ef21980f0770468f1bed25d15a2e9208c390afbe5c4712b9cf8255ce42c165",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Start": 1,
+        "End": 1,
+        "PWM Generator": 1,
+        "False": 2,
+        "True": 2,
+        "Non-Conduction": 1
+      }
+    }
+  ],
+  "passed": true
+}

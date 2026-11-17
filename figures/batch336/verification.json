@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "single_page": true,
+    "five_add_norm": true,
+    "two_feed_forward": true,
+    "three_attention_modules": true,
+    "masked_attention": true,
+    "two_position_encodings": true,
+    "no_embedded_raster": true,
+    "max_120_columns": true
+  },
+  "source_pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+}

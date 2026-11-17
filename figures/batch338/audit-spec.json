@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-2.png",
+      "sha256": "7b8d67657e8a9748b9fd338d78326f669fb568910852119ca800acab16127a24",
+      "typ": "typ/residual-learning-block.typ",
+      "labels": {
+        "weight layer": 2,
+        "relu": 2,
+        "identity": 1,
+        "ℱ︀(𝑥)": 2,
+        "ℱ︀(𝑥) + 𝑥": 1
+      }
+    },
+    {
+      "source": "source/figure-5.png",
+      "sha256": "c0a479f149491b00e1328c4bf0528d2767875df9848ac8d4f8d69c2e470e3e28",
+      "typ": "typ/resnet-basic-bottleneck.typ",
+      "labels": {
+        "3 × 3, 64": 3,
+        "1 × 1, 64": 1,
+        "1 × 1, 256": 1,
+        "64-d": 1,
+        "256-d": 1,
+        "relu": 5
+      }
+    }
+  ]
+}

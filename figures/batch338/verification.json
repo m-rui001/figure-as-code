@@ -1,0 +1,28 @@
+{
+  "residual-learning-block.typ": {
+    "png_compiled_without_warnings": true,
+    "svg_compiled_without_warnings": true,
+    "pdf_compiled_without_warnings": true,
+    "single_page": true,
+    "no_embedded_raster": true,
+    "max_120_columns": true,
+    "two_weight_layers": true,
+    "two_relu": true,
+    "identity_label": true
+  },
+  "resnet-basic-bottleneck.typ": {
+    "png_compiled_without_warnings": true,
+    "svg_compiled_without_warnings": true,
+    "pdf_compiled_without_warnings": true,
+    "single_page": true,
+    "no_embedded_raster": true,
+    "max_120_columns": true,
+    "five_relu": true,
+    "channel_labels": true
+  },
+  "source_sha256": {
+    "deep-residual-learning.pdf": "1e0651b6810ecba34a3dbc5b5b0209226f889004607c1f203540a48d64e5a93a",
+    "figure-2.png": "7b8d67657e8a9748b9fd338d78326f669fb568910852119ca800acab16127a24",
+    "figure-5.png": "c0a479f149491b00e1328c4bf0528d2767875df9848ac8d4f8d69c2e470e3e28"
+  }
+}

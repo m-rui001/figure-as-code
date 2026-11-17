@@ -1,0 +1,38 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "08a569a5f84ef8ff90614bb4326aec8d1e3d10e1ad309d6fe0211e3b3b83aff5",
+      "typ": "typ/analog-pid-feedback.typ",
+      "labels": {
+        "Plant": 1,
+        "X": 3,
+        "+": 2,
+        "-": 1,
+        "𝑦(𝑡)": 2,
+        "𝑌(𝑠)": 2,
+        "𝑢p(𝑡)": 1,
+        "𝑈p(𝑠)": 1,
+        "𝑢d(𝑡)": 1,
+        "𝑢i(𝑡)": 1
+      }
+    },
+    {
+      "source": "source/figure-2.png",
+      "sha256": "1c7b57132d3ddfe30799913cbd357bdd1165b00e293468eef5bef3665f8ad22d",
+      "typ": "typ/digital-pid-structure.typ",
+      "labels": {
+        "X": 5,
+        "+": 4,
+        "-": 2,
+        "𝑇𝑠": 5,
+        "𝑘𝑐": 3,
+        "𝑓𝑠": 2,
+        "𝑢P(𝑛)": 1,
+        "𝑢d(𝑛)": 1,
+        "𝑢i(𝑛)": 1,
+        "𝑢i(𝑛−1)": 1
+      }
+    }
+  ]
+}

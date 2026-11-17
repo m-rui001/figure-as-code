@@ -1,0 +1,30 @@
+{
+  "article": "Using Python for the Simulation of a Closed-Loop PI Controller for a Buck Converter",
+  "doi": "10.3390/signals3020020",
+  "article_url": "https://www.mdpi.com/2624-6120/3/2/20",
+  "retrieved": "2026-11-17",
+  "license": "CC BY 4.0; original images attributed to Amaral and Cardoso (2022)",
+  "figures": [
+    {
+      "figure": 1,
+      "source_url": "https://mdpi-res.com/signals/signals-03-00020/article_deploy/html/images/signals-03-00020-g001.png",
+      "source_file": "source/figure-1.png",
+      "sha256": "23406b7957183e2ccf03fc3771256d9b909fda7e20ceae93c6deda6e1b07ad78",
+      "converted_file": "typ/buck-circuit.typ"
+    },
+    {
+      "figure": 2,
+      "source_url": "https://mdpi-res.com/signals/signals-03-00020/article_deploy/html/images/signals-03-00020-g002.png",
+      "source_file": "source/figure-2.png",
+      "sha256": "c1d04005b4857816cb780675f6b44dafcb981bd20f67aa78658b3e33953b4224",
+      "converted_file": "typ/buck-conduction.typ"
+    },
+    {
+      "figure": 3,
+      "source_url": "https://mdpi-res.com/signals/signals-03-00020/article_deploy/html/images/signals-03-00020-g003.png",
+      "source_file": "source/figure-3.png",
+      "sha256": "8d6bcc8c1a953023b077d706d6caec161db51411509b75871766516154291ceb",
+      "converted_file": "typ/buck-non-conduction.typ"
+    }
+  ]
+}

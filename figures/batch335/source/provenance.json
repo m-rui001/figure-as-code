@@ -1,0 +1,19 @@
+{
+  "paper_title": "Attention Is All You Need",
+  "authors": "Ashish Vaswani et al.",
+  "paper_url": "https://arxiv.org/abs/1706.03762",
+  "download_url": "https://arxiv.org/pdf/1706.03762",
+  "figure": "2",
+  "pdf_page": 4,
+  "retrieved_utc": "2026-11-17T11:17:51.860510+00:00",
+  "source_crop_pdf_points": [
+    135,
+    62,
+    478,
+    250
+  ],
+  "source_image": "figure-2.png",
+  "source_sha256": "a9f38459fd2aca7dc6aead2de366340aa3129741cf80ac311d7db4af43551bce",
+  "permission": "Paper page 1 grants permission to reproduce tables and figures with proper attribution.",
+  "conversion": "Self-contained Typst/CeTZ, no embedded raster images."
+}

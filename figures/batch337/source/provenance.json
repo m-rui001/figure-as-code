@@ -1,0 +1,22 @@
+{
+  "paper_title": "Low Cost PID Controller for Student Digital Control Laboratory Based on Arduino or STM32 Modules",
+  "author": "Krzysztof Sozanski",
+  "doi": "10.3390/electronics12153235",
+  "paper_url": "https://www.mdpi.com/2079-9292/12/15/3235",
+  "license": "CC BY 4.0 (paper first page)",
+  "retrieved_utc": "2026-11-17T11:23:23.302111+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "filename": "figure-1.png",
+      "sha256": "08a569a5f84ef8ff90614bb4326aec8d1e3d10e1ad309d6fe0211e3b3b83aff5",
+      "download_url": "https://mdpi-res.com/electronics/electronics-12-03235/article_deploy/html/images/electronics-12-03235-g001.png"
+    },
+    {
+      "figure": 2,
+      "filename": "figure-2.png",
+      "sha256": "1c7b57132d3ddfe30799913cbd357bdd1165b00e293468eef5bef3665f8ad22d",
+      "download_url": "https://mdpi-res.com/electronics/electronics-12-03235/article_deploy/html/images/electronics-12-03235-g002.png"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "batch": "batch337",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/analog-pid-feedback.typ",
+      "typ_sha256": "dfc4c50190a1777cdc3d24b121026bdf38a71f500f51a39d80a74390c765a89e",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Plant": 1,
+        "X": 3,
+        "+": 2,
+        "-": 1,
+        "𝑦(𝑡)": 2,
+        "𝑌(𝑠)": 2,
+        "𝑢p(𝑡)": 1,
+        "𝑈p(𝑠)": 1,
+        "𝑢d(𝑡)": 1,
+        "𝑢i(𝑡)": 1
+      }
+    },
+    {
+      "typ": "typ/digital-pid-structure.typ",
+      "typ_sha256": "a93b1cb970245583aa0291f218ae3c963abd626a8b5f9d611b7f680b5fe6f5c6",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "X": 5,
+        "+": 4,
+        "-": 2,
+        "𝑇𝑠": 5,
+        "𝑘𝑐": 3,
+        "𝑓𝑠": 2,
+        "𝑢P(𝑛)": 1,
+        "𝑢d(𝑛)": 1,
+        "𝑢i(𝑛)": 1,
+        "𝑢i(𝑛−1)": 1
+      }
+    }
+  ],
+  "passed": true
+}

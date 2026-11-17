@@ -1,0 +1,60 @@
+[
+  {
+    "figure": 1,
+    "source": "figures/batch337/typ/analog-pid-feedback.typ",
+    "compiles": [
+      {
+        "format": "pdf",
+        "exit_code": 0,
+        "warnings": 0
+      },
+      {
+        "format": "png",
+        "exit_code": 0,
+        "warnings": 0
+      }
+    ],
+    "pages": 1,
+    "embedded_rasters": 0,
+    "multipliers": 3,
+    "summing_nodes": 2,
+    "Ts_blocks": 0,
+    "max_source_line_length": 85,
+    "png_dimensions": [
+      1112,
+      511
+    ],
+    "source_sha256": "dfc4c50190a1777cdc3d24b121026bdf38a71f500f51a39d80a74390c765a89e",
+    "pdf_text": "𝑃𝐼𝐷\n𝐺(𝑠)\n+\n-\nX\nX\nX\n+\n𝑘𝑐\n𝑢p(𝑡)\n𝑈p(𝑠)\n𝑇𝑑\nd 𝑒(𝑡) / d 𝑡\n𝑢d(𝑡)\n𝑈d(𝑠)\n1\n𝑇𝑖\n∫𝑒(𝑡) d 𝑡\n𝑢i(𝑡)\n𝑈i(𝑠)\nPlant\n𝐻(𝑠)\n𝑢(𝑡)\n𝑈(𝑠)\n𝑥(𝑡)\n𝑋(𝑠)\n𝑒(𝑡)\n𝐸(𝑠)\n𝑦(𝑡)\n𝑌(𝑠)\n𝑦(𝑡)\n𝑌(𝑠)\n",
+    "visual_review": "passed; source and final PNG inspected"
+  },
+  {
+    "figure": 2,
+    "source": "figures/batch337/typ/digital-pid-structure.typ",
+    "compiles": [
+      {
+        "format": "pdf",
+        "exit_code": 0,
+        "warnings": 0
+      },
+      {
+        "format": "png",
+        "exit_code": 0,
+        "warnings": 0
+      }
+    ],
+    "pages": 1,
+    "embedded_rasters": 0,
+    "multipliers": 5,
+    "summing_nodes": 4,
+    "Ts_blocks": 3,
+    "max_source_line_length": 85,
+    "png_dimensions": [
+      1045,
+      671
+    ],
+    "source_sha256": "a93b1cb970245583aa0291f218ae3c963abd626a8b5f9d611b7f680b5fe6f5c6",
+    "pdf_text": "+\n-\n𝑥(𝑛)\n𝑦(𝑛)\n𝑒(𝑛)\nX\nX\nX\nX\nX\n𝑘𝑐\n𝑘𝑐\n𝑇𝑑\n𝑇𝑠\n𝑘𝑐\n𝑇𝑠\n2𝑇𝑖\n+\n+\n𝑢P(𝑛)\n𝑇𝑠\n-\n𝑢d(𝑛)\n𝑢(𝑛)\n+\n𝑢i(𝑛)\n𝑇𝑠\n𝑇𝑠\n𝑢i(𝑛−1)\n𝑓𝑠\n𝑓𝑠\n",
+    "visual_review": "passed; source and final PNG inspected"
+  }
+]

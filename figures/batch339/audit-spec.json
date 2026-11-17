@@ -1,0 +1,40 @@
+{
+  "figures": [
+    {
+      "figure": 4,
+      "source": "source/figure-4.png",
+      "sha256": "716184b5a7d0cfbe84cf8c89b5af0db11409b76a76f2a24ad1f9385f6ae86141",
+      "typ": "typ/conduction-stage-algorithm.typ",
+      "labels": {
+        "Conduction stage": 1,
+        "Discretization of equations (1) and (3)": 1
+      },
+      "code_lines": [
+        "def conduction_state(t0,PA,Vin,Rs,il0,Rl,L,vc0,ESR,C,R):",
+        "    K1 = C + ESR*C/R",
+        "    KA = - ESR*C/(K1*L) - (Rl+Rs)/L",
+        "    KB = ESR*C/(R*K1*L) - 1/L",
+        "    vc = vc0*(1 - PA/(R*K1)) + il0*(PA/K1)",
+        "    il = Vin*PA/L + il0*(1 + KA*PA) + vc0*(KB*PA)",
+        "    ic = C*(vc - vc0)/PA",
+        "    vo = ESR*ic + vc",
+        "    t = t0 + PA",
+        "    return [t,il,ic,vc,vo]"
+      ]
+    },
+    {
+      "figure": 7,
+      "source": "source/figure-7.png",
+      "sha256": "04defb6b750fbc1b7abc745e25fe0335d3fe1be6cf89d565918f8bc4c8007fc9",
+      "typ": "typ/buck-main-flowchart.typ",
+      "labels": {
+        "Start": 1,
+        "End": 1,
+        "PWM Generator": 1,
+        "False": 2,
+        "True": 2,
+        "Non-Conduction": 1
+      }
+    }
+  ]
+}
