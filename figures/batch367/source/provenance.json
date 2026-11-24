@@ -1,0 +1,20 @@
+{
+  "paper_title": "A Short Review on the Wire-Based Directed Energy Deposition of Metals: Mechanical and Microstructural Properties and Quality Enhancement",
+  "authors": [
+    "Mehran Ghasempour-Mouziraji",
+    "Daniel Afonso",
+    "Ricardo Alves de Sousa"
+  ],
+  "doi": "10.3390/app14219921",
+  "paper_url": "https://www.mdpi.com/2076-3417/14/21/9921",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T13:29:42.107478+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "bf88060c2522f253660c3711e7deea32d97308b87b48be33b570c62f97c2145e",
+      "download_url": "https://mdpi-res.com/applsci/applsci-14-09921/article_deploy/html/images/applsci-14-09921-g001.png"
+    }
+  ]
+}

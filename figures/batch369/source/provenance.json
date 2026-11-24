@@ -1,0 +1,21 @@
+{
+  "paper_title": "Optimization of Multi-Parameter Collaborative Operation for Central Air-Conditioning Cold Source System in Super High-Rise Buildings",
+  "authors": [
+    "Jiankun Yang",
+    "Aiqin Xu",
+    "Lingjun Guan",
+    "Dongliang Zhang"
+  ],
+  "doi": "10.3390/buildings15234363",
+  "paper_url": "https://www.mdpi.com/2075-5309/15/23/4363",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T13:29:44.965966+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "b70701dc02a8d53d8f12c451598fabbc9e04958eac0ca51a615a429bbd611911",
+      "download_url": "https://mdpi-res.com/buildings/buildings-15-04363/article_deploy/html/images/buildings-15-04363-g001.png"
+    }
+  ]
+}

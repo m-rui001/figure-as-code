@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/b4-grid-connected-inverter.typ",
+      "typ_sha256": "7d41059cffa51a802c80007a089bc64a485a4e238166bb643cc871428badf8c6",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

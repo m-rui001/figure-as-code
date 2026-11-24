@@ -1,0 +1,25 @@
+{
+  "paper_title": "A Deterministic Data Distribution Service Middleware for Integrating with Time-Sensitive Networking in In-Vehicle Networks",
+  "authors": [
+    "Yi Ren",
+    "Feng Luo",
+    "Yingpeng Tong",
+    "Yanhua Yu",
+    "Zeqi Liao",
+    "Yuezhen Xiao"
+  ],
+  "doi": "10.3390/fi18060297",
+  "paper_url": "https://www.mdpi.com/1999-5903/18/6/297",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T12:24:45.251304+00:00",
+  "figures": [
+    {
+      "figure": 8,
+      "file": "source/figure-8.png",
+      "sha256": "adf6a5ef0c54e268a488b6c965185dc5e3c9d1a1c56246c848f573a397e860f4",
+      "download_url": "https://www.mdpi.com/1999-5903/18/6/297/pdf",
+      "source_method": "Figure 8 cropped from rendered PDF page 14",
+      "source_page": 14
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "batch": "batch362",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/dds-receiver-busy-period.typ",
+      "typ_sha256": "38bc0047c8b5ba02fe31bf3e0e2dafac449fe1252a69ba36d51858a028ad2435",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Busy Period": 1,
+        "Inter-thread interference": 1,
+        "Processing backlogged": 1,
+        "DDS messages": 1,
+        "Part (b) of Equation 8": 1,
+        "Part (c) of Equation 8": 1,
+        "Part (a) of Equation 8": 1,
+        "Arrival of the first DDS message": 1,
+        "start of the busy period": 1,
+        "Arrival of the DDS message": 1,
+        "The CPU core enters the idle state": 1,
+        "end of the busy period": 1,
+        "The definition of the busy period in the receiver thread.": 1
+      }
+    }
+  ],
+  "passed": true
+}

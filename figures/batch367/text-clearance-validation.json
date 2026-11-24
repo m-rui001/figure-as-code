@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/wire-de-dep-workflow.typ",
+      "typ_sha256": "58e359c290bfd2d35134f7b2fe6f598ed2f31e6399e92cd7abde8ea09d813d88",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

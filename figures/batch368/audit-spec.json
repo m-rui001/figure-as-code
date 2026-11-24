@@ -1,0 +1,19 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "d72ff5126bf4492d782c797ade173c880aa7da6d85615a768ebe41e5f4370337",
+      "typ": "typ/gas-metal-arc-welding.typ",
+      "labels": {
+        "Welding Gun": 1,
+        "Nozzle": 1,
+        "Solid Wire Electrode": 1,
+        "Metal Droplets": 1,
+        "Weld Bead": 1,
+        "Gas Shielding": 1,
+        "Electric Arc": 1,
+        "Grounded Workpiece": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "paper_title": "Analysis of Coupled Liquid Air Energy Storage and Liquefied Natural Gas Cold Energy Cascade Utilization System",
+  "authors": [
+    "Zetong Li",
+    "Xiaolei Si",
+    "Yongchao Zhao",
+    "Hongyan Zhao",
+    "Zheng Cai",
+    "Yingjun Guo"
+  ],
+  "doi": "10.3390/en18061415",
+  "paper_url": "https://www.mdpi.com/1996-1073/18/6/1415",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T13:29:46.924693+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "9c42b0d4b118e0a9a8417a2d4009c4d255e4a5eda2183e0b6df01a930cdc4646",
+      "download_url": "https://mdpi-res.com/energies/energies-18-01415/article_deploy/html/images/energies-18-01415-g001.png"
+    }
+  ]
+}

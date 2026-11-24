@@ -1,0 +1,19 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "bf88060c2522f253660c3711e7deea32d97308b87b48be33b570c62f97c2145e",
+      "typ": "typ/wire-de-dep-workflow.typ",
+      "labels": {
+        "Designing part via CAD software and creating STL file": 1,
+        "Importing STL file and extracting G-code": 1,
+        "Importing G-code to machine and running experimental tests": 1,
+        "Is the part successfully deposited?": 1,
+        "Post processing of sample": 1,
+        "Failure analysis": 1,
+        "Yes": 1,
+        "No": 1
+      }
+    }
+  ]
+}

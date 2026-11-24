@@ -1,0 +1,22 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "b70701dc02a8d53d8f12c451598fabbc9e04958eac0ca51a615a429bbd611911",
+      "typ": "typ/cooling-chiller-network.typ",
+      "labels": {
+        "Cooling tower 1": 1,
+        "Cooling tower 2": 1,
+        "Cooling tower 9": 1,
+        ". . . . . .": 1,
+        "Pump": 2,
+        "Chiller 1": 1,
+        "Chiller 2": 1,
+        "Chiller 3": 1,
+        "Chiller 4": 1,
+        "Chiller 5": 1,
+        "User": 1
+      }
+    }
+  ]
+}

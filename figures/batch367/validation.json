@@ -1,0 +1,33 @@
+{
+  "batch": "batch367",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/wire-de-dep-workflow.typ",
+      "typ_sha256": "58e359c290bfd2d35134f7b2fe6f598ed2f31e6399e92cd7abde8ea09d813d88",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Designing part via CAD software and creating STL file": 1,
+        "Importing STL file and extracting G-code": 1,
+        "Importing G-code to machine and running experimental tests": 1,
+        "Is the part successfully deposited?": 1,
+        "Post processing of sample": 1,
+        "Failure analysis": 1,
+        "Yes": 1,
+        "No": 1
+      }
+    }
+  ],
+  "passed": true
+}

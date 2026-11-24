@@ -1,0 +1,48 @@
+{
+  "batch": "batch366",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/orc-approach-pinch-ts-diagram.typ",
+      "typ_sha256": "a9c288a8043caa4f9f63f845b9cbd06e640a762254f677232f387e836ae633f5",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Condenser": 1,
+        "Heat Exchanger": 1,
+        "𝑇pp": 1,
+        "𝑇1": 1,
+        "𝑇ap": 1,
+        "𝑡2": 1,
+        "𝑡1": 1,
+        "𝑡5": 1,
+        "𝑡6": 1,
+        "260": 1,
+        "280": 1,
+        "300": 1,
+        "320": 1,
+        "340": 1,
+        "360": 1,
+        "380": 1,
+        "0.9": 1,
+        "1.4": 1,
+        "1.9": 1,
+        "Entropy (kJ/kg)": 1,
+        "Temperature (K)": 1,
+        "R134a": 1,
+        "HT Fluid": 1
+      }
+    }
+  ],
+  "passed": true
+}

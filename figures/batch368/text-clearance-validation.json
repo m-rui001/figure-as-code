@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/gas-metal-arc-welding.typ",
+      "typ_sha256": "5f97dd018a6b900c3af3b6dae7e5abd9ab7fb72ba39365c842d073cf4a30da4d",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

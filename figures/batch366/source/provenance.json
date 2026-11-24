@@ -1,0 +1,21 @@
+{
+  "paper_title": "Low-Temperature ORC Systems: Influence of the Approach Point and Pinch Point Temperature Differences",
+  "authors": [
+    "James Bull",
+    "Jed Pound",
+    "Jovana Radulovic",
+    "James M. Buick"
+  ],
+  "doi": "10.3390/en18112954",
+  "paper_url": "https://www.mdpi.com/1996-1073/18/11/2954",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T12:28:39.199368+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "b73fe71617fee0936293a9803a5c9e9a7f36e064e6e2187ad673600977f0edc3",
+      "download_url": "https://mdpi-res.com/energies/energies-18-02954/article_deploy/html/images/energies-18-02954-g001.png"
+    }
+  ]
+}

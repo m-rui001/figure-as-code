@@ -1,0 +1,21 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "349363e7fbb96abb025d11b5cb9dd711922baccc9ebc45ce79a8d6c9d9a34182",
+      "typ": "typ/electric-drive-control-architecture.typ",
+      "labels": {
+        "Power Flow": 1,
+        "Control Signal": 1,
+        "Electric Power": 1,
+        "Motor": 2,
+        "Axis": 2,
+        "Rear": 1,
+        "Front": 1,
+        "VCU": 1,
+        "MCU": 1,
+        "Battery": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "paper_title": "Study on High-Precision Tension Control Technology for a Cold-Rolling Pilot Mill with Hydraulic Tension",
+  "authors": [
+    "Guiqiao Wang",
+    "Yang Gao",
+    "Jingguo Ding",
+    "Jie Sun"
+  ],
+  "doi": "10.3390/app14020877",
+  "paper_url": "https://www.mdpi.com/2076-3417/14/2/877",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T12:28:31.845524+00:00",
+  "figures": [
+    {
+      "figure": 4,
+      "file": "source/figure-4.png",
+      "sha256": "a688f344bebcf4b1702d3e28675497a7e1cdb4f9c5cada1eb82d54fe1016dc6e",
+      "download_url": "https://mdpi-res.com/applsci/applsci-14-00877/article_deploy/html/images/applsci-14-00877-g004.png"
+    }
+  ]
+}

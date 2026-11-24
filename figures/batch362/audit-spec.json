@@ -1,0 +1,24 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-8.png",
+      "sha256": "adf6a5ef0c54e268a488b6c965185dc5e3c9d1a1c56246c848f573a397e860f4",
+      "typ": "typ/dds-receiver-busy-period.typ",
+      "labels": {
+        "Busy Period": 1,
+        "Inter-thread interference": 1,
+        "Processing backlogged": 1,
+        "DDS messages": 1,
+        "Part (b) of Equation 8": 1,
+        "Part (c) of Equation 8": 1,
+        "Part (a) of Equation 8": 1,
+        "Arrival of the first DDS message": 1,
+        "start of the busy period": 1,
+        "Arrival of the DDS message": 1,
+        "The CPU core enters the idle state": 1,
+        "end of the busy period": 1,
+        "The definition of the busy period in the receiver thread.": 1
+      }
+    }
+  ]
+}

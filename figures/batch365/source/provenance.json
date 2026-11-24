@@ -1,0 +1,23 @@
+{
+  "paper_title": "Performance Evaluation of the B4 Topology for Implementing Grid-Connected Inverters in Microgrids",
+  "authors": [
+    "Enric Torán",
+    "Marian Liberos",
+    "Iván Patrao",
+    "Raúl González-Medina",
+    "Gabriel Garcerá",
+    "Emilio Figueres"
+  ],
+  "doi": "10.3390/electronics13091755",
+  "paper_url": "https://www.mdpi.com/2079-9292/13/9/1755",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T12:28:36.007285+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "1b4d3b2b5e007968c0c9a0a98292ec1f48352812a03ec3facfb2aaf652878e49",
+      "download_url": "https://mdpi-res.com/electronics/electronics-13-01755/article_deploy/html/images/electronics-13-01755-g001.png"
+    }
+  ]
+}

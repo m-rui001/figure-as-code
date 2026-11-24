@@ -1,0 +1,23 @@
+{
+  "paper_title": "Modeling and Simulation of Shape Control Based on Digital Twin Technology in Hot Strip Rolling",
+  "authors": [
+    "Youzhao Sun",
+    "Jingdong Li",
+    "Yamin Sun",
+    "Lebao Song",
+    "Quan Yang",
+    "Xiaochen Wang"
+  ],
+  "doi": "10.3390/s24020614",
+  "paper_url": "https://www.mdpi.com/1424-8220/24/2/614",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T12:28:33.019537+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "49ac43172c13b81889706489da4be1c8f7f131bb7e6b3bf3f4589e5d13ded9ee",
+      "download_url": "https://mdpi-res.com/sensors/sensors-24-00614/article_deploy/html/images/sensors-24-00614-g001.png"
+    }
+  ]
+}

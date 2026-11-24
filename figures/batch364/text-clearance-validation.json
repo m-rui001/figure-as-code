@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/hot-strip-rolling-digital-twin.typ",
+      "typ_sha256": "044bcc785de6915da4af22598cdc93db063ea1b0cf4fc1310837095b0ef8ae3d",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

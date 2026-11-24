@@ -1,0 +1,22 @@
+{
+  "paper_title": "Enhancement of Additive Manufacturing Processes for Thin-Walled Part Production Using Gas Metal Arc Welding (GMAW) with Wavelet Transform",
+  "authors": [
+    "Abolfazl Foorginejad",
+    "Siamak Khatibi",
+    "Hojjat Torshizi",
+    "Sayyed Mohammad Emam",
+    "Hossein Afshari"
+  ],
+  "doi": "10.3390/app14219909",
+  "paper_url": "https://www.mdpi.com/2076-3417/14/21/9909",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T13:29:43.255326+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "d72ff5126bf4492d782c797ade173c880aa7da6d85615a768ebe41e5f4370337",
+      "download_url": "https://mdpi-res.com/applsci/applsci-14-09909/article_deploy/html/images/applsci-14-09909-g001.png"
+    }
+  ]
+}

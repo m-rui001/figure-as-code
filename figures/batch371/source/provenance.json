@@ -1,0 +1,20 @@
+{
+  "paper_title": "Energy Management Design of Dual-Motor System for Electric Vehicles Using Whale Optimization Algorithm",
+  "authors": [
+    "Chien-Hsun Wu",
+    "Chieh-Lin Tsai",
+    "Jie-Ming Yang"
+  ],
+  "doi": "10.3390/s25144317",
+  "paper_url": "https://www.mdpi.com/1424-8220/25/14/4317",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T13:29:50.036654+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "349363e7fbb96abb025d11b5cb9dd711922baccc9ebc45ce79a8d6c9d9a34182",
+      "download_url": "https://mdpi-res.com/sensors/sensors-25-04317/article_deploy/html/images/sensors-25-04317-g001.png"
+    }
+  ]
+}

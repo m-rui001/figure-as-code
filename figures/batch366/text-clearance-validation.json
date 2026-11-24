@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/orc-approach-pinch-ts-diagram.typ",
+      "typ_sha256": "a9c288a8043caa4f9f63f845b9cbd06e640a762254f677232f387e836ae633f5",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

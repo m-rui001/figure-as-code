@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/electric-drive-control-architecture.typ",
+      "typ_sha256": "31b7af931b65f10e56885db01c2dd4522028b40eea01f95689bde89c58ee7ca7",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

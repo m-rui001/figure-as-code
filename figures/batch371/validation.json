@@ -1,0 +1,35 @@
+{
+  "batch": "batch371",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/electric-drive-control-architecture.typ",
+      "typ_sha256": "31b7af931b65f10e56885db01c2dd4522028b40eea01f95689bde89c58ee7ca7",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Power Flow": 1,
+        "Control Signal": 1,
+        "Electric Power": 1,
+        "Motor": 2,
+        "Axis": 2,
+        "Rear": 1,
+        "Front": 1,
+        "VCU": 1,
+        "MCU": 1,
+        "Battery": 1
+      }
+    }
+  ],
+  "passed": true
+}

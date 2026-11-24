@@ -1,0 +1,47 @@
+{
+  "batch": "batch365",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/b4-grid-connected-inverter.typ",
+      "typ_sha256": "7d41059cffa51a802c80007a089bc64a485a4e238166bb643cc871428badf8c6",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "𝐶": 5,
+        "𝑉dc": 1,
+        "+": 1,
+        "−": 1,
+        "𝑟𝑎, 𝐿𝑎": 2,
+        "𝑟𝑏, 𝐿𝑏": 2,
+        "𝑟𝑐, 𝐿𝑐": 5,
+        "𝑖a1": 1,
+        "𝑖b1": 1,
+        "𝑖c1": 1,
+        "𝑖a2": 1,
+        "𝑖b2": 1,
+        "𝑖c2": 1,
+        "𝑖ga": 2,
+        "𝑖gb": 2,
+        "𝑖gc": 2,
+        "𝐶𝑓": 3,
+        "𝑅𝑑": 1,
+        "𝑉ga": 1,
+        "𝑉gb": 1,
+        "𝑉gc": 1,
+        "𝑣𝑁": 1
+      }
+    }
+  ],
+  "passed": true
+}

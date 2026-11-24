@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/hydraulic-tension-control.typ",
+      "typ_sha256": "733105df47a543e1344298727180469d9b22a396610be1c392569e41ef899a3e",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

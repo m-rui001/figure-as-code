@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/dds-receiver-busy-period.typ",
+      "typ_sha256": "38bc0047c8b5ba02fe31bf3e0e2dafac449fe1252a69ba36d51858a028ad2435",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

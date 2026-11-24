@@ -1,0 +1,36 @@
+{
+  "batch": "batch369",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/cooling-chiller-network.typ",
+      "typ_sha256": "37c500725012ad4befc7614c01713ff43a3840217df2a31667aa73ce6cde27ed",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Cooling tower 1": 1,
+        "Cooling tower 2": 1,
+        "Cooling tower 9": 1,
+        ". . . . . .": 1,
+        "Pump": 2,
+        "Chiller 1": 1,
+        "Chiller 2": 1,
+        "Chiller 3": 1,
+        "Chiller 4": 1,
+        "Chiller 5": 1,
+        "User": 1
+      }
+    }
+  ],
+  "passed": true
+}
