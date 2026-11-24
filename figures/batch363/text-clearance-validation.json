@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/hydraulic-tension-control.typ",
-      "typ_sha256": "733105df47a543e1344298727180469d9b22a396610be1c392569e41ef899a3e",
+      "typ_sha256": "56261f006cfbb67d8bd272800f72489af0e1b05ff636fd7a047818e551083472",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true
