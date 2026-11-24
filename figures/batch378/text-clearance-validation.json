@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/neuron-pid-control.typ",
+      "typ_sha256": "759e5003496f55e1eab2388a5b4980476463ce02077c867d9bd232b46b632d19",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

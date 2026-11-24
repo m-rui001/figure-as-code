@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/battery-heat-transfer.typ",
+      "typ_sha256": "573623d0b6a2e0267f7984c97c5fbaf6676f63cd6c9ed2b367f4622ae9da8f6c",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

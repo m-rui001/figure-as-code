@@ -1,0 +1,55 @@
+{
+  "batch": "batch374",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/momentumnet-collision-daq.typ",
+      "typ_sha256": "57d37b5e3c0a5f0bcb49eeaed1280facb29f0b95b189a926730b19919565282e",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "MomentumNet-CD": 1,
+        "Dynamics Model Construction": 1,
+        "Robot Manipulator Dynamics": 1,
+        "Introduction of Momentum Observer": 1,
+        "Discrete-Time Implementation of Observer": 1,
+        "Feature Extraction": 1,
+        "Torque Residual Calculation": 1,
+        "Feature Vector Construction": 1,
+        "Data Normalization Processing": 1,
+        "Joint Velocity Error": 1,
+        "Normal (Non-Collision) State Distance Calculation": 1,
+        "Marginal Distance Model": 1,
+        "Collision State Distance Calculation": 1,
+        "Neural Network Implementation": 1,
+        "CollisionSense DAQ System": 1,
+        "Software Part": 1,
+        "Simulink": 1,
+        "QUARC": 1,
+        "Q8-USB Card": 1,
+        "Control Part": 1,
+        "(Acquisition) Analog Input and Encoder Pulse Signal": 1,
+        "Signal Conditioning/ Amplifier": 1,
+        "MR-J2S AC Servo Driver": 1,
+        "(Control) Analog/Digital Output": 1,
+        "Differential to Single-Ended Signal Conversion Module": 1,
+        "MOS FET Trigger Switch Module": 1,
+        "Isolator Transmitter": 1,
+        "Joint AC Servo Motor (Encoder)": 1,
+        "End-Effector ATI Six-Axis Force Sensor": 1,
+        "Collision External Force": 1
+      }
+    }
+  ],
+  "passed": true
+}

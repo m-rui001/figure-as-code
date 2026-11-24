@@ -1,0 +1,30 @@
+{
+  "batch": "batch375",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/battery-heat-transfer.typ",
+      "typ_sha256": "573623d0b6a2e0267f7984c97c5fbaf6676f63cd6c9ed2b367f4622ae9da8f6c",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "(a) Battery module": 1,
+        "(b) Heat transfer mechanism": 1,
+        "Heat transfer": 4,
+        "Battery": 2,
+        "Cooling plate (computational unit)": 1
+      }
+    }
+  ],
+  "passed": true
+}

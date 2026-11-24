@@ -1,0 +1,38 @@
+{
+  "batch": "batch378",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/neuron-pid-control.typ",
+      "typ_sha256": "759e5003496f55e1eab2388a5b4980476463ce02077c867d9bd232b46b632d19",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Input": 1,
+        "𝑇𝑣": 1,
+        "𝑃∗[𝑘]": 1,
+        "𝑒𝑝[𝑘]": 1,
+        "Neuron Position PID Controller": 1,
+        "𝑉∗[𝑘]": 1,
+        "𝑒𝑣[𝑘]": 1,
+        "Neuron Speed PID Controller": 1,
+        "Pulse out": 1,
+        "𝑈[𝑘]": 1,
+        "Encoder": 2,
+        "𝑉[𝑘]": 1,
+        "𝑃[𝑘]": 1
+      }
+    }
+  ],
+  "passed": true
+}

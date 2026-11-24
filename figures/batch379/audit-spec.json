@@ -1,0 +1,52 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-4.png",
+      "sha256": "212e2b268cf9de00eabcb01b493f2f57b2696eb84b921282b621845d9fe372ed",
+      "typ": "typ/intelligent-production-line-twin.typ",
+      "labels": {
+        "Application service layer": 1,
+        "Data visualization": 1,
+        "ERP MES PDM WMS": 1,
+        "Decision support system": 1,
+        "Database": 1,
+        "The whole process, whole elements and whole process of intelligent production line.": 1,
+        "Simulation, monitoring, evaluation, optimization, prediction, decision making.": 1,
+        "Digital twin production line layer": 1,
+        "OPCUA client": 1,
+        "Production planning simulation": 1,
+        "Production process simulation": 1,
+        "Data transfer interaction": 4,
+        "Data layer": 1,
+        "Twin data": 1,
+        "Data acquisition": 3,
+        "Data transfer": 5,
+        "Data integration": 1,
+        "Data driven": 2,
+        "Data awareness": 1,
+        "Configuring connections": 1,
+        "IOSEVER": 1,
+        "External OPCUA server": 1,
+        "Internal OPCUA server": 1,
+        "Data acquisition card": 1,
+        "Physical production line": 1,
+        "Device entity layer": 1,
+        "Exact mapping": 1,
+        "sensor": 1,
+        "PLC": 1,
+        "Industrial control computer": 1,
+        "Motion controller": 1,
+        "Industrial robot": 1,
+        "Machining center": 1,
+        "CNC": 1,
+        "Tool unit": 1,
+        "Sorting unit": 1,
+        "Grinding unit": 1,
+        "Detection unit": 1,
+        "Storage unit": 1,
+        "Master control unit": 1,
+        "worker": 1
+      }
+    }
+  ]
+}

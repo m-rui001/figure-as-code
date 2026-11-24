@@ -1,0 +1,29 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "422b5839b57179665af047f8eb4fc77595f41302a7a1d865064a97527c885a74",
+      "typ": "typ/multi-energy-system.typ",
+      "labels": {
+        "𝑃PV": 1,
+        "𝑃grid, pos": 1,
+        "𝑃grid, neg": 1,
+        "𝑃HE": 1,
+        "𝑃HP": 1,
+        "𝑃load": 1,
+        "COP": 1,
+        "𝑄̇HE": 1,
+        "𝑄̇HP": 1,
+        "𝑇stor": 1,
+        "𝐸stor": 1,
+        "𝑇∞": 1,
+        "𝑄̇loss": 1,
+        "𝑄̇out": 1,
+        "𝑄̇H1": 1,
+        "𝑄̇H2": 1,
+        "𝑄̇H3": 1,
+        "𝑇GP": 1
+      }
+    }
+  ]
+}

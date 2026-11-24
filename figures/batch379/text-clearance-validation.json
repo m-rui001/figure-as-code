@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/intelligent-production-line-twin.typ",
+      "typ_sha256": "58be831bce37031e55d99f86fca66b3f237d248c3bae4e8e0d989b7ef15d0dc6",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

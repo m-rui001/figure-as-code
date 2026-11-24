@@ -1,0 +1,16 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "7340742c279c086576b58cb0b9094d81b8801f9be89071892478a23b750e4508",
+      "typ": "typ/battery-heat-transfer.typ",
+      "labels": {
+        "(a) Battery module": 1,
+        "(b) Heat transfer mechanism": 1,
+        "Heat transfer": 4,
+        "Battery": 2,
+        "Cooling plate (computational unit)": 1
+      }
+    }
+  ]
+}

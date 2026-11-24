@@ -1,0 +1,21 @@
+{
+  "paper_title": "Research on the Construction of Automobile Wheel Hub Intelligent Production Line Based on Digital Twin",
+  "authors": [
+    "Yanjun Chen",
+    "Min Zhou",
+    "Meizhou Zhang",
+    "Meng Zha"
+  ],
+  "doi": "10.3390/app15115871",
+  "paper_url": "https://www.mdpi.com/2076-3417/15/11/5871",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:11:07.439369+00:00",
+  "figures": [
+    {
+      "figure": 4,
+      "file": "source/figure-4.png",
+      "sha256": "212e2b268cf9de00eabcb01b493f2f57b2696eb84b921282b621845d9fe372ed",
+      "download_url": "https://mdpi-res.com/applsci/applsci-15-05871/article_deploy/html/images/applsci-15-05871-g004.png"
+    }
+  ]
+}

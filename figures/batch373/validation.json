@@ -1,0 +1,34 @@
+{
+  "batch": "batch373",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/cnc-process-flow.typ",
+      "typ_sha256": "05f4780a7964d9c68b8bab5f4c5a530e03ae5c19a2ea5271ef8e840d4fbcee1e",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Lathe Turning": 1,
+        "CNC Turning": 1,
+        "CNC Milling": 1,
+        "Drilling": 1,
+        "Inspection": 1,
+        "Rework": 1,
+        "No": 1,
+        "Yes": 1,
+        "End": 1
+      }
+    }
+  ],
+  "passed": true
+}

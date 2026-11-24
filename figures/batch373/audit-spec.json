@@ -1,0 +1,20 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "d8273843908eab49e58c6fdb83e20c7710dd9301a77e27658f07e157ee7e3f80",
+      "typ": "typ/cnc-process-flow.typ",
+      "labels": {
+        "Lathe Turning": 1,
+        "CNC Turning": 1,
+        "CNC Milling": 1,
+        "Drilling": 1,
+        "Inspection": 1,
+        "Rework": 1,
+        "No": 1,
+        "Yes": 1,
+        "End": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-9.png",
+      "sha256": "546d0772685dec789700a2dbfc816f0b8364ae547a4b00b71c29b7e62e6b42aa",
+      "typ": "typ/robot-simulation-platform.typ",
+      "labels": {
+        "Robot 3D model": 1,
+        "SW": 1,
+        "Solidworks": 1,
+        "Vrep": 1,
+        "Robot urdf model": 1,
+        "Matlab": 1,
+        "function vrep_matlab()": 1,
+        "urdf": 3,
+        "RemoteAPI": 1,
+        "Verification": 1
+      }
+    }
+  ]
+}

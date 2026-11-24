@@ -2,7 +2,7 @@
 
 ## 规模
 
-- 图文件：**444** 个 `.typ`，分布在 **304** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
+- 图文件：**462** 个 `.typ`，分布在 **327** 个 batch；另有 2 个图元测试在 `assets/tests/`，不进入语料清单。
 - 依赖：Typst 0.15.1、CeTZ 0.4.2；每图自包含，无外部图片资源。
 
 ## 编译门槛
@@ -11,13 +11,13 @@
 python tools/compile_all.py --jobs 4
 ```
 
-当前结果（2026-11-17）：
+当前结果（2026-11-25）：
 
 ```
-{"figures": 444, "compiled": 444, "failed": 0, "warnings": 36}
+{"figures": 462, "compiled": 462, "failed": 0, "warnings": 36}
 ```
 
-- 444/444 编译成功，0 失败。
+- 462/462 编译成功，0 失败。
 - 36 条 warning 为字体提示，集中在 3 个文件：
   - `figures/batch221/typ/adhesive-capture-mechanism.typ`：`liberation serif` 不存在。
   - `figures/batch63/typ/gt017-triangulation.typ`、`gt022-threegraphs.typ`：正文数学 `$...$` 的当前字体不是数学字体，渲染可能偏差。
@@ -68,7 +68,7 @@ python tools/compile_all.py --jobs 4
 [batch342](figures/batch342/QUALITY.md) 新增关断阶段算法与 PWM 生成器两张双面板图。
 原图已下载，视觉复核和可重复机器检查全部通过，新增图零编译警告。
 本轮全量编译结果：416/416，零失败，36 条既有字体警告。
-batch340 与 batch341 后续已完成，当前语料总量为 444 张、304 个批次。
+batch340 与 batch341 后续已完成；batch362–379 完成后，当前语料总量为 462 张、327 个批次。
 
 ## 文字碰撞专项复查
 
@@ -108,3 +108,20 @@ batch259–281 的23张图已补充机器复验：单页、零警告、文字在
 - 二次差异审查又发现 batch365 的直流母线短路、c 相出处错误、元件被直线跨接和两组阻尼电阻遗漏，均已修正后重新验收。
 - 两图重新通过编译、标签、净空、风格和独立重叠检查；最终 PNG/SVG 已更新，batch363 的 PDF 同步更新。
 - 后续验收增加强制拓扑核对：逐节点确认来源与重绘的连接对象、端口归属和无连接交叉；标签计数与文字净空只作为辅助门槛。
+
+## batch372–379 验收（2026-11-25）
+
+本轮新增 8 张图，当前语料为 462 张、327 个批次。来源覆盖 2024–2026 年机器人、制造、能源与控制论文，原图许可均为 CC BY 4.0；DOI 与图号扫描无重复。
+
+- [batch372](figures/batch372/QUALITY.md)：SolidWorks/V-REP/MATLAB 仿真验证，Verification 从 V-REP 内机器人出发。
+- [batch373](figures/batch373/QUALITY.md)：CNC 工艺优化流程，Yes/No 分支与返工回边逐节点核对。
+- [batch374](figures/batch374/QUALITY.md)：MomentumNet-CD 与 DAQ，恢复 3-3-1 全连接网络并重建采集、控制、驱动与隔离器端口。
+- [batch375](figures/batch375/QUALITY.md)：电池模块与液冷板，恢复 9 根传热箭头及双 Battery 引线。
+- [batch376](figures/batch376/QUALITY.md)：多能源系统，核对电网支路、Pload、热损失、三户负荷与地热回路。
+- [batch377](figures/batch377/QUALITY.md)：太阳能集热器，补顶部总览、六部件引线、前视分层、水道端点与双向尺寸。
+- [batch378](figures/batch378/QUALITY.md)：神经元 PID 伺服控制，核对梯形输入、减号节点、上下编码器反馈与脉冲输出。
+- [batch379](figures/batch379/QUALITY.md)：产线数字孪生，核对卡片到应用外层路由、Data driven、Exact mapping 与双向 OPCUA 链路。
+
+视觉二审又修正了 batch374 的隔离器输出端口与动力学区文字溢出、batch376 的电网标签间距和三户屋顶落点、batch377 的 70 mm 尺寸跨距。对“电网双向箭头、Fin supporter 引线悬空、379 层间箭头断开、374 执行器方向反置”等报告逐条回看原图后判定为不成立，未按误报改动结构。
+
+8 图均通过 `verify_batch.py`、`verify_text_clearance.py`、`style_audit.py` 和独立重叠审计；最终标准 PNG/SVG 已重生成。自动检查只覆盖其声明范围，不能替代逐图源图对照，也不宣称全库视觉无碰撞。

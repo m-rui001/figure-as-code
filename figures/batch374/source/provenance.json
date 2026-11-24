@@ -1,0 +1,23 @@
+{
+  "paper_title": "MomentumNet-CD: Real-Time Collision Detection for Industrial Robots Based on Momentum Observer with Optimized BP Neural Network",
+  "authors": [
+    "Jinhua Ye",
+    "Yechen Fan",
+    "Quanjie Kang",
+    "Xiaohan Liu",
+    "Haibin Wu",
+    "Gengfeng Zheng"
+  ],
+  "doi": "10.3390/machines13040334",
+  "paper_url": "https://www.mdpi.com/2075-1702/13/4/334",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:10:48.049952+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "f5a1962ba3883d3a2df00f304e8b049114854872f77ece8aaf74f5120ceb7817",
+      "download_url": "https://mdpi-res.com/machines/machines-13-00334/article_deploy/html/images/machines-13-00334-g001.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "paper_title": "Model-Based Design of the 5-DoF Light Industrial Robot",
+  "authors": [
+    "Yongping Shi",
+    "Tianbing Ma",
+    "Hao Wang",
+    "Tao Zhang",
+    "Xin Zhang",
+    "Huapeng Wu",
+    "Ming Li"
+  ],
+  "doi": "10.3390/robotics14080103",
+  "paper_url": "https://www.mdpi.com/2218-6581/14/8/103",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:10:38.149172+00:00",
+  "figures": [
+    {
+      "figure": 9,
+      "file": "source/figure-9.png",
+      "sha256": "546d0772685dec789700a2dbfc816f0b8364ae547a4b00b71c29b7e62e6b42aa",
+      "download_url": "https://mdpi-res.com/robotics/robotics-14-00103/article_deploy/html/images/robotics-14-00103-g009.png"
+    }
+  ]
+}

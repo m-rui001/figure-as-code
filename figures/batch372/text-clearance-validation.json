@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/robot-simulation-platform.typ",
+      "typ_sha256": "930e4566ad14a26baba5cbffe093a5a765f2dec209063f8423825c09938df800",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

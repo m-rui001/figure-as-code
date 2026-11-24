@@ -1,0 +1,21 @@
+{
+  "paper_title": "Experimental Study on the Heat Pump Performance Combined with Dual-Purpose Solar Collector",
+  "authors": [
+    "Kwang-Am Moon",
+    "Seong-Bhin Kim",
+    "Hwi-Ung Choi",
+    "Kwang-Hwan Choi"
+  ],
+  "doi": "10.3390/en17123038",
+  "paper_url": "https://www.mdpi.com/1996-1073/17/12/3038",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:11:00.468830+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "64b22192c20718784c2b4337e145fb5195928b3bb1ea7b8147f26f29640d6582",
+      "download_url": "https://mdpi-res.com/energies/energies-17-03038/article_deploy/html/images/energies-17-03038-g001.png"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-1.png",
+      "sha256": "64b22192c20718784c2b4337e145fb5195928b3bb1ea7b8147f26f29640d6582",
+      "typ": "typ/solar-air-collector.typ",
+      "labels": {
+        "(a) Isometric exploded view": 1,
+        "(b) Isometric assembly view": 1,
+        "(c) Front view": 1,
+        "(d) Side view": 1,
+        "Glass": 3,
+        "Absorber plate": 3,
+        "Pipe": 3,
+        "Supporter fin": 2,
+        "Fin supporter": 1,
+        "Insulator": 3,
+        "Casing": 3,
+        "Hot water outlet": 2,
+        "Heated air outlet": 2,
+        "Cold air inlet": 2,
+        "Cold water inlet": 2,
+        "70 mm": 1,
+        "100 mm": 1,
+        "982 mm": 1,
+        "Stagnant air": 1,
+        "Air channel": 1,
+        "Water channel": 1,
+        "1980 mm": 1
+      }
+    }
+  ]
+}

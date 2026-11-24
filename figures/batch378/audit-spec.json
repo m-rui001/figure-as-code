@@ -1,0 +1,24 @@
+{
+  "figures": [
+    {
+      "source": "source/figure-5.png",
+      "sha256": "8daefc076ecde5f7a522ff00790e42392993674d7eeb5d13c5659e55fdda0c49",
+      "typ": "typ/neuron-pid-control.typ",
+      "labels": {
+        "Input": 1,
+        "𝑇𝑣": 1,
+        "𝑃∗[𝑘]": 1,
+        "𝑒𝑝[𝑘]": 1,
+        "Neuron Position PID Controller": 1,
+        "𝑉∗[𝑘]": 1,
+        "𝑒𝑣[𝑘]": 1,
+        "Neuron Speed PID Controller": 1,
+        "Pulse out": 1,
+        "𝑈[𝑘]": 1,
+        "Encoder": 2,
+        "𝑉[𝑘]": 1,
+        "𝑃[𝑘]": 1
+      }
+    }
+  ]
+}

@@ -20,7 +20,7 @@ Paper figures compressed into compilable **Typst/CeTZ** source. Every line maps 
 
 ## 内容
 
-- `figures/batchNN/typ/*.typ`：444 个自包含图文件（304 个批次；另有 2 个图元测试在 `assets/tests/`）。
+- `figures/batchNN/typ/*.typ`：462 个自包含图文件（327 个批次；另有 2 个图元测试在 `assets/tests/`）。
 - 以线稿与示意图为主：几何、向量、物理、控制框图、推进系统、材料机理、AI 网络架构。
 - 统一依赖 Typst 0.15.1 与 CeTZ 0.4.2，文件首部即页面与依赖设置。
 - 一个文件一张图，标签与论文原图一致，不使用外部图片资源。
@@ -38,7 +38,7 @@ typst compile figures/batch291/typ/lstm-ddpg-framework.typ out.pdf
 python tools/compile_all.py --jobs 4
 ```
 
-当前 **444/444** 编译成功，0 失败；36 条字体 warning 记录在 `MANIFEST.csv`，详见 [QUALITY.md](QUALITY.md)。
+当前 **462/462** 编译成功，0 失败；36 条字体 warning 记录在 `MANIFEST.csv`，详见 [QUALITY.md](QUALITY.md)。
 
 ## 目录
 
@@ -69,3 +69,13 @@ batch362–371 新增 10 张自包含 CeTZ 矢量图：DDS 接收机忙期、液
 - 全量编译 454/454 通过；36 条警告均为既有字体警告，新增 10 图零警告。
 - 新增图均通过结构、文字净空、风格与独立重叠检查；batch370 的流号 1–58 逐行独立提取通过。
 - 逐图验收记录见各批次 `QUALITY.md`。
+
+## 新增转换与视觉复核（2026-11-25）
+
+batch372–379 新增 8 张自包含 CeTZ 矢量图：机器人仿真验证、CNC 工艺优化流程、MomentumNet-CD 与 DAQ、电池液冷传热、多能源系统、双用途太阳能集热器、神经元 PID 伺服控制、智能产线数字孪生。
+
+- 原图、DOI、CC BY 4.0 许可与 SHA256 保存在各批次 `source/provenance.json`；本轮 DOI 与图号无重复。
+- 8 图全部通过结构、文字净空、风格和独立重叠检查，标准 PNG/SVG 预览与最终源码同步。
+- 拓扑复核逐节点、逐边和逐端口进行，重点纠正 374 的神经网络与 DAQ 接口、375 的传热箭头、376–379 的支路与反馈路径。
+- 当前全量编译 462/462 通过；36 条警告均为既有字体警告，新增 8 图零警告。
+- 逐图验收记录见 batch372–379 的 `QUALITY.md`；编译通过不等同于全库视觉认证。

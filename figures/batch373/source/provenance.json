@@ -1,0 +1,21 @@
+{
+  "paper_title": "Data-Driven Optimization of CNC Manufacturing Using Simulation and DOE Techniques",
+  "authors": [
+    "Vijay Sevella",
+    "Ahad Ali",
+    "Abdelhakim Abdelhadi",
+    "Ahmad Alkhaleefah"
+  ],
+  "doi": "10.3390/app15147637",
+  "paper_url": "https://www.mdpi.com/2076-3417/15/14/7637",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:10:42.008463+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "d8273843908eab49e58c6fdb83e20c7710dd9301a77e27658f07e157ee7e3f80",
+      "download_url": "https://mdpi-res.com/applsci/applsci-15-07637/article_deploy/html/images/applsci-15-07637-g001.png"
+    }
+  ]
+}

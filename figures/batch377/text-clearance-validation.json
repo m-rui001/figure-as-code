@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/solar-air-collector.typ",
+      "typ_sha256": "67886a3c90fabd729ae48ea93e044bc7932411cfe1481e6c801963fd0bf6ad41",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

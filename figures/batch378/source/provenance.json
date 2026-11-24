@@ -1,0 +1,23 @@
+{
+  "paper_title": "Intelligent S-Curve Acceleration and Deceleration Algorithm in High-Precision Servo Motion Control",
+  "authors": [
+    "Feng Liu",
+    "Nian Li",
+    "Lei Xiong",
+    "Xu Yang",
+    "Shaoyu Zhao",
+    "Tiansong Zhai"
+  ],
+  "doi": "10.3390/machines14010091",
+  "paper_url": "https://www.mdpi.com/2075-1702/14/1/91",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:11:02.354695+00:00",
+  "figures": [
+    {
+      "figure": 5,
+      "file": "source/figure-5.png",
+      "sha256": "8daefc076ecde5f7a522ff00790e42392993674d7eeb5d13c5659e55fdda0c49",
+      "download_url": "https://mdpi-res.com/machines/machines-14-00091/article_deploy/html/images/machines-14-00091-g005.png"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "batch376",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/multi-energy-system.typ",
+      "typ_sha256": "4f4a20f7480e915ebb312ba41bbc414006859a8f9026c9ec9b82e6f957443c70",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "𝑃PV": 1,
+        "𝑃grid, pos": 1,
+        "𝑃grid, neg": 1,
+        "𝑃HE": 1,
+        "𝑃HP": 1,
+        "𝑃load": 1,
+        "COP": 1,
+        "𝑄̇HE": 1,
+        "𝑄̇HP": 1,
+        "𝑇stor": 1,
+        "𝐸stor": 1,
+        "𝑇∞": 1,
+        "𝑄̇loss": 1,
+        "𝑄̇out": 1,
+        "𝑄̇H1": 1,
+        "𝑄̇H2": 1,
+        "𝑄̇H3": 1,
+        "𝑇GP": 1
+      }
+    }
+  ],
+  "passed": true
+}

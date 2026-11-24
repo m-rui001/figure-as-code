@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/multi-energy-system.typ",
+      "typ_sha256": "4f4a20f7480e915ebb312ba41bbc414006859a8f9026c9ec9b82e6f957443c70",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

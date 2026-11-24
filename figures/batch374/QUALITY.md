@@ -1,0 +1,10 @@
+# Batch 374 quality record
+
+- Source: Machines 2025, 13(4), 334, Figure 1; DOI `10.3390/machines13040334`; CC BY 4.0.
+- Reconstruction: Typst 0.15.1 + CeTZ 0.4.2, self-contained vector MomentumNet-CD and DAQ architecture.
+- Preserved the observer feedback, four-stage feature cycle and two one-way normalization-to-distance arcs.
+- Dynamics titles are split and sized to stay inside their region; feature-cycle labels remain inside their ellipses.
+- Restored the complete 3-3-1 fully connected neural network and its external iteration return.
+- Rechecked every DAQ endpoint, direction and owning port; the isolator enters the force sensor at its right edge.
+- Removed the nonexistent computer-to-QUARC edge and human-cycle-to-motor edges; MOS FET output reaches the motor top.
+- `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` pass; independent overlap audit reports zero text overlaps and zero connector crossings.

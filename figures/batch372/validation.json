@@ -1,0 +1,35 @@
+{
+  "batch": "batch372",
+  "all_typ_files_covered": true,
+  "figures": [
+    {
+      "typ": "typ/robot-simulation-platform.typ",
+      "typ_sha256": "930e4566ad14a26baba5cbffe093a5a765f2dec209063f8423825c09938df800",
+      "checks": {
+        "compile": true,
+        "no_warnings": true,
+        "source_sha256": true,
+        "max_120_columns": true,
+        "single_page": true,
+        "no_embedded_raster": true,
+        "text_within_page": true,
+        "declared_labels": true,
+        "literal_code_lines": true
+      },
+      "compiler_stderr": "",
+      "label_counts": {
+        "Robot 3D model": 1,
+        "SW": 1,
+        "Solidworks": 1,
+        "Vrep": 1,
+        "Robot urdf model": 1,
+        "Matlab": 1,
+        "function vrep_matlab()": 1,
+        "urdf": 3,
+        "RemoteAPI": 1,
+        "Verification": 1
+      }
+    }
+  ],
+  "passed": true
+}

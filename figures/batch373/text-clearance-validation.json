@@ -1,0 +1,13 @@
+{
+  "figures": [
+    {
+      "typ": "typ/cnc-process-flow.typ",
+      "typ_sha256": "05f4780a7964d9c68b8bab5f4c5a530e03ae5c19a2ea5271ef8e840d4fbcee1e",
+      "text_line_intersections": [],
+      "text_span_overlaps": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitation": "1pt inset text bounds; straight unfilled paths only; visual review required."
+}

@@ -1,0 +1,21 @@
+{
+  "paper_title": "Deep Reinforcement Learning Approaches the MILP Optimum of a Multi-Energy Optimization in Energy Communities",
+  "authors": [
+    "Vinzent Vetter",
+    "Philipp Wohlgenannt",
+    "Peter Kepplinger",
+    "Elias Eder"
+  ],
+  "doi": "10.3390/en18174489",
+  "paper_url": "https://www.mdpi.com/1996-1073/18/17/4489",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:10:54.078029+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "422b5839b57179665af047f8eb4fc77595f41302a7a1d865064a97527c885a74",
+      "download_url": "https://mdpi-res.com/energies/energies-18-04489/article_deploy/html/images/energies-18-04489-g001.png"
+    }
+  ]
+}

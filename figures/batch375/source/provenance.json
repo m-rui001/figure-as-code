@@ -1,0 +1,21 @@
+{
+  "paper_title": "Design and Thermal Performance Analysis of a Liquid Cooling Plate Based on Gradually Varied Circular Notched Fins for Lithium-Ion Batteries",
+  "authors": [
+    "Huaibin Gao",
+    "Xingwang Hou",
+    "Wei Ma",
+    "Yu Ma"
+  ],
+  "doi": "10.3390/pr13030924",
+  "paper_url": "https://www.mdpi.com/2227-9717/13/3/924",
+  "license": "CC BY 4.0",
+  "retrieved_utc": "2026-11-24T16:10:51.441110+00:00",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "source/figure-1.png",
+      "sha256": "7340742c279c086576b58cb0b9094d81b8801f9be89071892478a23b750e4508",
+      "download_url": "https://mdpi-res.com/processes/processes-13-00924/article_deploy/html/images/processes-13-00924-g001.png"
+    }
+  ]
+}
