@@ -4,7 +4,7 @@
   "figures": [
     {
       "typ": "typ/neuron-pid-control.typ",
-      "typ_sha256": "759e5003496f55e1eab2388a5b4980476463ce02077c867d9bd232b46b632d19",
+      "typ_sha256": "38b9af5205f9d9b4b021171ca60d237a55deaedd6b909533bdf374788e61908e",
       "checks": {
         "compile": true,
         "no_warnings": true,

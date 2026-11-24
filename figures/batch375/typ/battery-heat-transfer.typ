@@ -10,6 +10,16 @@
   let edge = (paint: ink, thickness: 0.9pt)
   let arrow-mark = (end: "stealth", fill: red, scale: 0.5)
 
+  let semi(cx, cy, rx, ry, fill, up: true) = {
+    let kx = 0.5523 * rx
+    let ky = 0.5523 * ry
+    let s = if up { 1 } else { -1 }
+    bezier((cx - rx, cy), (cx, cy + s * ry), (cx - rx + kx, cy + s * ry), (cx - rx, cy + s * ky),
+      fill: fill, stroke: edge, close: true)
+    bezier((cx, cy + s * ry), (cx + rx, cy), (cx + rx, cy + s * ky), (cx + kx, cy + s * ry),
+      fill: fill, stroke: edge, close: true)
+  }
+
   // 来源：Processes 2025，DOI 10.3390/pr13030924，Figure 1。
   let poly(fill, ..points) = line(..points, fill: fill, stroke: edge, close: true)
   let plate(x, y, w, d, h, fill) = {
@@ -42,16 +52,19 @@
   }
   content((4.2, -0.65), text(size: 13pt)[(a) Battery module], anchor: "center")
 
-  // (b) Three exploded isometric plates share four corner guides.
+  // (b) Three exploded isometric plates share two partial tabs per plate.
   let bx = 11.0
   plate(bx, 9.4, 8.4, 2.0, 0.48, blue)
   plate(bx + 0.7, 6.3, 8.4, 2.0, 0.28, white)
   plate(bx + 1.4, 3.2, 8.4, 2.0, 0.48, blue)
-  for i in range(4) {
-    let x = bx + 0.8 + i * 2.15
-    ellipse(x + 0.6, 9.75, 0.35, 0.18, blue-dark)
-    ellipse(x + 0.7, 6.58, 0.35, 0.18, white)
-    ellipse(x + 0.8, 3.48, 0.35, 0.18, blue-dark)
+  for x in (bx + 2.2, bx + 5.4) {
+    semi(x, 9.16, 0.35, 0.18, blue-dark, up: false)
+  }
+  for x in (bx + 3.0, bx + 6.2) {
+    semi(x, 7.2, 0.35, 0.18, white, up: true)
+  }
+  for x in (bx + 3.2, bx + 6.4) {
+    semi(x, 3.45, 0.35, 0.18, blue-dark, up: true)
   }
 
   // Upper and lower arrows convey heat flow in opposite vertical directions.

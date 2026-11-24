@@ -2,7 +2,6 @@
 #set text(font: ("Arial", "Segoe UI"), size: 10pt)
 #import "@preview/cetz:0.4.2": canvas, draw
 // 来源：Applied Sciences 2025，DOI 10.3390/app15147637，Figure 1。
-#let vertical-label(body) = rotate(90deg, reflow: true, body)
 #canvas(length: 0.65cm, {
   import draw: *
   let ink = rgb("#344054")
@@ -46,7 +45,7 @@
   line((7.5, ry), (7.5, 22.0), stroke: (paint: red, thickness: 1.25pt))
   line((7.5, 22.0), (5.45, 22.0), stroke: (paint: red, thickness: 1.25pt),
     mark: (end: "stealth", fill: red, scale: 0.45))
-  content((8.15, 15.7), vertical-label(text(size: 11pt, fill: red)[No]), anchor: "center")
+  content((8.15, 15.7), text(size: 11pt, fill: red)[No], anchor: "center")
 
   // Main process arrows run downward between adjacent stages.
   down((3.0, 24.15), (3.0, 22.9))

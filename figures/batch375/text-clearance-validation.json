@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/battery-heat-transfer.typ",
-      "typ_sha256": "573623d0b6a2e0267f7984c97c5fbaf6676f63cd6c9ed2b367f4622ae9da8f6c",
+      "typ_sha256": "9394d30a4371bb169571c54834bcd12408e1ab616b40313fa151f4d0921707bd",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true

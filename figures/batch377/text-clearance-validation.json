@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/solar-air-collector.typ",
-      "typ_sha256": "67886a3c90fabd729ae48ea93e044bc7932411cfe1481e6c801963fd0bf6ad41",
+      "typ_sha256": "169ba8ae68e8f4c9bd0ace036303667cbf65a0e38e5b731fc94f2686926a2992",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true

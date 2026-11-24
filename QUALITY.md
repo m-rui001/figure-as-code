@@ -118,10 +118,10 @@ batch259–281 的23张图已补充机器复验：单页、零警告、文字在
 - [batch374](figures/batch374/QUALITY.md)：MomentumNet-CD 与 DAQ，恢复 3-3-1 全连接网络并重建采集、控制、驱动与隔离器端口。
 - [batch375](figures/batch375/QUALITY.md)：电池模块与液冷板，恢复 9 根传热箭头及双 Battery 引线。
 - [batch376](figures/batch376/QUALITY.md)：多能源系统，核对电网支路、Pload、热损失、三户负荷与地热回路。
-- [batch377](figures/batch377/QUALITY.md)：太阳能集热器，补顶部总览、六部件引线、前视分层、水道端点与双向尺寸。
+- [batch377](figures/batch377/QUALITY.md)：太阳能集热器，恢复原图 2×2 栏式、六层爆炸图、端口方向、通道引线与三项尺寸。
 - [batch378](figures/batch378/QUALITY.md)：神经元 PID 伺服控制，核对梯形输入、减号节点、上下编码器反馈与脉冲输出。
 - [batch379](figures/batch379/QUALITY.md)：产线数字孪生，核对卡片到应用外层路由、Data driven、Exact mapping 与双向 OPCUA 链路。
 
-视觉二审又修正了 batch374 的隔离器输出端口与动力学区文字溢出、batch376 的电网标签间距和三户屋顶落点、batch377 的 70 mm 尺寸跨距。对“电网双向箭头、Fin supporter 引线悬空、379 层间箭头断开、374 执行器方向反置”等报告逐条回看原图后判定为不成立，未按误报改动结构。
+今日逐图二审确认 batch372、376 无新增实质偏差；修正 batch373 的 No 横排、batch374 的动量公式/隔离器输出/差分转换端口、batch375 的每板两个半椭圆接线片、batch377 的重复总览与 2×2 版式/端口方向/通道引线、batch378 的积分符号与标签净空、batch379 的外层路由方向/Data awareness 虚实线/层间双向箭头。
 
 8 图均通过 `verify_batch.py`、`verify_text_clearance.py`、`style_audit.py` 和独立重叠审计；最终标准 PNG/SVG 已重生成。自动检查只覆盖其声明范围，不能替代逐图源图对照，也不宣称全库视觉无碰撞。

@@ -28,8 +28,7 @@
   }
   let function-box(x0, x1, y0, y1) = {
     rect((x0, y0), (x1, y1), fill: white, stroke: box-stroke)
-    bezier((x0 + 0.30, y0 + 0.34), (x1 - 0.30, y0 + 0.88),
-      (x0 + 0.28, y1 - 0.26), (x1 - 0.28, y0 + 0.24), stroke: wire)
+    content(((x0 + x1) / 2, (y0 + y1) / 2), text(size: 20pt)[$integral$], anchor: "center")
   }
 
   // Input trajectory and differentiating/integrating element.
@@ -37,7 +36,7 @@
   line((0.1, 4.2), (0.65, 4.2), (1.1, 5.1), (2.0, 5.1), (2.45, 4.2), (2.9, 4.2),
     stroke: wire)
   arrow((2.9, 4.2), (3.0, 4.2))
-  content((2.65, 4.55), $T_v$, anchor: "south")
+  content((2.55, 5.25), $T_v$, anchor: "south")
   function-box(3.0, 4.25, 3.65, 5.55)
   arrow((4.25, 5.1), (5.68, 5.1))
   content((4.88, 5.48), $P^*[k]$, anchor: "south")
@@ -58,7 +57,7 @@
   arrow((16.75, 5.1), (18.35, 5.1))
   function-box(18.35, 19.60, 4.35, 5.85)
   arrow((19.60, 5.1), (22.4, 5.1))
-  content((18.9, 5.65), text(size: 10pt)[Pulse out], anchor: "east")
+  content((18.0, 6.25), text(size: 8.5pt)[Pulse out], anchor: "center")
   content((22.62, 5.1), $U[k]$, anchor: "west")
 
   // Upper encoder measures velocity and feeds the speed controller.

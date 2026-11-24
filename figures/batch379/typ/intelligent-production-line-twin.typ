@@ -33,7 +33,7 @@
   }
   box((2.0, 32.2), (25.8, 33.8), [The whole process, whole elements and whole process of intelligent production line.],
     fill: none, size: 8pt)
-  arrow((2.2, 30.8), (25.4, 30.8))
+  arrow((2.2, 30.8), (23.0, 30.8))
   content((8.5, 31.65), text(size: 7pt, fill: blue)[Simulation, monitoring, evaluation,], anchor: "center")
   content((10.0, 31.15), text(size: 7pt, fill: blue)[optimization, prediction, decision making.], anchor: "center")
   content((21.0, 31.25), text(size: 7.5pt, fill: blue)[Data transfer interaction], anchor: "center")
@@ -85,26 +85,27 @@
     line((2.8 + i * 1.6, 7.5), (3.2 + i * 1.6, 8.5), stroke: edge)
   }
   line((2.4, 5.9), (7.6, 5.9), stroke: edge)
-  line((1.58, 12.0), (1.58, 4.8), (1.95, 4.8), stroke: blue-line)
+  line((1.58, 12.0), (1.58, 11.55), stroke: blue-line)
+  arrow((1.58, 11.55), (1.95, 11.55))
   content((1.05, 8.4), side(text(size: 6.3pt, fill: blue)[Exact mapping]), anchor: "center")
-  line((0.75, 21.0), (0.75, 12.0), (1.35, 12.0), stroke: blue-line)
+  line((0.75, 21.0), (0.75, 12.0), stroke: blue-line)
+  arrow((0.75, 12.0), (1.35, 12.0))
 
   // Sensor/control backbone above ten physical device entities.
   content((9.0, 10.65), text(size: 7pt)[sensor], anchor: "west")
   content((12.0, 10.65), text(size: 7pt)[PLC], anchor: "west")
   content((14.2, 10.65), text(size: 7pt)[Industrial control computer], anchor: "west")
   content((22.0, 10.65), text(size: 7pt)[Motion controller], anchor: "west")
-  line((8.8, 9.9), (26.8, 9.9), stroke: blue-line)
-  line((8.8, 8.8), (24.9, 8.8), stroke: (paint: blue, thickness: 1.0pt, dash: "dashed"))
-  line((25.3, 8.8), (26.8, 8.8), stroke: (paint: blue, thickness: 1.0pt, dash: "dashed"))
+  line((8.8, 9.9), (13.2, 9.9), stroke: blue-line)
+  line((12.4, 8.8), (25.0, 8.8), stroke: (paint: blue, thickness: 1.0pt, dash: "dashed"))
+  arrow((17.0, 8.8), (17.0, 9.9))
   content((9.0, 8.35), text(size: 6.3pt, fill: blue)[Data awareness], anchor: "west")
-  arrow((23.2, 20.45), (23.2, 11.55))
-  arrow((20.5, 11.55), (20.5, 12.45))
-  content((19.2, 11.8), text(size: 7.5pt, fill: blue)[Data transfer interaction], anchor: "east")
+  arrow((12.0, 11.55), (12.0, 12.05))
+  arrow((23.2, 12.05), (23.2, 11.55))
+  content((17.0, 11.78), text(size: 7.5pt, fill: blue)[Data transfer interaction], anchor: "center")
   let devices = ([Industrial\ robot], [Machining\ center], "CNC", [Tool\ unit], [Sorting\ unit],
     [Grinding\ unit], [Detection\ unit], [Storage\ unit], [Master\ control\ unit], "worker")
   line((8.4, 4.2), (27.22, 4.2), stroke: blue-line)
-  arrow((25.1, 9.85), (25.1, 4.25), both: true)
   for (i, name) in devices.enumerate() {
     let x = 8.4 + i * 1.9
     box((x, 1.2), (x + 1.72, 3.5), name, fill: rgb("#fff8e8"), size: 4.5pt)
@@ -112,8 +113,8 @@
   }
 
   // Outer acquisition-to-application route remains separate from the service arrow.
-  line((26.85, 17.15), (27.2, 17.15), (27.2, 30.8), stroke: blue-line)
-  arrow((27.2, 30.8), (27.2, 30.55))
-  content((28.8, 23.7), side(text(size: 7.5pt, fill: blue)[Data transfer interaction]), anchor: "center")
+  line((26.85, 17.15), (28.0, 17.15), (28.0, 30.8), (25.4, 30.8), stroke: blue-line)
+  arrow((25.4, 30.8), (25.4, 30.55))
+  content((29.6, 23.7), side(text(size: 7.5pt, fill: blue)[Data transfer interaction]), anchor: "center")
   content((0.10, 16.5), side(text(size: 6.3pt, fill: blue)[Data driven]), anchor: "center")
 })

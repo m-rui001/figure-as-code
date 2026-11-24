@@ -38,13 +38,14 @@
   block((0.75, 22.55), (5.95, 23.95), [Robot Manipulator\ Dynamics],
     fill: rgb("#e2efdc"), size: 7.2pt)
   content((3.35, 21.85), text(size: 6.3pt, fill: red)[Introduction of\ Momentum Observer], anchor: "center")
-  content((3.35, 20.8), text(size: 5.8pt)[$hat(p) = C^T(q, dot(q)) G(q) + tau + r$], anchor: "center")
-  bezier((1.2, 21.2), (0.55, 21.4), (0.55, 23.5), (1.1, 23.3),
+  rect((0.85, 20.05), (5.85, 21.15), fill: white, stroke: edge)
+  content((3.35, 20.6), text(size: 5.4pt)[$hat(p) = C^T(q, dot(q)) dot(q) - G(q) + tau + r$], anchor: "center")
+  bezier((5.85, 20.6), (5.65, 22.55), (6.08, 21.2), (6.08, 22.25),
     stroke: (paint: blue, thickness: 1.2pt), mark: (end: "stealth", fill: blue, scale: 0.4))
   block((0.75, 18.25), (5.95, 19.45), [Discrete-Time\ Implementation of Observer],
     fill: rgb("#e2efdc"), size: 5.8pt)
   content((8.4, 25.05), text(size: 8pt, fill: red)[Feature Extraction], anchor: "west")
-  arrow((5.95, 21.8), (6.95, 21.8), paint: red)
+  arrow((6.25, 21.8), (6.95, 21.8), paint: red)
 
   // Four-stage feature cycle: torque -> feature -> normalization -> joint error -> torque.
   ellipse(7.9, 21.8, 1.6, 0.9)
@@ -114,6 +115,7 @@
   arrow((4.33, 8.8), (6.95, 8.8), paint: red)
 
   // Acquisition and control channels remain separate until the servo driver.
+  rect((10.0, 3.6), (29.55, 12.35), stroke: (paint: rgb("#c6a34b"), thickness: 1pt, dash: "dashed"))
   content((15.7, 11.9), text(size: 9pt, weight: "bold")[Control Part], anchor: "center")
   block((10.2, 8.9), (14.8, 11.35), [(Acquisition) Analog\ Input and Encoder\ Pulse Signal], size: 6.5pt)
   block((17.1, 9.35), (20.7, 11.1), [Signal Conditioning/\ Amplifier], size: 7pt)
@@ -127,8 +129,8 @@
   arrow((9.25, 6.35), (10.15, 6.35), paint: blue)
   line((14.8, 9.6), (15.4, 9.6), (15.4, 8.0), (19.25, 8.0), stroke: blue + 1.3pt)
   arrow((19.25, 8.0), (19.25, 7.5), paint: blue)
-  line((21.4, 6.8), (21.8, 6.8), (21.8, 8.8), (23.0, 8.8), stroke: blue + 1.3pt)
-  arrow((23.0, 8.8), (23.0, 9.3), paint: blue)
+  line((21.4, 6.8), (21.85, 6.8), (21.85, 10.15), stroke: blue + 1.3pt)
+  arrow((21.85, 10.15), (22.05, 10.15), paint: blue)
   line((14.85, 5.6), (14.85, 4.8), (21.7, 4.8), (21.7, 6.35), stroke: blue + 1.3pt)
   arrow((21.7, 6.35), (22.05, 6.35), paint: blue)
 
@@ -137,9 +139,9 @@
   block((26.0, 5.35), (29.3, 7.35), [Isolator\ Transmitter], size: 6.8pt)
   arrow((24.3, 7.35), (24.3, 9.3), paint: blue)
   arrow((27.65, 7.35), (27.65, 9.3), paint: blue)
-  line((29.3, 6.35), (29.65, 6.35), (29.65, 11.6), (26.8, 11.6), (26.8, 10.15),
+  line((29.3, 6.35), (29.65, 6.35), (29.65, 11.6), (21.15, 11.6), (21.15, 10.15),
     stroke: blue + 1.3pt)
-  arrow((26.8, 10.15), (26.5, 10.15), paint: blue)
+  arrow((21.15, 10.15), (20.7, 10.15), paint: blue)
   block((18.4, 1.35), (22.9, 3.15), [Joint AC Servo\ Motor (Encoder)],
     fill: rgb("#fff0cd"), size: 6.3pt)
   block((24.0, 1.35), (29.3, 3.15), [End-Effector ATI\ Six-Axis Force Sensor], fill: rgb("#fff0cd"), size: 7pt)
