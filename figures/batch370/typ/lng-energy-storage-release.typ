@@ -49,9 +49,9 @@
       stroke: (paint: c, thickness: 1.6pt))
     line((x - 0.27, y), (x + 0.27, y), stroke: (paint: c, thickness: 1.3pt)); label(s, (x + 0.72, y)) }
   let tank(x, y) = {
-    rect((x - 0.65, y - 0.65), (x + 0.65, y + 0.40), fill: aqua, stroke: wire)
-    arc((x, y + 0.40), radius: 0.65, start: 0deg, stop: 180deg, fill: aqua, stroke: wire)
-    label("Liquid air", (x, y - 0.05), sz: 8); label("storage tank", (x, y - 0.38), sz: 8) }
+    rect((x - 0.72, y - 0.65), (x + 0.72, y + 0.40), fill: aqua, stroke: wire)
+    arc((x, y + 0.40), radius: 0.72, start: 0deg, stop: 180deg, fill: aqua, stroke: wire)
+    label("Liquid air", (x, y - 0.05), sz: 7.5); label("storage tank", (x, y - 0.38), sz: 7.5) }
   // Module fields and headings.
   panel((0.2, 15.1), (30.2, 22.55), rgb("#ffecdd")); panel((0.2, 11.35), (30.2, 15.1), rgb("#fff2c9"))
   panel((0.2, 5.85), (14.2, 11.35), rgb("#eee8f7")); panel((14.2, 5.85), (21.4, 11.35), rgb("#e9f2df"))
@@ -61,10 +61,10 @@
   for x in (14.2, 21.4) { line((x, 5.85), (x, 11.35), stroke: edge) }
   label("Energy storage module", (26.0, 21.50), sz: 13)
   label("Cold storage module for releasing energy", (15.2, 14.82), sz: 13)
-  label("Storage/potential energy conversion module", (7.3, 11.85), sz: 11)
+  label("Storage/potential energy conversion module", (7.3, 12.20), sz: 11)
   label("Power generation module", (16.6, 6.12), sz: 10)
   label("Air conditioning module", (26.7, 10.55), sz: 13)
-  label("Energy release module", (26.7, 0.72), sz: 13)
+  label("Energy release module", (26.7, 1.15), sz: 13)
   // Six source legend entries.
   rect((0.7, 20.92), (13.8, 22.12), fill: white, stroke: (paint: ink, thickness: 0.8pt, dash: "dashed"))
   for (x, y, c, s) in ((1.0, 21.82, blue, "LNG"), (1.0, 21.48, orange, "The thermal discharge from the power plant"),
@@ -139,7 +139,7 @@
   num(7, (21.55, 10.78), blue)
   // Air conditioning loop and natural-gas outlet.
   rect((21.80, 9.20), (24.20, 10.30), fill: white, stroke: wire)
-  label("front area of", (23.0, 9.88), sz: 9); label("the factory", (23.0, 9.58), sz: 9)
+  label("front area of", (23.0, 9.94), sz: 9); label("the factory", (23.0, 9.56), sz: 9)
   hx(24.50, 7.20, "HX-AIR", w: 1.83, h: 0.76, ys: (0.18, -0.18), cs: (red, blue))
   hx(28.45, 7.20, "HX9", w: 1.83, h: 0.76, ys: (0.18, -0.18), cs: (red, blue))
   pipe(((21.80, 9.75), (21.60, 9.75), (21.60, 7.38), (23.585, 7.38)), cyan); num(46, (21.88, 8.55), cyan)
@@ -168,8 +168,8 @@
   label("Sea water", (2.85, 3.72)); num(58, (4.12, 3.18), ink)
   pipe(((3.05, 1.70), (1.05, 1.70)), gold); num(57, (2.05, 1.43), gold); label("Drain sea", (1.12, 1.98), c: gold)
   pipe(((23.05, 3.70), (24.05, 3.70)), green)
-  label("Normal temperature and", (25.15, 3.86), c: green, sz: 9); label("pressure air", (25.15, 3.54), c: green, sz: 9)
+  label("Normal temperature and", (25.45, 3.86), c: green, sz: 9); label("pressure air", (25.45, 3.54), c: green, sz: 9)
   pipe(((23.05, 2.95), (24.05, 2.95)), gold)
-  label("The thermal discharge", (25.15, 3.11), c: gold, sz: 9)
-  label("from the power plant", (25.15, 2.79), c: gold, sz: 9)
+  label("The thermal discharge", (25.45, 3.11), c: gold, sz: 9)
+  label("from the power plant", (25.45, 2.79), c: gold, sz: 9)
 })

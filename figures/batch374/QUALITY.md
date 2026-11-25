@@ -9,3 +9,4 @@
 - Rechecked every DAQ endpoint, direction and owning port; the isolator output enters Signal Conditioning, while its lower output enters the servo driver.
 - The differential-conversion output enters the servo driver at its left edge; MOS FET output reaches the motor top.
 - `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` pass; independent overlap audit reports zero text overlaps and zero connector crossings.
+- The renewed PDF audit kept `Dynamics Model Construction` inside its dashed region, enlarged the four feature ellipses, moved `Feature Extraction` off the ellipse, and split the lower control/signal-conditioning labels to remove tight or overflowing text.

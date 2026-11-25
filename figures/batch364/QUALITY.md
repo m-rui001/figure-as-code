@@ -6,3 +6,5 @@
 - Manual comparison confirmed all English labels, including the source spelling `Data peprocess` and the full real-time update statement.
 - Main-agent verification found one connector hidden behind a receive-interface box; it was split at the box boundary and the render was regenerated.
 - `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` all pass. The independent overlap audit reports zero text overlaps and zero connector crossings.
+- The 2026-11-25 PDF review moved panel titles and rolling-mill numbers off borders, separated `Physical Space` from the optimization bar, and moved `Data distribution` clear of the arrowhead and vertical trunk.
+- Data Center routing now follows the source directly: Data storage enters the upper Send interface, and Data distribution enters the lower Send interface; the extra leftward detour was removed.

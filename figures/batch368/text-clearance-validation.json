@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/gas-metal-arc-welding.typ",
-      "typ_sha256": "5f97dd018a6b900c3af3b6dae7e5abd9ab7fb72ba39365c842d073cf4a30da4d",
+      "typ_sha256": "75c6192d28f91c8042ec40c5d29b434315d6d6ed79d4a6dbb6c8a28f612e530b",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true

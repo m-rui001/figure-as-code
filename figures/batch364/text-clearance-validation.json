@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/hot-strip-rolling-digital-twin.typ",
-      "typ_sha256": "044bcc785de6915da4af22598cdc93db063ea1b0cf4fc1310837095b0ef8ae3d",
+      "typ_sha256": "a923c074f4d4f0fef0ff45c8efa5b98b5f85a7f5adcd29c7e62fd22e87d87502",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true

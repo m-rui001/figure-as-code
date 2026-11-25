@@ -5,3 +5,4 @@
 - Preserved the SolidWorks/V-REP/MATLAB panels, two `urdf` exports and bidirectional `RemoteAPI` connection.
 - The red Verification route starts at the robot inside the V-REP viewport and enters Robot 3D model from the left.
 - `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` pass; independent overlap audit reports zero text overlaps and zero connector crossings.
+- The 2026-11-25 PDF review widened the MATLAB code panel and reduced `RemoteAPI` just enough to clear both lower-panel borders; the white SW letters intentionally retain the source logo's cube edges.

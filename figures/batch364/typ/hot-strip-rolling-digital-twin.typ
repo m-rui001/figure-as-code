@@ -59,7 +59,7 @@
   }
   draw.line((cx - 1.12 * scale, base + 0.42 * scale), (cx + 1.12 * scale, base + 0.42 * scale),
     stroke: (paint: rgb("#e6a51d"), thickness: 3.2pt))
-  if id != none { draw.content((cx, base + 2.00 * scale), text(size: 7pt, fill: dt-ink)[#id]) }
+  if id != none { draw.content((cx, base + 2.15 * scale), text(size: 7pt, fill: dt-ink)[#id]) }
 }
 
 #canvas(length: 0.75cm, {
@@ -67,17 +67,17 @@
   rect((0.1, 19.2), (19.9, 28.7), fill: rgb("#e9f7e8"), stroke: rgb("#83c98b"), radius: 0.18)
   rect((0.1, 10.7), (19.9, 18.6), fill: rgb("#fff7d9"), stroke: rgb("#d9c278"), radius: 0.18)
   rect((0.1, 0.1), (19.9, 10.1), fill: rgb("#e7f6fb"), stroke: rgb("#78bed2"), radius: 0.18)
-  content((10, 28.18), text(size: 15pt, weight: "bold", fill: rgb("#21843a"))[Virtual Space], anchor: "south")
-  content((10, 18.08), text(size: 15pt, weight: "bold", fill: rgb("#a37516"))[Data Center], anchor: "south")
-  content((10, 9.58), text(size: 15pt, weight: "bold", fill: rgb("#176bb5"))[Physical Space], anchor: "south")
+  content((10, 27.88), text(size: 15pt, weight: "bold", fill: rgb("#21843a"))[Virtual Space], anchor: "south")
+  content((10, 17.98), text(size: 15pt, weight: "bold", fill: rgb("#a37516"))[Data Center], anchor: "south")
+  content((10, 9.35), text(size: 14pt, weight: "bold", fill: rgb("#176bb5"))[Physical Space], anchor: "south")
 
   // Cross-space trunks terminate at container edges and remain visible in the gutters.
   dt-arrow(((2.0, 15.5), (2.0, 16.2)), paint: rgb("#2465c7"))
   dt-arrow(((2.0, 10.1), (2.0, 14.7)), paint: rgb("#2465c7"))
   dt-arrow(((19.3, 16.6), (19.55, 16.6), (19.55, 19.875), (19.3, 19.875)))
   dt-arrow(((19.3, 15.1), (19.55, 15.1)))
-  dt-arrow(((17.65, 14.7), (17.65, 8.0)))
-  dt-arrow(((17.65, 7.15), (17.65, 5.95)))
+  dt-arrow(((18.75, 14.7), (18.75, 8.0)))
+  dt-arrow(((18.75, 7.15), (18.75, 5.95)))
 
   rect((0.7, 24.1), (19.3, 27.3), fill: rgb("#dcece6"), stroke: rgb("#6c9d91"), radius: 0.08)
   line((0.9, 25.03), (19.1, 25.03), stroke: (paint: rgb("#e6a51d"), thickness: 4pt))
@@ -118,10 +118,8 @@
   dt-arrow(((3.4, 15.1), (3.65, 15.1)), paint: rgb("#2465c7"))
   dt-arrow(((7.75, 13.6), (7.75, 16.35)), paint: rgb("#2465c7"))
   dt-arrow(((10.475, 13.6), (10.475, 16.35)), paint: rgb("#2465c7"))
-  dt-arrow(((14.6, 16.775), (15.65, 16.775), (15.65, 13.175)), paint: rgb("#2465c7"))
-  dt-arrow(((16.375, 13.6), (16.375, 14.0), (15.65, 14.0)), paint: rgb("#2465c7"))
-  dt-arrow(((15.65, 15.1), (16.0, 15.1)), paint: rgb("#2465c7"))
-  dt-arrow(((15.65, 16.6), (16.0, 16.6)), paint: rgb("#2465c7"))
+  dt-arrow(((14.6, 16.775), (16.0, 16.775)), paint: rgb("#2465c7"))
+  dt-arrow(((16.85, 13.6), (16.85, 14.7)), paint: rgb("#2465c7"))
   for (y, title) in ((16.2, "Receive interface"), (14.7, "Receive interface")) {
     dt-chip(0.65, y, 2.75, 0.8, title, fill: rgb("#f4d88c"), size: 6.8pt)
   }
@@ -132,7 +130,7 @@
   let stages = (
     (3.9, 2.45, "Data peprocess"), (6.65, 2.2, "Data mapping"),
     (9.15, 2.65, "Feature extraction"), (12.1, 2.65, "Information fusion"),
-    (15.05, 2.65, "Data distribution"),
+    (15.65, 2.4, "Data distribution"),
   )
   for (index, (x, width, title)) in stages.enumerate() {
     dt-chip(x, 12.75, width, 0.85, title, size: 6.2pt)
@@ -143,15 +141,15 @@
   }
 
   // Optimization feeds both automation layers; quality prediction closes the loop to the mill.
-  dt-arrow(((4.3, 8.925), (2.0, 8.925), (2.0, 8.25)), paint: rgb("#087f83"))
-  dt-arrow(((10.0, 8.55), (10.0, 8.25)), paint: rgb("#087f83"))
+  dt-arrow(((4.3, 8.3), (4.3, 8.15)), paint: rgb("#087f83"))
+  dt-arrow(((10.0, 8.3), (10.0, 8.15)), paint: rgb("#087f83"))
   dt-arrow(((6.7, 7.35), (7.0, 7.35)), paint: rgb("#176bb5"), both: true)
-  dt-arrow(((15.3, 8.925), (15.65, 8.925), (15.65, 7.575), (16.0, 7.575)))
+  dt-arrow(((15.3, 8.3), (15.65, 8.3), (15.65, 7.575), (16.0, 7.575)))
   dt-arrow(((1.75, 6.45), (1.75, 5.95)), paint: rgb("#176bb5"))
-  dt-bar(4.3, 8.55, 11.0, 0.75, "Optimizing the parameters of control and process", size: 9.5pt)
-  dt-panel(0.7, 6.45, 6.0, 1.8, rgb("#cce9f7"), rgb("#5aa8ca"),
+  dt-bar(4.3, 8.3, 11.0, 0.65, "Optimizing the parameters of control and process", size: 9.5pt)
+  dt-panel(0.7, 6.35, 6.0, 1.8, rgb("#cce9f7"), rgb("#5aa8ca"),
     "Basic automation: control & execution", size: 7pt)
-  dt-panel(7.0, 6.45, 8.3, 1.8, rgb("#cce9f7"), rgb("#5aa8ca"),
+  dt-panel(7.0, 6.35, 8.3, 1.8, rgb("#cce9f7"), rgb("#5aa8ca"),
     "Process automation: process parameters setup", size: 8pt)
   for (x, width, title) in ((0.9, 1.7, "Sensors"), (2.75, 1.55, "PLCs"), (4.45, 1.95, "HMI")) {
     dt-chip(x, 6.65, width, 0.65, title, size: 8pt)

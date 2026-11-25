@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/cooling-chiller-network.typ",
-      "typ_sha256": "37c500725012ad4befc7614c01713ff43a3840217df2a31667aa73ce6cde27ed",
+      "typ_sha256": "8a15f8132a813c813023a26704520c53f5cc69b1a81bfe9b0ad93c4abecae247",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true

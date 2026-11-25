@@ -7,3 +7,4 @@
 - Data awareness uses a solid sensor-to-PLC segment, a dashed continuation and an upward arrow at the industrial control computer; the inter-layer transfer includes both directions.
 - The OPCUA server/acquisition-card link is bidirectional; no nonexistent OPCUA-client-to-simulation arrows were added.
 - `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` pass; independent overlap audit reports zero text overlaps and zero connector crossings.
+- The 2026-11-25 PDF review split the application and twin-data labels, enlarged the IOSEVER diamond and acquisition card, and moved all transfer labels off arrows and layer boundaries.

@@ -34,8 +34,8 @@
   )
   for (left, right, color, title) in sections {
     rect((left, axis-y), (right, band-top), fill: color, stroke: none)
-    let center-x = if left == red-end { 9.95 } else { (left + right) / 2 }
-    let body = if left == red-end { text(size: 8pt, fill: ink)[#title] } else { label(title) }
+    let center-x = if left == red-end { 9.80 } else { (left + right) / 2 }
+    let body = if left == red-end { text(size: 7.5pt, fill: ink)[#title] } else { label(title) }
     content((center-x, (axis-y + band-top) / 2), body)
   }
 

@@ -6,3 +6,4 @@
 - The upper encoder measures post-pulse U[k]; velocity and position feedback terminate at their respective minus nodes.
 - All three functional blocks contain integral symbols; error labels, controller titles, Pulse out and Tv were repositioned to remove all detected collisions.
 - `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` pass; independent overlap audit reports zero text overlaps and zero connector crossings.
+- The renewed PDF review split `Neuron Position PID Controller` onto two lines inside its frame. The remaining e_p/circle path contact is intentional source geometry, not text overflow.

@@ -4,7 +4,7 @@
   "figures": [
     {
       "typ": "typ/robot-simulation-platform.typ",
-      "typ_sha256": "930e4566ad14a26baba5cbffe093a5a765f2dec209063f8423825c09938df800",
+      "typ_sha256": "d6ca9647751e5239aa7212ddcdc49f5b333900a5fe28e6a134464d290faeb3cf",
       "checks": {
         "compile": true,
         "no_warnings": true,

@@ -7,3 +7,4 @@
 - Front-view leaders terminate on their own layers; the 70 mm span runs from pipe to insulator, and the 100 mm span covers the casing height.
 - Side-view leaders resolve to stagnant air, air channel and water channel; all three horizontal dimensions are double-headed.
 - `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` pass; independent overlap audit reports zero text overlaps and zero connector crossings.
+- The 2026-11-25 review shifted all exploded-view tags right of the diagonal layer edges and matched the side-view air/water leader colors to the source.

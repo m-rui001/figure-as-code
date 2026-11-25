@@ -33,8 +33,8 @@
 
   // Three software panels retain the source's triangular arrangement.
   panel-box((4.2, 8.9), (21.0, 15.7))
-  panel-box((0.2, 0.3), (11.2, 7.8))
-  panel-box((12.8, 0.3), (23.8, 7.8))
+  panel-box((0.2, 0.3), (10.8, 7.8))
+  panel-box((13.0, 0.3), (23.8, 7.8))
 
   // Vector robot line art replaces the SolidWorks viewport screenshot.
   rect((5.2, 10.1), (13.0, 14.5), fill: white, stroke: ink + 0.8pt)
@@ -83,7 +83,7 @@
   line((14.25, 6.25), (14.8, 6.65), (15.35, 5.55), (15.9, 6.25), (16.45, 5.55),
     (17.0, 6.25), (17.55, 5.55), stroke: rgb("#e8752b") + 2.2pt)
   content((18.1, 4.0), text(size: 13pt)[Matlab], anchor: "center")
-  rect((13.35, 0.45), (21.0, 3.35), fill: white, stroke: border + 0.9pt)
+  rect((13.35, 0.45), (23.2, 3.35), fill: white, stroke: border + 0.9pt)
   content((13.55, 3.03), text(size: 7.5pt, font: "Consolas")[function vrep_matlab()], anchor: "north-west")
   content((13.55, 2.63), text(size: 7.5pt, font: "Consolas")[%addpath('./api');], anchor: "north-west")
   content((13.55, 2.23), text(size: 7.5pt, font: "Consolas")[disp('Program started');], anchor: "north-west")
@@ -98,8 +98,8 @@
   content((15.8, 7.35), text(size: 11pt, fill: blue)[urdf], anchor: "north")
 
   // RemoteAPI is bidirectional; Verification returns to the model panel.
-  two-arrow((10.95, 4.25), (13.05, 4.25), orange)
-  content((12.0, 4.65), text(size: 11pt, fill: orange)[RemoteAPI], anchor: "south")
+  two-arrow((10.8, 4.25), (13.0, 4.25), orange)
+  content((11.9, 4.65), text(size: 7.5pt, fill: orange)[RemoteAPI], anchor: "south")
   line((1.05, 3.0), (-0.3, 3.0), (-0.3, 12.2),
     stroke: (paint: red, thickness: 1.4pt, dash: "dashed"))
   arrow((-0.3, 12.2), (5.2, 12.2), red, dash: "dashed")

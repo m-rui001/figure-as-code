@@ -4,7 +4,7 @@
   "figures": [
     {
       "typ": "typ/intelligent-production-line-twin.typ",
-      "typ_sha256": "dc18f2eb0ea9126afeccf1db6dec2f7323c71672913c708f35f6970f4af6115e",
+      "typ_sha256": "56d186cf3938bd70aa2a458d1d3da7c0a683d81bec6117bf8630f516025c47b5",
       "checks": {
         "compile": true,
         "no_warnings": true,

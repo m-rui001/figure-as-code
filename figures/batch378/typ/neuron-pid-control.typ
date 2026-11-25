@@ -45,7 +45,7 @@
   rect((5.45, 3.95), (10.0, 6.25), fill: white, stroke: box-stroke)
   minus(5.96, 5.1)
   content((6.35, 5.1), text(size: 6.5pt)[$e_p[k]$], anchor: "center")
-  content((8.55, 5.1), text(size: 9.5pt)[Neuron Position\ PID Controller], anchor: "center")
+  content((8.40, 5.1), text(size: 8.5pt)[Neuron Position\ PID Controller], anchor: "center")
   arrow((10.0, 5.1), (12.44, 5.1))
   content((11.1, 5.48), $V^*[k]$, anchor: "south")
   rect((12.2, 3.95), (16.75, 6.25), fill: white, stroke: box-stroke)

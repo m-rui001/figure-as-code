@@ -4,7 +4,7 @@
   "figures": [
     {
       "typ": "typ/lng-energy-storage-release.typ",
-      "typ_sha256": "c0ebb52f655d92e0cdf5b5e3c504eca9d012335b8da0f8dd08f36851572cb3a8",
+      "typ_sha256": "917670c760cb1f29b208d1053e400f0a9ee37266b3a4f0e15d1f3e6384858d3d",
       "checks": {
         "compile": true,
         "no_warnings": true,

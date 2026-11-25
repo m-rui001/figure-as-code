@@ -4,7 +4,7 @@
   "figures": [
     {
       "typ": "typ/solar-air-collector.typ",
-      "typ_sha256": "169ba8ae68e8f4c9bd0ace036303667cbf65a0e38e5b731fc94f2686926a2992",
+      "typ_sha256": "74dac169838d2ea010f896cfb6c677c06a2e5422f34e961fb0646a58b0aee680",
       "checks": {
         "compile": true,
         "no_warnings": true,

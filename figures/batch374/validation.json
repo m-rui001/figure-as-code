@@ -4,7 +4,7 @@
   "figures": [
     {
       "typ": "typ/momentumnet-collision-daq.typ",
-      "typ_sha256": "f9d1f349368a7228c904a03bbfafde7b73c66c6a2b98221c00f03a632b00df08",
+      "typ_sha256": "91a9214ac76d41a7c2d01502148cbc6e23917cbd61c5ad6ba9ef31edbbd73a92",
       "checks": {
         "compile": true,
         "no_warnings": true,

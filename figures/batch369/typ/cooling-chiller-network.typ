@@ -16,11 +16,9 @@
 
   let label(body, at) = content(at, align(center, body), anchor: "center")
   let flow(a, b) = line(a, b, stroke: wire, mark: head)
-  let joint(p) = circle(p, radius: 0.055, fill: white, stroke: wire)
 
   let tower(body, bottom) = {
     let top = bottom + 2.15
-    rect((2.75, bottom - 0.35), (7.85, top + 0.35), stroke: dashed)
     rect((3.2, bottom), (7.4, top), stroke: dashed)
     line((3.65, top - 0.58), (4.12, top - 0.20), (4.59, top - 0.58), stroke: wire)
     line((5.55, top - 0.58), (6.02, top - 0.20), (6.49, top - 0.58), stroke: wire)
@@ -67,44 +65,29 @@
   line((8.45, 26.075), (8.45, 18.825), stroke: dashed)
   for y in (26.075, 23.025, 19.325) {
     line((7.4, y), (8.45, y), stroke: dashed)
-    joint((8.45, y))
   }
 
   // Four parallel pumps between the tower header and condenser-water return.
   rect((9.65, 18.15), (13.15, 25.65), stroke: dashed)
   line((9.65, 24.7), (9.65, 19.55), stroke: dashed)
   line((13.15, 24.7), (13.15, 19.55), stroke: dashed)
-  for (i, y) in (24.7, 23.35, 22.0, 20.65).enumerate() {
+  for y in (24.7, 23.35, 22.0, 20.65) {
     line((9.65, y), (13.15, y), stroke: dashed)
-    pump((11.4, y), direction: "right")
-    joint((9.65, y))
-    joint((13.15, y))
+    pump((11.4, y), direction: "left")
   }
   line((13.15, 19.55), (15.25, 19.55), stroke: dashed)
-  joint((15.25, 19.55))
   line((8.45, 22.0), (9.65, 22.0), stroke: dashed)
-  flow((9.53, 22.0), (8.58, 22.0))
-  flow((9.65, 22.22), (9.65, 22.62))
-  joint((8.45, 22.0))
-  joint((9.65, 22.0))
+  flow((9.65, 22.0), (8.45, 22.0))
   label([Pump], (11.4, 17.55))
 
   // Chilled-water supply and return headers.
   line((5.0, 16.25), (5.0, 7.0), stroke: dashed)
   line((return-x, 14.0), (return-x, 7.0), stroke: dashed)
   line((return-x, 16.25), (return-x, 14.0), stroke: dashed)
-  joint((5.0, 16.25))
-  joint((return-x, 16.25))
   for y in branch-y {
     line((5.0, y), (6.45, y), stroke: dashed)
     line((11.05, y), (11.82, y), stroke: dashed)
     line((12.68, y), (return-x, y), stroke: dashed)
-    joint((5.0, y))
-    joint((return-x, y))
-  }
-  for y in (13.125, 11.375, 9.625, 7.875) {
-    flow((5.0, y + 0.18), (5.0, y - 0.18))
-    flow((return-x, y + 0.18), (return-x, y - 0.18))
   }
 
   // Each chiller has a dedicated pump/check-valve assembly.
@@ -114,8 +97,6 @@
     pump((pump-x, y), check: true)
   }
   flow((return-x, 10.5), (15.02, 10.5))
-  joint((return-x, 10.5))
-  joint((15.25, 10.5))
   label([Pump], (pump-x, 5.95))
 
   // User supply from the left header and return up the right-hand riser.
@@ -123,4 +104,5 @@
   flow((5.0, 1.75), (7.73, 1.75))
   rect((7.75, 0.75), (11.85, 2.75), fill: white, stroke: wire)
   label([User], (9.8, 1.75))
+  flow((11.85, 1.75), (15.02, 1.75))
 })

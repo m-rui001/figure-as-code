@@ -28,7 +28,7 @@
 
   // Application service layer: four dashed applications and service description.
   layer(30.5, 37.5, [Application service layer])
-  for (i, name) in ("Data visualization", "ERP MES PDM WMS", "Decision support system", "Database").enumerate() {
+  for (i, name) in ("Data visualization", [ERP MES PDM\ WMS], [Decision support\ system], "Database").enumerate() {
     box((2.0 + i * 6.1, 34.5), (6.8 + i * 6.1, 36.4), name, size: 7.5pt, dash: "dashed")
   }
   box((2.0, 32.2), (25.8, 33.8), [The whole process, whole elements and whole process of intelligent production line.],
@@ -36,7 +36,7 @@
   arrow((2.2, 30.8), (23.0, 30.8))
   content((8.5, 31.65), text(size: 7pt, fill: blue)[Simulation, monitoring, evaluation,], anchor: "center")
   content((10.0, 31.15), text(size: 7pt, fill: blue)[optimization, prediction, decision making.], anchor: "center")
-  content((21.0, 31.25), text(size: 7.5pt, fill: blue)[Data transfer interaction], anchor: "center")
+  content((21.0, 31.65), text(size: 7.5pt, fill: blue)[Data transfer interaction], anchor: "center")
 
   // Digital-twin production line, OPC UA client and two simulation modules.
   layer(21.0, 30.0, [Digital twin production line layer])
@@ -55,25 +55,25 @@
   // Data layer: twin-data functions, connection broker and two OPC UA servers.
   layer(12.0, 20.5, [Data layer])
   content((2.0, 19.55), text(size: 8pt, weight: "bold")[Twin data], anchor: "west")
-  let functions = (("Data acquisition", 2.0, 17.6), ("Data transfer", 5.7, 17.6),
-    ("Data integration", 2.0, 14.9), ("Data driven", 5.7, 14.9))
+  let functions = (([Data\ acquisition], 2.0, 17.6), ("Data transfer", 5.7, 17.6),
+    ([Data\ integration], 2.0, 14.9), ("Data driven", 5.7, 14.9))
   for (name, x, y) in functions {
-    box((x, y), (x + 3.0, y + 1.35), name, fill: rgb("#fff0ee"), size: 6.8pt)
+    box((x, y), (x + 3.0, y + 1.35), name, fill: rgb("#fff0ee"), size: 6.2pt)
   }
   content((10.4, 19.45), text(size: 6.2pt)[Configuring connections], anchor: "center")
-  line((9.2, 17.2), (10.4, 18.2), (11.6, 17.2), (10.4, 16.2), close: true,
+  line((9.05, 17.2), (10.4, 18.35), (11.75, 17.2), (10.4, 16.05), close: true,
     fill: white, stroke: edge)
   content((10.4, 17.2), text(size: 7pt)[IOSEVER], anchor: "center")
-  arrow((8.75, 18.275), (9.15, 17.2))
+  arrow((8.75, 18.275), (9.0, 17.2))
   rect((12.15, 15.35), (22.75, 19.15), stroke: blue-line)
   box((12.4, 15.7), (17.2, 18.8), [External\ OPCUA server], fill: white, size: 7pt, dash: "dashed")
   box((17.7, 15.7), (22.5, 18.8), [Internal\ OPCUA server], fill: white, size: 7pt, dash: "dashed")
-  box((24.0, 16.3), (26.8, 18.0), [Data acquisition\ card], fill: rgb("#fff0ee"), size: 6.5pt)
-  arrow((11.65, 17.2), (12.1, 17.2))
-  arrow((26.75, 17.15), (22.8, 17.15), both: true)
+  box((24.0, 16.3), (27.1, 18.0), [Data acquisition\ card], fill: rgb("#fff0ee"), size: 6.2pt)
+  arrow((11.8, 17.2), (12.1, 17.2))
+  arrow((27.05, 17.15), (22.8, 17.15), both: true)
   content((25.2, 19.15), text(size: 6.8pt, fill: blue)[Data acquisition], anchor: "center")
   arrow((10.4, 21.0), (10.4, 20.55))
-  content((11.2, 21.0), text(size: 7.5pt, fill: blue)[Data transfer interaction], anchor: "west")
+  content((11.2, 21.45), text(size: 7.5pt, fill: blue)[Data transfer interaction], anchor: "west")
 
   // Physical production line and the device-entity bus share one lower enclosure.
   layer(0.4, 11.5, [Physical production line])

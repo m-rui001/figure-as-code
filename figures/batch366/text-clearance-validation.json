@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/orc-approach-pinch-ts-diagram.typ",
-      "typ_sha256": "a9c288a8043caa4f9f63f845b9cbd06e640a762254f677232f387e836ae633f5",
+      "typ_sha256": "c7ce44cb60d1fc92e9369e3e141e88f52545d542bfcba7a0cc03f87d116084f8",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true

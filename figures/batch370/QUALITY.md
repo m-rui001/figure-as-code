@@ -6,3 +6,4 @@
 - Main-agent clearance repair moved the cold-storage heading, anchored legend text beside arrows, relocated valve/pump/heat-exchanger labels and rerouted the HX1, ORC and return lines around text.
 - Exact PDF-line audit finds every stream number 1–58 once; the LNG label and stream 1 extract separately.
 - `verify_batch.py`, `verify_text_clearance.py` and `style_audit.py` pass. Independent overlap audit reports zero text overlaps and zero connector crossings.
+- The 2026-11-25 PDF review separated the two-line factory label, moved both conversion/release headings inside their panels, and increased clearance around the liquid-air tank and bottom legend arrows.

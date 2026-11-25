@@ -2,7 +2,7 @@
   "figures": [
     {
       "typ": "typ/neuron-pid-control.typ",
-      "typ_sha256": "38b9af5205f9d9b4b021171ca60d237a55deaedd6b909533bdf374788e61908e",
+      "typ_sha256": "9b73a6febb425701bda4c8da682cf59abc8b8a009da451ca5910aa220a2d15b6",
       "text_line_intersections": [],
       "text_span_overlaps": [],
       "passed": true

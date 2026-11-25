@@ -75,8 +75,8 @@
           stroke: ink + 0.9pt)
       }
     }
-    line((x + 8.55, y + 0.25), (9.25, y + 0.25), stroke: edge)
-    tag(9.3, y - 0.10, name, w: 3.2, size: 7pt, h: 0.7)
+    line((x + 8.55, y + 0.25), (9.60, y + 0.25), stroke: edge)
+    tag(9.65, y - 0.10, name, w: 3.2, size: 7pt, h: 0.7)
   }
   content((6.4, 9.55), text(size: 10pt)[(a) Isometric exploded view], anchor: "center")
 
@@ -141,8 +141,8 @@
   tag(18.0, 7.35, [Air channel], w: 2.8, size: 7pt)
   tag(22.2, 7.35, [Water channel], w: 3.0, size: 7pt)
   arrow((14.9, 7.33), (14.9, 5.5))
-  arrow((19.4, 7.33), (19.4, 3.7))
-  arrow((23.7, 7.33), (23.7, 3.1))
+  arrow((19.4, 7.33), (19.4, 3.7), paint: green)
+  arrow((23.7, 7.33), (23.7, 3.1), paint: orange)
   rect((13.4, 2.2), (25.6, 6.7), fill: none, stroke: edge)
   rect((13.65, 5.9), (25.35, 6.5), fill: glass, stroke: edge)
   line((13.65, 5.5), (25.35, 5.5), stroke: ink + 1.8pt)
